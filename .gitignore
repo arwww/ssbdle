@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Umgebungsvariablen
+.env
+.env.*
+
+# Große oder temporäre Rohdaten
+data/raw/
+
+# Optional: lokale Analyseoutputs
+output/analysis/
