@@ -1,0 +1,101 @@
+﻿gml_id,id,stop,name,nameWithPl,globalId,omc,placeName,locality,tariffZone,fareNo,fareCode,meansList,lineList,lineListEf,lineListDi,branchList,owner,responsibl
+,1,2,Waldburgstraße,Waldburgstraße,de:08111:2,8111000,Stuttgart,Stuttgart,1,20.0,322.0,Bus;Nachtbus,"81,82,86,N10","81,82,86,N10","30081_,30082_,30086_,33010_","30,33",SSB,SSB
+,2,5,Fauststraße,Fauststraße,de:08111:5,8111000,Stuttgart,Stuttgart,1,20.0,422.0,Nachtbus;Stadtbahn,"U14,N10","U14,N10","20014_,33010_","20,33",SSB,SSB
+,3,6,Vaihingen Viadukt,Vaihingen Viadukt,de:08111:6,8111000,Stuttgart,Stuttgart,1,20.0,422.0,Stadtbahn,U14,U14,20014_,20,SSB,SSB
+,4,8,Engelboldstraße,Engelboldstraße,de:08111:8,8111000,Stuttgart,Stuttgart,1,20.0,422.0,Nachtbus;Stadtbahn,"U14,N10","U14,N10","20014_,33010_","20,33",SSB,SSB
+,5,13,Südheimer Platz,Südheimer Platz,de:08111:13,8111000,Stuttgart,Stuttgart,1,10.0,7.0,Bus;Nachtbus;Seilbahn;Stadtbahn,"U1,U14,20,20E,N1","U1,U14,20,20E,N1","20001_,20014_,21020_,30020e,33001_","20,21,30,33",SSB,SSB
+,6,15,Bihlplatz,Bihlplatz,de:08111:15,8111000,Stuttgart,Stuttgart,1,10.0,7.0,Stadtbahn,"U1,U14","U1,U14","20001_,20014_",20,SSB,SSB
+,8,25,Neckartor,Neckartor,de:08111:25,8111000,Stuttgart,Stuttgart,1,10.0,10.0,Nachtbus;Stadtbahn,"U1,U2,U4,U9,U14,N4,N6","U1,U2,U4,U9,U14,N4,N6","20001_,20002_,20004_,20009_,20014_,33004_,33006_","20,33",SSB,SSB
+,9,26,Stöckach,Stöckach,de:08111:26,8111000,Stuttgart,Stuttgart,1,10.0,2.0,Nachtbus;Stadtbahn,"U1,U2,U4,U9,U14,N4,N6","U1,U2,U4,U9,U14,N4,N6","20001_,20002_,20004_,20009_,20014_,33004_,33006_","20,33",SSB,SSB
+,10,27,Metzstraße,Metzstraße,de:08111:27,8111000,Stuttgart,Stuttgart,1,10.0,2.0,Stadtbahn,"U1,U2,U14","U1,U2,U14","20001_,20002_,20014_",20,SSB,SSB
+,11,28,Mineralbäder,Mineralbäder,de:08111:28,8111000,Stuttgart,Stuttgart,1,120.0,120.0,Stadtbahn,"U1,U2,U14","U1,U2,U14","20001_,20002_,20014_",20,SSB,SSB
+,12,30,Mercedesstraße,Mercedesstraße,de:08111:30,8111000,Stuttgart,Stuttgart,1,20.0,20.0,Stadtbahn,"U1,U2,U13,U16","U1,U2,U13,U16","20001_,20002_,20013_,20016_",20,SSB,SSB
+,13,32,Uff-Kirchhof,Uff-Kirchhof,de:08111:32,8111000,Stuttgart,Stuttgart,1,20.0,20.0,Nachtbus;Stadtbahn,"U1,U13,U16,N6","U1,U13,U16,N6","20001_,20013_,20016_,33006_","20,33",SSB,SSB
+,14,33,Augsburger Platz,Augsburger Platz,de:08111:33,8111000,Stuttgart,Stuttgart,1,20.0,20.0,Nachtbus;Stadtbahn,"U1,U16,N6","U1,U16,N6","20001_,20016_,33006_","20,33",SSB,SSB
+,15,34,Nürnberger Straße,Nürnberger Straße,de:08111:34,8111000,Stuttgart,Stuttgart,1,20.0,320.0,Nachtbus;R-Bahn;S-Bahn;SEV-Bus;Stadtbahn,"S2,S3,MEX19,RE90,MEX90,U1,U16,N6,S3E","S2,S3,MEX19,RE90,MEX90,U1,U16,N6,S3E","10002_,10003_,11019_,11090_,11091_,20001_,20016_,33006_,36003e","10,11,20,33,36",SSB,SSB
+,16,35,Antwerpener Straße,Antwerpener Straße,de:08111:35,8111000,Stuttgart,Stuttgart,1,20.0,320.0,Nachtbus;Stadtbahn,"U1,U16,N6","U1,U16,N6","20001_,20016_,33006_","20,33",SSB,SSB
+,17,36,Beskidenstraße,Beskidenstraße,de:08111:36,8111000,Stuttgart,Stuttgart,1,20.0,319.0,Nachtbus;Stadtbahn,"U1,U16,N6","U1,U16,N6","20001_,20016_,33006_","20,33",SSB,SSB
+,18,37,Höhenstraße,Fellbach Höhenstraße,de:08119:37,8119020,Fellbach,Fellbach,"1,2",102.0,432.0,Nachtbus;Stadtbahn,"U1,U16,N6","U1,U16,N6","20001_,20016_,33006_","20,33",SSB,SSB
+,19,38,Esslinger Straße,Fellbach Esslinger Straße,de:08119:38,8119020,Fellbach,Fellbach,"1,2",102.0,432.0,Bus;Stadtbahn,"U1,U16,212","U1,U16,212","20001_,20016_,31212_","20,31",Schlienz-Tours,Schlienz-Tours
+,20,39,Schwabenlandhalle,Fellbach Schwabenlandhalle,de:08119:39,8119020,Fellbach,Fellbach,"1,2",102.0,432.0,Bus;Stadtbahn,"U1,U16,207,212","U1,U16,207,212","20001_,20016_,31207_,31212_","20,31",,Schlienz-Tours
+,21,43,Heslach Vogelrain,Heslach Vogelrain,de:08111:43,8111000,Stuttgart,Stuttgart,1,120.0,122.0,Bus;Nachtbus;Ruftaxi;Stadtbahn,"U1,U14,92,N1,RT92","U1,U14,92,N1,RT92","20001_,20014_,30092_,33001_,50092_","20,30,33,50",SSB,SSB
+,22,55,Berliner Platz (Hohe Straße),Berliner Platz (Hohe Straße),de:08111:55,8111000,Stuttgart,Stuttgart,1,10.0,10.0,Bus;Nachtbus;Stadtbahn,"U1,U2,U4,43,N2,N10","U1,U2,U4,43,N2,N10","20001_,20002_,20004_,30043_,33002_,33010_","20,30,33",SSB,SSB
+,7061390,69,Büchsenstraße,Büchsenstraße,de:08111:69,8111000,Stuttgart,Stuttgart,1,10.0,10.0,Bus,47,47,30047_,30,SSB,SSB
+,7061391,70,Kleiner Schlossplatz,Kleiner Schlossplatz,de:08111:70,8111000,Stuttgart,Stuttgart,1,10.0,10.0,Bus,47,47,30047_,30,SSB,SSB
+,23,76,Karl-Olga-Krankenhaus,Karl-Olga-Krankenhaus,de:08111:76,8111000,Stuttgart,Stuttgart,1,10.0,2.0,Nachtbus;Stadtbahn,"U4,U9,N6","U4,U9,N6","20004_,20009_,33006_","20,33",SSB,SSB
+,24,77,Bergfriedhof,Bergfriedhof,de:08111:77,8111000,Stuttgart,Stuttgart,1,10.0,2.0,Nachtbus;Stadtbahn,"U4,U9,N6","U4,U9,N6","20004_,20009_,33006_","20,33",SSB,SSB
+,25,78,Ostheim Leo-Vetter-Bad,Ostheim Leo-Vetter-Bad,de:08111:78,8111000,Stuttgart,Stuttgart,1,10.0,3.0,Bus;Stadtbahn,"U4,45","U4,45","20004_,30045_","20,30",SSB,SSB
+,26,79,Gaisburg,Gaisburg,de:08111:79,8111000,Stuttgart,Stuttgart,1,10.0,3.0,Stadtbahn,U4,U4,20004_,20,SSB,SSB
+,27,80,Wangener-/Landhausstraße,Wangener-/Landhausstraße,de:08111:80,8111000,Stuttgart,Stuttgart,1,120.0,123.0,Nachtbus;Stadtbahn,"U4,U9,N6,N7","U4,U9,N6,N7","20004_,20009_,33006_,33007_","20,33",SSB,SSB
+,28,81,Brendle (Großmarkt),Brendle (Großmarkt),de:08111:81,8111000,Stuttgart,Stuttgart,1,20.0,420.0,Nachtbus;Stadtbahn,"U4,U9,N6,N7","U4,U9,N6,N7","20004_,20009_,33006_,33007_","20,33",SSB,SSB
+,29,82,Im Degen,Im Degen,de:08111:82,8111000,Stuttgart,Wangen (Stuttgart),1,20.0,420.0,Nachtbus;Stadtbahn,"U4,U9,N6,N7","U4,U9,N6,N7","20004_,20009_,33006_,33007_","20,33",SSB,SSB
+,30,83,Inselstraße,Inselstraße,de:08111:83,8111000,Stuttgart,Wangen (Stuttgart),1,20.0,420.0,Nachtbus;Stadtbahn,"U4,U9,N7","U4,U9,N7","20004_,20009_,33007_","20,33",SSB,SSB
+,31,84,Wasenstraße,Wasenstraße,de:08111:84,8111000,Stuttgart,Wangen (Stuttgart),1,20.0,420.0,Stadtbahn,"U4,U9,U13","U4,U9,U13","20004_,20009_,20013_",20,SSB,SSB
+,32,86,Großglocknerstraße,Großglocknerstraße,de:08111:86,8111000,Stuttgart,Stuttgart,1,20.0,420.0,Bus;Nachtbus,"61,N7","61,N7","30061_,33007_","30,33",SSB,SSB
+,33,87,Neckarhalde,Neckarhalde,de:08111:87,8111000,Stuttgart,Stuttgart,1,20.0,420.0,Bus;Nachtbus,"61,N7","61,N7","30061_,33007_","30,33",SSB,SSB
+,34,89,Ebniseestraße,Ebniseestraße,de:08111:89,8111000,Stuttgart,Stuttgart,"1,2",131.0,131.0,Bus;Nachtbus,"61,N7","61,N7","30061_,33007_","30,33",SSB,SSB
+,35,90,Bergstaffelstraße,Bergstaffelstraße,de:08111:90,8111000,Stuttgart,Stuttgart,"1,2",131.0,131.0,Bus;Nachtbus,"61,N7","61,N7","30061_,33007_","30,33",SSB,SSB
+,36,94,Wollinstraße,Wollinstraße,de:08111:94,8111000,Stuttgart,Stuttgart,"1,2",236.0,236.0,Bus;Nachtbus,"52,99,612,N4","52,99,612,N4","30052_,30099_,31612_,33004_","30,31,33",SSB,SSB
+,37,95,Neuwirtshauskreuzung,Neuwirtshauskreuzung,de:08111:95,8111000,Stuttgart,Stuttgart,"1,2",236.0,236.0,Bus;Nachtbus,"52,99,N4","52,99,N4","30052_,30099_,33004_","30,33",SSB,SSB
+,38,96,Niebuhrweg,Niebuhrweg,de:08111:96,8111000,Stuttgart,Stuttgart,"1,2",134.0,134.0,Bus;Nachtbus,"52,99,N4","52,99,N4","30052_,30099_,33004_","30,33",SSB,SSB
+,39,97,Marco-Polo-Weg,Marco-Polo-Weg,de:08111:97,8111000,Stuttgart,Stuttgart,"1,2",134.0,134.0,Bus;Nachtbus,"52,99,N4","52,99,N4","30052_,30099_,33004_","30,33",SSB,SSB
+,40,100,Stammheim,Stammheim,de:08111:100,8111000,Stuttgart,Stuttgart,"1,2",134.0,734.0,Bus;Stadtbahn,"U15,412,508","U15,412,508","20015_,31412_,31508_","20,31",LVL,SSB
+,41,102,Korntaler Straße,Korntaler Straße,de:08111:102,8111000,Stuttgart,Stuttgart,"1,2",134.0,134.0,Bus;Nachtbus;Stadtbahn,"U15,52,99,508,N4","U15,52,99,508,N4","20015_,30052_,30099_,31508_,33004_","20,30,31,33",SSB,SSB
+,42,103,Heutingsheimer Straße,Heutingsheimer Straße,de:08111:103,8111000,Stuttgart,Stuttgart,"1,2",134.0,134.0,Nachtbus;Stadtbahn,"U15,N4","U15,N4","20015_,33004_","20,33",SSB,SSB
+,43,104,Wimpfener Straße,Wimpfener Straße,de:08111:104,8111000,Stuttgart,Stuttgart,1,20.0,621.0,Nachtbus;Stadtbahn,"U15,N4","U15,N4","20015_,33004_","20,33",SSB,SSB
+,44,105,Kornwestheimer Straße,Kornwestheimer Straße,de:08111:105,8111000,Stuttgart,Stuttgart,"1,2",134.0,734.0,Bus,412,412,31412_,31,LVL,LVL
+,45,106,Zahn-Nopper-Straße,Zahn-Nopper-Straße,de:08111:106,8111000,Stuttgart,Stuttgart,1,20.0,421.0,Bus;Nachtbus,"99,508,N4","99,508,N4","30099_,31508_,33004_","30,31,33",SSB,SSB
+,46,107,Kirchtalstraße,Kirchtalstraße,de:08111:107,8111000,Stuttgart,Stuttgart,1,20.0,621.0,Bus;Nachtbus;Stadtbahn,"U15,53,N4","U15,53,N4","20015_,30053_,33004_","20,30,33",SSB,SSB
+,47,108,Zuffenhausen Rathaus,Zuffenhausen Rathaus,de:08111:108,8111000,Stuttgart,Stuttgart,1,20.0,621.0,Bus;Nachtbus;Ruftaxi;Stadtbahn,"U15,53,N4,RT4","U15,53,N4,RT4","20015_,30053_,33004_,51004_","20,30,33,51",SSB,SSB
+,48,109,Zuffenhausen Friedhof,Zuffenhausen Friedhof,de:08111:109,8111000,Stuttgart,Stuttgart,1,20.0,621.0,Bus;Ruftaxi,"53,RT4","53,RT4","30053_,51004_","30,51",SSB,SSB
+,49,110,Friedrichswahl,Friedrichswahl,de:08111:110,8111000,Stuttgart,Stuttgart,1,20.0,21.0,Nachtbus;Stadtbahn,"U7,U15,N4","U7,U15,N4","20007_,20015_,33004_","20,33",SSB,SSB
+,50,111,Borsigstraße,Borsigstraße,de:08111:111,8111000,Stuttgart,Stuttgart,1,20.0,21.0,Nachtbus;Stadtbahn,"U7,U15,N4","U7,U15,N4","20007_,20015_,33004_","20,33",SSB,SSB
+,51,112,Sieglestraße,Sieglestraße,de:08111:112,8111000,Stuttgart,Stuttgart,1,20.0,21.0,Nachtbus;Stadtbahn,"U7,U15,N4","U7,U15,N4","20007_,20015_,33004_","20,33",SSB,SSB
+,52,114,Sonatenweg,Sonatenweg,de:08111:114,8111000,Stuttgart,Stuttgart,"1,2",134.0,734.0,Bus,412,412,31412_,31,LVL,SSB
+,53,115,Pragfriedhof,Pragfriedhof,de:08111:115,8111000,Stuttgart,Stuttgart,1,10.0,1.0,Stadtbahn,"U5,U6,U7,U15","U5,U6,U7,U15","20005_,20006_,20007_,20015_",20,SSB,SSB
+,54,123,Stafflenbergstraße,Stafflenbergstraße,de:08111:123,8111000,Stuttgart,Stuttgart,1,10.0,4.0,Nachtbus;Stadtbahn,"U15,N7","U15,N7","20015_,33007_","20,33",SSB,SSB
+,55,124,Bubenbad,Bubenbad,de:08111:124,8111000,Stuttgart,Stuttgart,1,10.0,4.0,Nachtbus;Stadtbahn,"U15,N7","U15,N7","20015_,33007_","20,33",SSB,SSB
+,56,125,Payerstraße,Payerstraße,de:08111:125,8111000,Stuttgart,Stuttgart,1,10.0,4.0,Nachtbus;Stadtbahn,"U15,N7,N9","U15,N7,N9","20015_,33007_,33009_","20,33",SSB,SSB
+,57,126,Geroksruhe,Geroksruhe,de:08111:126,8111000,Stuttgart,Stuttgart,1,10.0,4.0,Nachtbus;Stadtbahn,"U15,N7,N9","U15,N7,N9","20015_,33007_,33009_","20,33",SSB,SSB
+,58,129,Silberwald,Silberwald,de:08111:129,8111000,Stuttgart,Stuttgart,1,20.0,720.0,Nachtbus;Stadtbahn,"U7,U8,U15,N7","U7,U8,U15,N7","20007_,20008_,20015_,33007_","20,33",SSB,SSB
+,59,130,Waldau,Waldau,de:08111:130,8111000,Stuttgart,Stuttgart,1,120.0,124.0,Stadtbahn,"U7,U8","U7,U8","20007_,20008_",20,SSB,SSB
+,60,136,Heumaden,Heumaden,de:08111:136,8111000,Stuttgart,Stuttgart,"1,2",102.0,133.0,Bus;Nachtbus;Stadtbahn,"U7,U8,U15,130,131,N22","U7,U8,U15,130,131,N22","20007_,20008_,20015_,31130_,31131_,34022_","20,31,34",GR Omnibus (GRO),GR Omnibus (GRO)
+,61,137,Isegrimweg,Isegrimweg,de:08111:137,8111000,Stuttgart,Stuttgart,"1,2",130.0,130.0,Bus;Nachtbus,"65,N7","65,N7","30065_,33007_","30,33",SSB,SSB
+,62,141,Siedlung,Gerlingen Siedlung,de:08118:141,8118019,Gerlingen,Gerlingen,2,36.0,36.0,Bus;Stadtbahn,"U6,635","U6,635","20006_,31635_","20,31",Kappus,Kappus
+,63,142,Rossbaum,Gerlingen Rossbaum,de:08118:142,8118019,Gerlingen,Gerlingen,2,36.0,36.0,Bus;Nachtbus,"635,N3","635,N3","31635_,33003_","31,33",Kappus,Kappus
+,64,143,Breitwiesen,Gerlingen Breitwiesen,de:08118:143,8118019,Gerlingen,Gerlingen,2,36.0,36.0,Bus;Nachtbus;Stadtbahn,"U6,635,N3","U6,635,N3","20006_,31635_,33003_","20,31,33",Kappus,Kappus
+,65,144,Giebel,Giebel,de:08111:144,8111000,Stuttgart,Stuttgart,"1,2",136.0,436.0,Bus;Nachtbus;Stadtbahn,"U6,U16,90,N3","U6,U16,90,N3","20006_,20016_,30090_,33003_","20,30,33",SSB,SSB
+,66,145,Salamanderweg,Salamanderweg,de:08111:145,8111000,Stuttgart,Stuttgart,"1,2",136.0,436.0,Nachtbus;Stadtbahn,"U6,U16,N3","U6,U16,N3","20006_,20016_,33003_","20,33",SSB,SSB
+,67,146,Bergheimer Hof,Bergheimer Hof,de:08111:146,8111000,Stuttgart,Stuttgart,1,20.0,221.0,Nachtbus;Stadtbahn,"U6,U16,N3","U6,U16,N3","20006_,20016_,33003_","20,33",SSB,SSB
+,68,147,Wolfbusch,Wolfbusch,de:08111:147,8111000,Stuttgart,Stuttgart,1,20.0,221.0,Nachtbus;Stadtbahn,"U6,U16,N3","U6,U16,N3","20006_,20016_,33003_","20,33",SSB,SSB
+,69,148,Rastatter Straße,Rastatter Straße,de:08111:148,8111000,Stuttgart,Stuttgart,1,20.0,221.0,Nachtbus;Stadtbahn,"U6,U16,N3","U6,U16,N3","20006_,20016_,33003_","20,33",SSB,SSB
+,70,149,Goethestraße,Gerlingen Goethestraße,de:08118:149,8118019,Gerlingen,Gerlingen,2,36.0,36.0,Bus;Nachtbus,"635,N3","635,N3","31635_,33003_","31,33",Kappus,Kappus
+,71,150,Mathildenstraße,Mathildenstraße,de:08111:150,8111000,Stuttgart,Stuttgart,1,20.0,221.0,Nachtbus,N3,N3,33003_,33,SSB,SSB
+,72,151,Landauer Straße,Landauer Straße,de:08111:151,8111000,Stuttgart,Stuttgart,1,20.0,221.0,Nachtbus;Stadtbahn,"U6,U16,N3","U6,U16,N3","20006_,20016_,33003_","20,33",SSB,SSB
+,73,152,Feuerbach Pfostenwäldle,Feuerbach Pfostenwäldle,de:08111:152,8111000,Stuttgart,Stuttgart,1,20.0,21.0,Stadtbahn,"U6,U13,U16","U6,U13,U16","20006_,20013_,20016_",20,SSB,SSB
+,74,153,Sportpark Feuerbach,Sportpark Feuerbach,de:08111:153,8111000,Stuttgart,Stuttgart,1,20.0,21.0,Nachtbus;Stadtbahn,"U6,U13,U16,N3","U6,U13,U16,N3","20006_,20013_,20016_,33003_","20,33",SSB,SSB
+,75,154,Föhrich,Föhrich,de:08111:154,8111000,Stuttgart,Stuttgart,1,20.0,21.0,Bus;Nachtbus;Stadtbahn,"U6,U13,U16,91,N3","U6,U13,U16,91,N3","20006_,20013_,20016_,30091_,33003_","20,30,33",SSB,SSB
+,76,156,Leobener Straße,Leobener Straße,de:08111:156,8111000,Stuttgart,Stuttgart,1,20.0,21.0,Nachtbus,N3,N3,33003_,33,SSB,SSB
+,77,158,Maybachstraße,Maybachstraße,de:08111:158,8111000,Stuttgart,Stuttgart,1,20.0,21.0,Nachtbus;Stadtbahn,"U6,U13,U16,N3","U6,U13,U16,N3","20006_,20013_,20016_,33003_","20,33",SSB,SSB
+,78,159,Dobelstraße,Dobelstraße,de:08111:159,8111000,Stuttgart,Stuttgart,1,10.0,5.0,Stadtbahn,"U5,U6,U7,U12","U5,U6,U7,U12","20005_,20006_,20007_,20012_",20,SSB,SSB
+,79,161,Neue Weinsteige 61,Neue Weinsteige 61,de:08111:161,8111000,Stuttgart,Stuttgart,1,10.0,6.0,Nachtbus,"N8,N9,N10","N8,N9,N10","33008_,33009_,33010_",33,SSB,SSB
+,80,162,Altenbergstaffel,Altenbergstaffel,de:08111:162,8111000,Stuttgart,Stuttgart,1,10.0,5.0,Nachtbus,"N8,N9,N10","N8,N9,N10","33008_,33009_,33010_",33,SSB,SSB
+,81,163,Weinsteige,Weinsteige,de:08111:163,8111000,Stuttgart,Stuttgart,1,120.0,125.0,Nachtbus;Stadtbahn,"U5,U6,U8,U12,N8,N9,N10","U5,U6,U8,U12,N8,N9,N10","20005_,20006_,20008_,20012_,33008_,33009_,33010_","20,33",SSB,SSB
+,82,164,Karl-Pfaff-Straße,Karl-Pfaff-Straße,de:08111:164,8111000,Stuttgart,Stuttgart,1,20.0,920.0,Bus;Nachtbus,"10,N8,N9,N10","10,N8,N9,N10","30033_,33008_,33009_,33010_","30,33",SSB,SSB
+,83,165,Haigst,Haigst,de:08111:165,8111000,Stuttgart,Stuttgart,1,120.0,125.0,Bus;Zahnradbahn,10,10,"21010_,30033_","21,30",SSB,SSB
+,84,170,Vaihinger Straße,Vaihinger Straße,de:08111:170,8111000,Stuttgart,Stuttgart,1,20.0,222.0,Nachtbus;Stadtbahn,"U3,U5,U6,U8,U12,N10","U3,U5,U6,U8,U12,N10","20003_,20005_,20006_,20008_,20012_,33010_","20,33",SSB,SSB
+,85,174,Unteraichen,Leinf. Unteraichen,de:08116:174,8116078,Leinfelden-Echterdingen,Leinfelden,2,38.0,38.0,Bus;Stadtbahn,"U5,818","U5,818","20005_,31818_","20,31",Friedrich Müller Omnibusunternehmen (FMO),Friedrich Müller Omnibusunternehmen (FMO)
+,86,175,Leinfelden,Leinfelden,de:08116:175,8116078,Leinfelden-Echterdingen,Leinfelden,2,38.0,38.0,Bus;Nachtbus;S-Bahn;Stadtbahn,"S2,S3,U5,82,86,818,818A,826,826A,N18","S2,S3,U5,82,86,818,818A,826,826A,N18","10002_,10003_,20005_,30082_,30086_,31818_,31818a,31826_,31826a,34018_","10,20,30,31,34",Friedrich Müller Omnibusunternehmen (FMO),Friedrich Müller Omnibusunternehmen (FMO)
+,88,183,Rohrer Weg,Rohrer Weg,de:08111:183,8111000,Stuttgart,Stuttgart,1,20.0,222.0,Stadtbahn,"U5,U6","U5,U6","20005_,20006_",20,SSB,SSB
+,89,190,Raiffeisenstraße,Grötzingen Raiffeisenstraße,de:08116:190,8116081,Aichtal,Grötzingen,"3,4",159.0,159.0,Bus;Nachtbus,"807,808A,809,809A,X16,N89","807,808A,809,809A,X16,N89","31807_,31808a,31809_,31809a,31X16_,34089_","31,34",Schlienz-Tours,Schlienz-Tours
+,90,211,Millöckerstraße,Millöckerstraße,de:08111:211,8111000,Stuttgart,Stuttgart,1,20.0,622.0,Nachtbus;Stadtbahn,"U2,U9,N2","U2,U9,N2","20002_,20009_,33002_","20,33",SSB,SSB
+,91,212,Beethovenstraße,Beethovenstraße,de:08111:212,8111000,Stuttgart,Stuttgart,1,20.0,622.0,Bus;Nachtbus;Stadtbahn,"U2,U9,91,N2","U2,U9,91,N2","20002_,20009_,30091_,33002_","20,30,33",SSB,SSB
+,92,215,Wielandstraße,Wielandstraße,de:08111:215,8111000,Stuttgart,Stuttgart,1,120.0,121.0,Bus;Nachtbus,"40,50,N2","40,50,N2","30040_,30050_,33002_","30,33",SSB,SSB
+,93,216,Herderplatz,Herderplatz,de:08111:216,8111000,Stuttgart,Stuttgart,1,120.0,121.0,Bus;Nachtbus;Stadtbahn,"U2,U9,40,50,N2","U2,U9,40,50,N2","20002_,20009_,30040_,30050_,33002_","20,30,33",SSB,SSB
+,94,217,Vogelsang,Vogelsang,de:08111:217,8111000,Stuttgart,Stuttgart,1,10.0,9.0,Bus;Nachtbus;Stadtbahn,"U2,U9,40,N2","U2,U9,40,N2","20002_,20009_,30040_,33002_","20,30,33",SSB,SSB
+,95,218,Arndt-/Spittastraße,Arndt-/Spittastraße,de:08111:218,8111000,Stuttgart,Stuttgart,1,10.0,9.0,Nachtbus;Stadtbahn,"U2,U9,N2","U2,U9,N2","20002_,20009_,33002_","20,33",SSB,SSB
+,96,222,Raitelsberg,Raitelsberg,de:08111:222,8111000,Stuttgart,Stuttgart,1,10.0,2.0,Nachtbus;Stadtbahn,"U9,N6","U9,N6","20009_,33006_","20,33",SSB,SSB
+,97,225,Wangen Marktplatz,Wangen Marktplatz,de:08111:225,8111000,Stuttgart,Wangen (Stuttgart),1,20.0,420.0,Stadtbahn,"U9,U13","U9,U13","20009_,20013_",20,SSB,SSB
+,98,226,Stadtwerke Stuttgart,Stadtwerke Stuttgart,de:08111:226,8111000,Stuttgart,Wangen (Stuttgart),1,20.0,420.0,Stadtbahn,"U9,U13","U9,U13","20009_,20013_",20,SSB,SSB
+,99,227,Hedelfingen,Hedelfingen,de:08111:227,8111000,Stuttgart,Stuttgart,"1,2",131.0,431.0,Bus;Nachtbus;Stadtbahn,"U9,U13,62,65,103,N7","U9,U13,62,65,103,N7","20009_,20013_,30062_,30065_,31103_,33007_","20,30,31,33",SSB,SSB
+,100,229,Börsenplatz,Börsenplatz,de:08111:229,8111000,Stuttgart,Stuttgart,1,10.0,10.0,Stadtbahn,"U1,U9","U1,U9","20001_,20009_",20,SSB,SSB

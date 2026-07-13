@@ -1,0 +1,880 @@
+Linienname;Überschrift;Betriebszweig;DIVA-Name;Globale ID;
+"S1";"Kirchheim (T) - Plochingen - Stuttgart - Herrenberg";"10";"10001_";"de:vvs:10001_:";
+"S1";"Kirchheim (T) - Plochingen - Stuttgart - Herrenberg";"10";"10001_";"de:vvs:10001_:";
+"S2";"Schorndorf - Stuttgart - Flughafen/Messe - Filderstadt";"10";"10002_";"de:vvs:10002_:";
+"S2";"Schorndorf - Stuttgart - Flughafen/Messe - Filderstadt";"10";"10002_";"de:vvs:10002_:";
+"S3";"Backnang - Vaihingen (- Flughafen/Messe)";"10";"10003_";"de:vvs:10003_:";
+"S3";"Backnang - Vaihingen (- Flughafen/Messe)";"10";"10003_";"de:vvs:10003_:";
+"S4";"Backnang - Marbach - Stuttgart";"10";"10004_";"de:vvs:10004_:";
+"S4";"Backnang - Marbach - Stuttgart";"10";"10004_";"de:vvs:10004_:";
+"S4";"Backnang - Marbach - Stuttgart";"10";"10004_";"de:vvs:10004_:";
+"S5";"Bietigheim-Bissingen - Stuttgart";"10";"10005_";"de:vvs:10005_:";
+"S5";"Bietigheim-Bissingen - Stuttgart";"10";"10005_";"de:vvs:10005_:";
+"S5";"Bietigheim-Bissingen - Stuttgart";"10";"10005_";"de:vvs:10005_:";
+"S6";"Weil der Stadt - Leonberg - Stuttgart";"10";"10006_";"de:vvs:10006_:";
+"S6";"Weil der Stadt - Leonberg - Stuttgart";"10";"10006_";"de:vvs:10006_:";
+"S6";"Weil der Stadt - Leonberg - Stuttgart";"10";"10006_";"de:vvs:10006_:";
+"S60";"Böblingen - Renningen (- Stuttgart)";"10";"10060_";"de:vvs:10060_:";
+"S60";"Böblingen - Renningen (- Stuttgart)";"10";"10060_";"de:vvs:10060_:";
+"S62";"Weil der Stadt - Leonberg - Stuttgart";"10";"10062_";"de:vvs:10062_:";
+"RE1";"Aalen - Stuttgart - Vaihingen (E) - Karlsruhe";"11";"11001_";"de:nvbw:90T01_:";
+"RE1";"Karlsruhe - Vaihingen (E) - Stuttgart - Aalen";"11";"11001_";"de:nvbw:90T01_:";
+"RE4";"Stuttgart - Horb - Konstanz";"11";"11004_";"de:nvbw:90T04_:";
+"RE5";"Stuttgart - Ulm - Friedrichshafen";"11";"11005_";"de:nvbw:90T05_:";
+"RE6";"Tübingen - Plochingen - Stuttgart";"11";"11006_";"de:nvbw:90T06S:";
+"RE8";"Würzburg - Heilbronn - Bietigheim-Bissingen - Stuttgart";"11";"11008_";"de:vvs:11008_:";
+"RE8";"Würzburg - Heilbronn - Bietigheim-Bissingen - Stuttgart";"11";"11008_";"de:vvs:11008_:";
+"RE8";"Würzburg - Heilbronn - Bietigheim-Bissingen - Stuttgart";"11";"11008_";"de:vvs:11008_:";
+"RB11";"Kornwestheim - Untertürkheim";"11";"11011_";"de:vvs:11011_:";
+"RB11";"Kornwestheim - Untertürkheim";"11";"11011_";"de:vvs:11011_:";
+"MEX12";"Heilbronn - Stuttgart - Tübingen";"11";"11012_";"de:nvbw:90T12_:";
+"MEX12";"Heilbronn - Stuttgart - Tübingen";"11";"11012_";"de:nvbw:90T12_:";
+"MEX12";"Heilbronn - Stuttgart - Tübingen";"11";"11012_";"de:nvbw:90T12_:";
+"MEX13";"Stuttgart - Schorndorf - Aalen - Crailsheim";"11";"11013_";"de:nvbw:90T13_:";
+"RE14";"Stuttgart - Herrenberg - Horb/Freudenstadt";"11";"11014_";"de:nvbw:90T14A:";
+"RE14";"Stuttgart - Herrenberg - Horb/Freudenstadt";"11";"11014_";"de:nvbw:90T14A:";
+"MEX16";"Stuttgart - Plochingen - Göppingen - Ulm";"11";"11016_";"de:nvbw:90T16_:";
+"MEX16";"Stuttgart - Plochingen - Göppingen - Ulm";"11";"11016_";"de:nvbw:90T16_:";
+"MEX17";"Stuttgart - Vaihingen (E) - Mühlacker -
+Pforzheim/Bruchsal";"11";"11017_";"de:nvbw:90T17A:";
+"MEX18";"Osterburken - Heilbronn - Stuttgart - Tübingen";"11";"11018_";"de:nvbw:90T18_:";
+"MEX18";"Osterburken - Heilbronn - Stuttgart - Tübingen";"11";"11018_";"de:nvbw:90T18_:";
+"MEX18";"Osterburken - Heilbronn - Stuttgart - Tübingen";"11";"11018_";"de:nvbw:90T18_:";
+"MEX19";"Stuttgart - Backnang - Crailsheim";"11";"11019_";"de:nvbw:90T19_:";
+"RE40";"Herrenberg - Freudenstadt";"11";"11040_";"de:nvbw:90T40_:";
+"RB41";"Freudenstadt - Herrenberg";"11";"11041_";"de:nvbw:90T41_:";
+"RB63";"Herrenberg - Tübingen - Bad Urach";"11";"11063_";"de:nvbw:90T63_:";
+"RB63";"Herrenberg - Tübingen - Bad Urach";"11";"11063_";"de:nvbw:90T63_:";
+"RB76";"Calw - Weil der Stadt - Renningen (Hermann-Hesse-Bahn)";"11";"11076_";"de:vvs:11076_:";
+"RB76";"Calw - Weil der Stadt - Renningen (Hermann-Hesse-Bahn)";"11";"11076_";"de:vvs:11076_:";
+"RE90";"(Nürnberg -) Crailsheim - Backnang - Stuttgart";"11";"11090_";"de:vvs:11090_:";
+"MEX90";"Crailsheim - Backnang - Stuttgart";"11";"11091_";"de:nvbw:90T90D:";
+"RE200";"Wendlingen - Merklingen - Ulm";"11";"11200_";"de:nvbw:90T200:";
+"SVG";"Stuttgart - Horb - Konstanz";"11";"11SVG_";"de:vvs:11SVG_:";
+"RB46";"Dettenhausen - Holzgerlingen - Böblingen
+(Schönbuchbahn)";"12";"12046_";"de:vvs:12046_:";
+"RB46";"Dettenhausen - Holzgerlingen - Böblingen
+(Schönbuchbahn)";"12";"12046_";"de:vvs:12046_:";
+"RB47";"Heimerdingen - Hemmingen - Korntal
+(Strohgäubahn)";"12";"12047_";"de:vvs:12047_:";
+"RB61";"Rudersberg - Schorndorf
+(Wieslauftalbahn)";"12";"12061_";"de:vvs:12061_:";
+"RB65";"Neuffen - Nürtingen (Tälesbahn)";"12";"12065_";"de:vvs:12065_:";
+"RB64";"Oberlenningen - Kirchheim (T)";"13";"13064_";"de:vvs:13064_:";
+"IC";"Stuttgart - Böblingen - Singen";"15";"15040_";"de:vvs:15040_:";
+"IC";"Stuttgart - Böblingen - Singen";"15";"15040_";"de:vvs:15040_:";
+"U1";"Fellbach - Hauptbahnhof - Heslach Vogelrain";"20";"20001_";"de:vvs:20001_:";
+"U2";"Neugereut - Charlottenplatz - Botnang";"20";"20002_";"de:vvs:20002_:";
+"U3";"Plieningen - Möhringen - Vaihingen";"20";"20003_";"de:vvs:20003_:";
+"U4";"Untertürkheim - Charlottenplatz - Hölderlinplatz";"20";"20004_";"de:vvs:20004_:";
+"U5";"Killesberg - Hauptbahnhof - Leinfelden Neuer Markt";"20";"20005_";"de:vvs:20005_:";
+"U6";"Gerlingen - Hauptbahnhof - Flughafen/Messe";"20";"20006_";"de:vvs:20006_:";
+"U7";"Mönchfeld - Hauptbahnhof - Ostfildern";"20";"20007_";"de:vvs:20007_:";
+"U8";"Ostfildern - Degerloch - Vaihingen";"20";"20008_";"de:vvs:20008_:";
+"U9";"Hedelfingen - Hauptbahnhof - Vogelsang (-Botnang)";"20";"20009_";"de:vvs:20009_:";
+"U12";"Remseck - Hauptbahnhof - Dürrlewang";"20";"20012_";"de:vvs:20012_:";
+"U13";"Feuerbach - Bad Cannstatt - Hedelfingen";"20";"20013_";"de:vvs:20013_:";
+"U14";"Mühlhausen - Charlottenplatz - Vaihingen";"20";"20014_";"de:vvs:20014_:";
+"U15";"Stammheim - Hauptbahnhof - Ruhbank (- Heumaden)";"20";"20015_";"de:vvs:20015_:";
+"U16";"Giebel - Feuerbach - Bad Cannstatt - Fellbach";"20";"20016_";"de:vvs:20016_:";
+"U19";"Neugereut - Bad Cannstatt Wilhelmsplatz - NeckarPark (Stadion)";"20";"20019_";"de:vvs:20019_:";
+"10";"Marienplatz - Haigst - Degerloch (Zahnradbahn Zacke)";"21";"21010_";"de:vvs:21010_:";
+"20";"Südheimer Platz - Waldfriedhof (Seilbahn)";"21";"21020_";"de:vvs:21020_:";
+"X2";"Rotebühlplatz - Schwabstraße - Leonberg";"30";"30032_";"de:vvs:30032_:";
+"10";"Marienplatz - Degerloch (Zackebus)";"30";"30033_";"de:vvs:30033_:";
+"40";"Wagenburgstraße - Hauptbahnhof - Vogelsang";"30";"30040_";"de:vvs:30040_:";
+"41";"Berliner Platz - Feuersee - Lerchenrainschule";"30";"30041_";"de:vvs:30041_:";
+"42";"Schlossplatz - Hauptbahnhof - Erwin-Schoettle-Platz";"30";"30042_";"de:vvs:30042_:";
+"43";"Pragsattel - Rotebühlplatz (Stadtmitte) - Feuersee";"30";"30043_";"de:vvs:30043_:";
+"44";"Killesberg - Hauptbahnhof - Westbahnhof";"30";"30044_";"de:vvs:30044_:";
+"45";"Buchwald - Wagenburgstraße - Mercedes-Benz-Welt - Bad Cannstatt";"30";"30045_";"de:vvs:30045_:";
+"47";"Wagenburgstraße - Hauptbahnhof";"30";"30047_";"de:vvs:30047_:";
+"50";"Killesberg - Doggenburg - Westbahnhof";"30";"30050_";"de:vvs:30050_:";
+"52";"(Korntaler Straße -) Borkumstraße - Hallschlag - Rosensteinbrücke";"30";"30052_";"de:vvs:30052_:";
+"53";"Mühlhausen - Zazenhausen -  Zuffenhausen (- Feuerbach)";"30";"30053_";"de:vvs:30053_:";
+"54";"Freiberg - Mühlhausen- Neugereut (- Sommerrain)";"30";"30054_";"de:vvs:30054_:";
+"56";"Münster - Rosensteinbrücke";"30";"30056_";"de:vvs:30056_:";
+"57";"R.-Bosch-Krankenhaus - Burgholzhof - Pragsattel";"30";"30057_";"de:vvs:30057_:";
+"58";"Schmiden - Obere Ziegelei (- Sommerrain)";"30";"30058_";"de:vvs:30058_:";
+"59";"Münster Rathaus - Münster Friedhof";"30";"30059_";"de:vvs:30059_:";
+"60";"Oeffingen - Fellbach - Untertürkheim";"30";"30060_";"de:vvs:30060_:";
+"61";"Rotenberg - Untertürkheim - Obertürkheim";"30";"30061_";"de:vvs:30061_:";
+"62";"Uhlbach - Obertürkheim - Rohracker";"30";"30062_";"de:vvs:30062_:";
+"64";"Stelle - Frauenkopf";"30";"30064_";"de:vvs:30064_:";
+"65";"(Uhlbach -) Obertürkheim - Plieningen - Flughafen/Messe (SAB)";"30";"30065_";"de:vvs:30065_:";
+"66";"Kühwasen - Geschwister- Scholl-Gymnasium";"30";"30066_";"de:vvs:30066_:";
+"70";"(Hoffeld -) Ruhbank (Fernsehturm) - Plieningen";"30";"30070_";"de:vvs:30070_:";
+"71";"Hoffeld - Degerloch ZOB - Schönberg";"30";"30071_";"de:vvs:30071_:";
+"72";"Möhringen - Möhringen Rathaus - Fasanenhof";"30";"30072_";"de:vvs:30072_:";
+"73";"Degerloch - Plieningen Garbe - Neuhausen";"30";"30073_";"de:vvs:30073_:";
+"74";"Degerloch - Bernhausen - Nürtingen";"30";"30074_";"de:vvs:30074_:";
+"76";"Degerloch - Bernhausen - Echterdingen";"30";"30076_";"de:vvs:30076_:";
+"77";"Degerloch - Echterdingen - Harthausen";"30";"30077_";"de:vvs:30077_:";
+"80";"Vaihingen Bf (Ost) - Synergiepark - Vaihingen Bf (Ost)";"30";"30080_";"de:vvs:30080_:";
+"81";"Büsnau - Vaihingen - Dürrlewang";"30";"30081_";"de:vvs:30081_:";
+"82";"Waldeck - Vaihingen - Hans-Rehn-Stift - Rohr Mitte (- Leinfelden Bf)";"30";"30082_";"de:vvs:30082_:";
+"84";"Vaihingen - Sindelfingen - Universität";"30";"30084_";"de:vvs:30084_:";
+"86";"Vaihingen - Rohr Mitte - Leinfelden";"30";"30086_";"de:vvs:30086_:";
+"90";"Korntal - Weilimdorf - Giebel";"30";"30090_";"de:vvs:30090_:";
+"91";"Feuerbach - Botnang - Lauchhau (- Büsnauer Platz)";"30";"30091_";"de:vvs:30091_:";
+"92";"Stuttgart Rotebühlplatz  - Leonberg - Heslach Vogelrain";"30";"30092_";"de:vvs:30092_:";
+"92";"Stuttgart Rotebühlplatz - Leonberg - Heslach Vogelrain";"30";"30092_";"de:vvs:30092_:";
+"99";"Korntaler Straße - Schlotwiese - Zuffenhausen";"30";"30099_";"de:vvs:30099_:";
+"R46E";"Holzgerlingen - Böblingen
+(Schienenersatzverkehr)";"31";"31046e";"de:vvs:31046e:";
+"101";"Lerchenäcker - Esslingen (N) ZOB - Obertürkheim";"31";"31101_";"de:vvs:31101_:";
+"102";"Zell - Esslingen (N) ZOB - Weil - Mettingen";"31";"31102_";"de:vvs:31102_:";
+"102";"Zell - Esslingen (N) ZOB - Weil - Mettingen";"31";"31102_";"de:vvs:31102_:";
+"103";"Zell - Esslingen (N) ZOB - Weil - Hedelfingen";"31";"31103_";"de:vvs:31103_:";
+"103";"Zell - Esslingen (N) ZOB - Weil - Hedelfingen";"31";"31103_";"de:vvs:31103_:";
+"104";"Esslingen (N) ZOB - Industriegebiet - Sirnau - Deizisau";"31";"31104_";"de:vvs:31104_:";
+"105";"Essl. (N) Am Schönen Rain - Klinikum Esslingen - Essl. (N) ZOB";"31";"31105_";"de:vvs:31105_:";
+"105";"Essl. (N) Am Schönen Rain - Klinikum Esslingen - Essl. (N) ZOB";"31";"31105_";"de:vvs:31105_:";
+"106";"Esslingen (N) ZOB - Baltmannsweiler - Hohengehren (- Winterbach)";"31";"31106_";"de:vvs:31106_:";
+"107";"Plochingen - Aichschieß - Schanbach - Aichelberg";"31";"31107_";"de:vvs:31107_:";
+"108";"Esslingen (N) ZOB - Jägerhaus (- Dulkhäusle)";"31";"31108_";"de:vvs:31108_:";
+"109";"Esslingen ZOB - Sulzgries - Rüdern / Neckarhalde";"31";"31109_";"de:vvs:31109_:";
+"110";"Esslingen ZOB - Hohenkreuz - Wäldenbronn - Wiflingshausen";"31";"31110_";"de:vvs:31110_:";
+"111";"Esslingen ZOB - St. Bernhardt - Serach";"31";"31111_";"de:vvs:31111_:";
+"113";"Essl. (N) ZOB - Zollberg / - Adenauerbrücke - Berkheim";"31";"31113_";"de:vvs:31113_:";
+"114";"Esslingen (N) ZOB - Aichwald - Beutelsbach - Endersbach";"31";"31114_";"de:vvs:31114_:";
+"114A";"Schülerverkehr: Zell Berufliches Schulzentrum - Aichwald";"31";"31114a";"de:vvs:31114a:";
+"115";"Esslingen (N) ZOB - Oberesslingen - Zell";"31";"31115_";"de:vvs:31115_:";
+"118";"Esslingen (N) ZOB - Pliensauvorstadt - Zollberg - Esslingen (N) ZOB";"31";"31118_";"de:vvs:31118_:";
+"119";"Esslingen (N) - Nellingen - Denkendorf";"31";"31119_";"de:vvs:31119_:";
+"120";"Esslingen (N) - Nellingen - Neuhausen (- Wolfschlugen)";"31";"31120_";"de:vvs:31120_:";
+"121";"Oberesslingen - Denkendorf - Neuhausen";"31";"31121_";"de:vvs:31121_:";
+"121";"Oberesslingen - Denkendorf - Neuhausen";"31";"31121_";"de:vvs:31121_:";
+"122";"Esslingen (N) - Scharnhausen - Flughafen/Messe";"31";"31122_";"de:vvs:31122_:";
+"130";"Esslingen (N) - Ruit - Heumaden - Kemnat (- Scharnhausen)";"31";"31130_";"de:vvs:31130_:";
+"131";"Esslingen (N) - Ruit - Heumaden - Kemnat";"31";"31131_";"de:vvs:31131_:";
+"132";"Oberesslingen - St. Bernhard - Serach - Sulzgries - Rüdern";"31";"31132_";"de:vvs:31132_:";
+"132";"Oberesslingen - St. Bernhard - Serach - Sulzgries - Rüdern";"31";"31132_";"de:vvs:31132_:";
+"138";"Jägerhaus - Oberesslingen - Zell - Sirnau - Berkheim";"31";"31138_";"de:vvs:31138_:";
+"140";"(Esslingen (N) ) - Oberesslingen - Altbach - Plochingen";"31";"31140_";"de:vvs:31140_:";
+"141";"Plochingen ZOB - Lettenäcker - Stumpenhof";"31";"31141_";"de:vvs:31141_:";
+"142";"Reichenbach Bahnhof - Rißhalde - Siegenberg - Bahnhof";"31";"31142_";"de:vvs:31142_:";
+"143";"Deizisau - Plochingen";"31";"31143_";"de:vvs:31143_:";
+"144";"Kirchheim (T) -  Hochdorf - Reichenbach (F)";"31";"31144_";"de:vvs:31144_:";
+"145";"Wernau (N) Bahnhof - Katzenstein - Schmalwiesen - Bahnhof
+[Stadtverkehr Wernau (Neckar)]";"31";"31145_";"de:vvs:31145_:";
+"146";"Wernau (N) Bahnhof - Schmalwiesen - Katzenstein - Bahnhof
+[Stadtverkehr Wernau (Neckar)]";"31";"31146_";"de:vvs:31146_:";
+"147";"Plochingen - Hochdorf - Plochingen";"31";"31147_";"de:vvs:31147_:";
+"147A";"Hochdorf - Reichenbach (F) / Plochingen (Schülerverkehr)";"31";"31147a";"de:vvs:31147a:";
+"148";"Reichenbach Bahnhof - Siegenberg - Rißhalde - Bahnhof";"31";"31148_";"de:vvs:31148_:";
+"149";"Plochingen - Reichenbach (F) - Baltmannsweiler (- Engelberg)";"31";"31149_";"de:vvs:31149_:";
+"151";"Wendlingen (N) ZOB - Köngen - Wendlingen (N)";"31";"31151_";"de:vvs:31151_:";
+"154";"Wendlingen (N) ZOB - Weinhalde - ZOB";"31";"31154_";"de:vvs:31154_:";
+"155";"Wendlingen (N) ZOB - Unterboihingen - ZOB";"31";"31155_";"de:vvs:31155_:";
+"155A";"Wendlingen (N) Schulzentrum - Sporthalle Im Speck -
+Schulzentrum";"31";"31155a";"de:vvs:31155a:";
+"159";"Plochingen ZOB - Gewerbegebiet Filsallee";"31";"31159_";"de:vvs:31159_:";
+"161";"Kirchheim (T) Altvaterweg - ZOB - Ötlingen";"31";"31161_";"de:vvs:31161_:";
+"163";"Ötlingen - Lindorf - Kirchheim (T) ZOB - Schafhof";"31";"31163_";"de:vvs:31163_:";
+"164";"Ötlingen - ZOB - Martinskirche - Schafhof";"31";"31164_";"de:vvs:31164_:";
+"165";"Wellingen - Notzingen - Kirchheim (T) ZOB - Ohmden - Zell";"31";"31165_";"de:vvs:31165_:";
+"165A";"Kirchheim (T) ZOB - Saarstraße - Alte Plochinger Steige";"31";"31165a";"de:vvs:31165a:";
+"166";"Kirchheim (T) - Reudern - Nürtingen Krankenhaus -
+Nürtingen";"31";"31166_";"de:vvs:31166_:";
+"166A";"Kirchheim (T) - Reudern - Nürtingen Krankenhaus -
+Nürtingen";"31";"31166a";"de:vvs:31166a:";
+"167";"Nürtingen - Oberensingen - Grötzingen -
+Aich (- Neuenhaus)";"31";"31167_";"de:vvs:31167_:";
+"168";"Wernau (N) - Notzingen -  Hochdorf - Reichenbach (F)";"31";"31168_";"de:vvs:31168_:";
+"169";"Nürtingen ZOB - Oberensingen Bachhalde - Nürtingen ZOB";"31";"31169_";"de:vvs:31169_:";
+"170";"RadWanderBus: Kirchheim (T) - Holzmaden -
+Reußenstein - Wiesensteig/Schopfloch";"31";"31170_";"de:vvs:31170_:";
+"171";"Kirchheim - Holzmaden - (Ohmden)";"31";"31171_";"de:vvs:31171_:";
+"173";"Kirchheim (T) - Holzmaden - Weilheim (T) - Bissingen (T) - Kirchheim (T)";"31";"31173_";"de:vvs:31173_:";
+"173A";"Kirchheim (T) - Weilheim (T) - Bissingen (T) - Kirchheim (T)";"31";"31173a";"de:vvs:31173a:";
+"174";"Neidlingen - Hepsisau - Weilheim (T) und zurück";"31";"31174_";"de:vvs:31174_:";
+"175";"Kirchheim (T) - Bissingen (T) - Weilheim (T) - Holzmaden - Kirchheim (T)";"31";"31175_";"de:vvs:31175_:";
+"175A";"Kirchheim (T) - Bissingen (T) - Weilheim (T) - Kirchheim (T)";"31";"31175a";"de:vvs:31175a:";
+"176";"Kirchheim (T) - Dettingen (T) - Bissingen (T) - Oberlenningen";"31";"31176_";"de:vvs:31176_:";
+"177";"Neidlingen - Weilheim (T) - Kirchheim (T)
+Kirchheim (T) - Owen - Oberlenningen";"31";"31177_";"de:vvs:31177_:";
+"177A";"Oberlenningen - Kirchheim (T) - Weilheim (T) - Neidlingen";"31";"31177a";"de:vvs:31177a:";
+"178";"Beuren - Owen";"31";"31178_";"de:vvs:31178_:";
+"179";"(Neuffen -) Beuren - Erkenbrechtsweiler - Oberlenningen";"31";"31179_";"de:vvs:31179_:";
+"180";"Nürtingen - Neuffen - Beuren - Kohlberg - Tischardt - Nürtingen";"31";"31180_";"de:vvs:31180_:";
+"181";"Owen Bf - Rieth - Nürtingen ZOB";"31";"31181_";"de:vvs:31181_:";
+"182";"Nürtingen ZOB - Roßdorf";"31";"31182_";"de:vvs:31182_:";
+"182A";"Schülerverkehr Nürtingen Roßdorf - Neckarhausen";"31";"31182a";"de:vvs:31182a:";
+"183";"Nürtingen ZOB - Braike (- Waldfriedhof) - Roßdorf";"31";"31183_";"de:vvs:31183_:";
+"184";"Nürtingen - Zizishausen - Unterensingen - Wendlingen";"31";"31184_";"de:vvs:31184_:";
+"185";"(Grafenberg - ) Kleinbettlingen - Bempflingen - Nürtingen";"31";"31185_";"de:vvs:31185_:";
+"185A";"Schülerverkehr Grafenberg - Großbettlingen - Nürtingen";"31";"31185a";"de:vvs:31185a:";
+"186";"Nürtingen medius Klinik - 
+ - ZOB - Hardt";"31";"31186_";"de:vvs:31186_:";
+"187";"Metzingen - Bempflingen - Neckartenzlingen";"31";"31187_";"de:vvs:31187_:";
+"187";"Metzingen - Bempflingen - Neckartenzlingen";"31";"31187_";"de:vvs:31187_:";
+"187A";"Neckartenzlingen - Bempflingen - Kleinbettlingen
+(- Großbettlingen)";"31";"31187a";"de:vvs:31187a:";
+"187A";"Neckartenzlingen - Bempflingen - Kleinbettlingen
+(- Großbettlingen)";"31";"31187a";"de:vvs:31187a:";
+"188";"Nürtingen - Altdorf - Neckartenzlingen (- Schlaitdorf)";"31";"31188_";"de:vvs:31188_:";
+"188A";"Altdorf/Neckartailf./Schlaitdorf/Häslach - N. Auwiesenschule";"31";"31188a";"de:vvs:31188a:";
+"189";"Nürtingen - Neckartailfingen - Schlaitdorf - Neckartenzlingen";"31";"31189_";"de:vvs:31189_:";
+"189A";"Altdorf/Neckartailfingen -
+Walddorf Gustav-Werner-Schule";"31";"31189a";"de:vvs:31189a:";
+"189A";"Altdorf/Neckartailfingen -
+Walddorf Gustav-Werner-Schule";"31";"31189a";"de:vvs:31189a:";
+"191";"Neuffen - Hohenneuffen - Oberlenningen";"31";"31191_";"de:vvs:31191_:";
+"192";"Neuffen - Kohlberg - Kappishäusern";"31";"31192_";"de:vvs:31192_:";
+"193";"Nürtingen ZOB - Neuffener Straße - Schelmenwasen";"31";"31193_";"de:vvs:31193_:";
+"195";"Frickenhausen - Großbettlingen - Nürtingen";"31";"31195_";"de:vvs:31195_:";
+"196";"Nürtingen - Oberboihingen - Wendlingen (N)";"31";"31196_";"de:vvs:31196_:";
+"198";"(Neuffen -) Kohlberg - Tischardt - Frickenhausen";"31";"31198_";"de:vvs:31198_:";
+"199";"Beuren - Neuffen - Kohlberg - Metzingen";"31";"31199_";"de:vvs:31199_:";
+"201";"Waiblingen - Neustadt - Hohenacker - Bittenfeld";"31";"31201_";"de:vvs:31201_:";
+"201A";"Waiblingen - Neustadt - Hohenacker - Bittenfeld";"31";"31201a";"de:vvs:31201a:";
+"202";"Endersbach - Strümpfelbach";"31";"31202_";"de:vvs:31202_:";
+"204";"Hegnach - Waiblingen - Beinstein (- Endersbach)";"31";"31204_";"de:vvs:31204_:";
+"205";"Waiblingen - Schmiden";"31";"31205_";"de:vvs:31205_:";
+"206";"Waiblingen - Endersbach - Beutelsbach - Schnait";"31";"31206_";"de:vvs:31206_:";
+"206A";"Weinstadt - Remshalden / Engelberg";"31";"31206a";"de:vvs:31206a:";
+"207";"(Korb -) Korber Höhe - Waiblingen Bf - Fellbach";"31";"31207_";"de:vvs:31207_:";
+"208";"Waiblingen Bf - Altstadt - Galgenberg -
+Altstadt - Waiblingen Bf (Citybus 1)";"31";"31208_";"de:vvs:31208_:";
+"209";"Waiblingen - Korb - Kleinheppach - Endersbach";"31";"31209_";"de:vvs:31209_:";
+"210";"Fellbach - Remspark - Rommelshausen";"31";"31210_";"de:vvs:31210_:";
+"211";"Waiblingen - Rommelshausen - Stetten i. R.";"31";"31211_";"de:vvs:31211_:";
+"212";"Fellbach - Rommelshausen - Stetten i. R.";"31";"31212_";"de:vvs:31212_:";
+"214";"Neckargröningen - Fellbach";"31";"31214_";"de:vvs:31214_:";
+"215";"(Fellbach Gewerbegebiet -) Bahnhof - Gartenstraße";"31";"31215_";"de:vvs:31215_:";
+"216";"Waiblingen Bf - Industriegebiet Eisental - Waiblingen Bf";"31";"31216_";"de:vvs:31216_:";
+"217";"Buoch - Grunbach - Geradstetten - Rohrbronn";"31";"31217_";"de:vvs:31217_:";
+"217A";"Schülerverkehr Remshalden";"31";"31217a";"de:vvs:31217a:";
+"218";"Waiblingen Bf - Friedhof - Altstadt - Wasserstube 
+ - Altstadt - Friedhof - Waiblingen Bf  (Citybus 2)";"31";"31218_";"de:vvs:31218_:";
+"219";"Endersbach - Stetten i. R.";"31";"31219_";"de:vvs:31219_:";
+"228";"(Schorndorf -) Rudersberg - Kaisersbach";"31";"31228_";"de:vvs:31228_:";
+"229";"Miedelsbach - Steinenberg - Krehwinkel - Necklinsberg";"31";"31229_";"de:vvs:31229_:";
+"230";"Lindental / Necklinsberg - Rudersberg - Mannenberg und zurück";"31";"31230_";"de:vvs:31230_:";
+"234";"Schorndorf - Schornbach - Necklinsberg - Oppelsbohm";"31";"31234_";"de:vvs:31234_:";
+"241";"Unterberken - Oberberken - Schorndorf";"31";"31241_";"de:vvs:31241_:";
+"242";"Schorndorf Bahnhof- Rems-Murr-Klinik - Spittler Stift -
+Grauhalde - Rems-Murr-Klinik - Bahnhof";"31";"31242_";"de:vvs:31242_:";
+"242A";"Schülerverkehr Schorndorf";"31";"31242a";"de:vvs:31242a:";
+"243";"Schorndorf - Urbach - Plüderhausen";"31";"31243_";"de:vvs:31243_:";
+"243A";"Schorndorf - Urbach - Plüderhausen";"31";"31243a";"de:vvs:31243a:";
+"244";"Schorndorf - Schornbach - Birkenweißbuch - Oppelsbohm";"31";"31244_";"de:vvs:31244_:";
+"244A";"Schülerverkehr Schorndorf - Schornbach - Necklinsberg - Oppelsbohm";"31";"31244a";"de:vvs:31244a:";
+"245";"Schorndorf - Weiler - Rohrbronn -
+Hößlinswart (- Erlenhof)";"31";"31245_";"de:vvs:31245_:";
+"245A";"Geradstetten - Winterbach - Schorndorf";"31";"31245a";"";
+"246";"Schorndorf Bf - Erlensiedlung -
+Wiesenstraße";"31";"31246_";"de:vvs:31246_:";
+"247";"Schorndorf Bahnhof - Grauhalde - Alte Steige -
+Neuer Friedhof - Bahnhof";"31";"31247_";"de:vvs:31247_:";
+"248";"Schorndorf - Urbach - Plüderhausen";"31";"31248_";"de:vvs:31248_:";
+"249";"Schorndorf - Urbach Banrain - Urbach Bf";"31";"31249_";"de:vvs:31249_:";
+"250";"(Welzheim -) Walkersbach - Waldhausen";"31";"31250_";"de:vvs:31250_:";
+"257";"Welzheim - Gschwend";"31";"31257_";"de:vvs:31257_:";
+"257";"Welzheim - Gschwend";"31";"31257_";"de:vvs:31257_:";
+"262";"Plochingen - Reichenbach (F) - Schorndorf";"31";"31262_";"de:vvs:31262_:";
+"263";"Schorndorf - Welzheim - Kaisersbach";"31";"31263_";"de:vvs:31263_:";
+"263";"Schorndorf - Welzheim - Kaisersbach";"31";"31263_";"de:vvs:31263_:";
+"264";"Welzheim - Kaisersbach";"31";"31264_";"de:vvs:31264_:";
+"264";"Welzheim - Kaisersbach";"31";"31264_";"de:vvs:31264_:";
+"266";"Welzheim - Alfdorf";"31";"31266_";"de:vvs:31266_:";
+"266";"Welzheim - Alfdorf";"31";"31266_";"de:vvs:31266_:";
+"266A";"Welzheim - Alfdorf - Mutlangen - Schwäbisch Gmünd";"31";"31266a";"de:vvs:31266a:";
+"269";"Alfdorf - Vordersteinenberg";"31";"31269_";"de:vvs:31269_:";
+"330";"Welzheim - Rudersberg - Oppelsbohm
+Rems-Murr-Klinikum - Winnenden";"31";"31330_";"de:vvs:31330_:";
+"330";"Welzheim - Rudersberg - Oppelsbohm
+Rems-Murr-Klinikum - Winnenden";"31";"31330_";"de:vvs:31330_:";
+"331";"Winnenden - Breuningsweiler - Steinach (- Bretzenacker)";"31";"31331_";"de:vvs:31331_:";
+"332";"Hertmannsweiler - Winnenden - Rems-Murr-Klinikum - 
+Schelmenholz - Hanweiler";"31";"31332_";"de:vvs:31332_:";
+"333";"Winnenden - Buoch (- Rohrbronn)  (Fahrrad2Go)";"31";"31333_";"de:vvs:31333_:";
+"334";"Schelmenholz - Winnenden - Leutenbach - Weiler z. S.";"31";"31334_";"de:vvs:31334_:";
+"335";"Rems-Murr-Klinikum - Winnenden - Nellmersbach";"31";"31335_";"de:vvs:31335_:";
+"336";"Winnenden - Birkmannsweiler - Erlenhof - Oppelsbohm";"31";"31336_";"de:vvs:31336_:";
+"337";"Winnenden - Bürg - Oppelsbohm";"31";"31337_";"de:vvs:31337_:";
+"337A";"Winnenden - Birkmannsweiler - Höfen - Baach - Hertmannsweiler";"31";"31337a";"de:vvs:31337a:";
+"338";"Erlenhof - Kottweil - Ödernhardt - Erlenhof";"31";"31338_";"de:vvs:31338_:";
+"339";"Korb - Schwaikheim - Winnenden ZOB - Rems-Murr-Klinikum";"31";"31339_";"de:vvs:31339_:";
+"359";"Backnang ZOB - Lerchenäcker";"31";"31359_";"de:vvs:31359_:";
+"360";"Sachsenweiler - Backnang - Rietenauer Weg";"31";"31360_";"de:vvs:31360_:";
+"361";"Heiningen - Backnang - Steinbach";"31";"31361_";"de:vvs:31361_:";
+"361";"Heiningen - Backnang - Steinbach";"31";"31361_";"de:vvs:31361_:";
+"362";"Sachsenweiler - Backnang - Tausgymnasium";"31";"31362_";"de:vvs:31362_:";
+"362A";"Sachsenweiler - Steinbach - Backnanger Schulen
+(Schülerverkehr)";"31";"31362a";"de:vvs:31362a:";
+"363";"Backnang - Unterschöntal - Oberschöntal - Backnang";"31";"31363_";"de:vvs:31363_:";
+"365";"Backnang - Unterweissach - Oberbrüden";"31";"31365_";"de:vvs:31365_:";
+"365A";"Bildungszentrum Weissach i.T. - Oberbrüden (Schülerverkehr)";"31";"31365a";"de:vvs:31365a:";
+"366";"Backnang - Steinbach - Oberbrüden -
+Lippoldsweiler - Hohnweiler - Däfern";"31";"31366_";"de:vvs:31366_:";
+"367";"Backnang - Großaspach - Kleinaspach";"31";"31367_";"de:vvs:31367_:";
+"367A";"Backnang - Großaspach - Kleinaspach
+(Schülerverkehr)";"31";"31367a";"de:vvs:31367a:";
+"368";"Backnang - Staigacker";"31";"31368_";"de:vvs:31368_:";
+"368A";"Strümpfelbach - Tausschule
+(Schülerverkehr)";"31";"31368a";"de:vvs:31368a:";
+"369";"Backnang ZOB - Industriegebiet Süd (- Heiningen - Maubach Bf)";"31";"31369_";"de:vvs:31369_:";
+"369";"Backnang ZOB - Industriegebiet Süd (- Heiningen - Maubach Bf)";"31";"31369_";"de:vvs:31369_:";
+"370";"Backnang ZOB - Biegel - Gartenstraße - Murrbäder ";"31";"31370_";"de:vvs:31370_:";
+"372";"Murrhardt - Grab - Großerlach - Mainhardt (inkl. Limesbus Nord)";"31";"31372_";"de:vvs:31372_:";
+"373";"Murrhardt - Klingen - Sechselberg - Mettelberg - Murrhardt";"31";"31373_";"de:vvs:31373_:";
+"374";"Murrhardt - Siegelsb. -  Hinterbüchelb. - Waltersb. - Murrhardt";"31";"31374_";"de:vvs:31374_:";
+"375";"Murrhardt - Kirchenkirnberg - Kaisersbach - Welzheim
+(inkl. Limesbus Süd)";"31";"31375_";"de:vvs:31375_:";
+"375";"Murrhardt - Kirchenkirnberg - Kaisersbach - Welzheim
+(inkl. Limesbus Süd)";"31";"31375_";"de:vvs:31375_:";
+"377";"Murrhardt - Mannenweiler - Grab";"31";"31377_";"de:vvs:31377_:";
+"380";"Sulzbach (M) - Großerlach - Mainhardt";"31";"31380_";"de:vvs:31380_:";
+"380A";"Sulzbach (M) - Zwerenberg - Eschenstruet - Sulzbach (M)";"31";"31380a";"de:vvs:31380a:";
+"381";"Backnang - Weissach i.T. - Auenwald - Backnang";"31";"31381_";"de:vvs:31381_:";
+"382";"Backnang - Weissach i.T. - Auenwald - Althütte";"31";"31382_";"de:vvs:31382_:";
+"382A";"Backnang - Weissach i.T. - Auenwald - Althütte";"31";"31382a";"de:vvs:31382a:";
+"383";"Backnang - Allmersbach i.T. - Unterweissach (- Oberb.)";"31";"31383_";"de:vvs:31383_:";
+"384";"Backnang - Weissach i.T. - Althütte";"31";"31384_";"de:vvs:31384_:";
+"385";"Sulzbach (M) - Wüstenrot (inkl. Räuberbus)";"31";"31385_";"de:vvs:31385_:";
+"386";"Sulzbach (M) - Spiegelberg - Spiegelberger Teilorte";"31";"31386_";"de:vvs:31386_:";
+"390";"Backnang - Sulzbach (M) - Murrhardt ";"31";"31390_";"de:vvs:31390_:";
+"390A";"Backnang - Sulzbach (M) - Murrhardt ";"31";"31390a";"de:vvs:31390a:";
+"391";"Oppenweiler - Aichelbach - Zell";"31";"31391_";"de:vvs:31391_:";
+"393";"Backnang - Allmersbach i.T. - Rudersberg (Fahrrad2Go)";"31";"31393_";"de:vvs:31393_:";
+"402";"Hochdorf - Neckargröningen Stadtbahn - Pattonville";"31";"31402_";"de:vvs:31402_:";
+"402A";"Schülerverkehr Remseck";"31";"31402a";"de:vvs:31402a:";
+"403";"Hochberg - Neckargröningen - Aldingen Berliner Straße";"31";"31403_";"de:vvs:31403_:";
+"411";"Kornwestheim Bahnhof - Realschule - Friedhof";"31";"31411_";"de:vvs:31411_:";
+"412";"Pattonville - Kornwestheim - Stammheim";"31";"31412_";"de:vvs:31412_:";
+"413";"Ludwigsburg - Kornwestheim Bf - Stadion - Rathaus -
+Bf - Ludwigsburg";"31";"31413_";"de:vvs:31413_:";
+"414";"Kornwestheim Bf - Mühlhäuser Straße - Bahnhof";"31";"31414_";"de:vvs:31414_:";
+"415";"Kornwestheim Bf - Wüstenrot & Württembergische";"31";"31415_";"de:vvs:31415_:";
+"420";"Bahnhof (Arena) -  Gewerbegebiet West";"31";"31420_";"de:vvs:31420_:";
+"421";"Oßweil-Süd - Ludwigsburg Oststadt - ZOB
+- Neckarweihingen";"31";"31421_";"de:vvs:31421_:";
+"421A";"Neckarweih. - Ludw. ZOB - Oststadt - Oßweil-Süd
+(Schülerverkehr)";"31";"31421a";"de:vvs:31421a:";
+"422";"Pflugfelden - Ludwigsburg ZOB - Schlösslesfeld";"31";"31422_";"de:vvs:31422_:";
+"422A";"Pflugfelden - Ludw. ZOB - Schlösslesfeld
+(Schülerverkehr)";"31";"31422a";"de:vvs:31422a:";
+"423";"Ludwigsburg ZOB - Kreisberufsschule";"31";"31423_";"de:vvs:31423_:";
+"424";"Ludwigsburg ZOB - Päd. Hochschule - Breuningerland - IKEA";"31";"31424_";"de:vvs:31424_:";
+"425";"Eglosheim - Ludwigsburg ZOB - Oßweil";"31";"31425_";"de:vvs:31425_:";
+"425A";"Eglosheim - Ludw. ZOB - Oßweil (Schülerverkehr)";"31";"31425a";"de:vvs:31425a:";
+"426";"Ludwigsburg Oststadt - ZOB - Eglosheim (- Monrepos)";"31";"31426_";"de:vvs:31426_:";
+"427";"Hoheneck - Ludwigsburg ZOB - Grünbühl";"31";"31427_";"de:vvs:31427_:";
+"427A";"(Pattonville -) Grünbühl - Ludw. ZOB - Hoheneck ";"31";"31427a";"de:vvs:31427a:";
+"428";"Neckarweihingen Au - Immanuel-Dornfeld-Straße";"31";"31428_";"de:vvs:31428_:";
+"429";"Kornwestheim W&W - Ludwigsburg ZOB -  Neckarw.";"31";"31429_";"de:vvs:31429_:";
+"430";"Poppenweiler - Ludwigsburg ZOB - Heilbronner Straße";"31";"31430_";"de:vvs:31430_:";
+"430A";"Poppenweiler - Neckarweih. - Ludwigsburg ZOB
+(Schülerverkehr)";"31";"31430a";"de:vvs:31430a:";
+"431";"Ludwigsburg - Neckargröningen - Neckarrems
+(- Hegnach - Waiblingen)";"31";"31431_";"de:vvs:31431_:";
+"433";"Asperg - Ludwigsburg ZOB - Hochberg - Poppenweiler";"31";"31433_";"de:vvs:31433_:";
+"433A";"Ludwigsburg - Poppenweiler (Schülerverkehr)";"31";"31433a";"de:vvs:31433a:";
+"443";"Ludwigsburg - Neckarweihingen - Marbach (N)";"31";"31443_";"de:vvs:31443_:";
+"444";"Ludwigsburg - Freiberg - Höpfigh. (- Steinheim)";"31";"31444_";"de:vvs:31444_:";
+"444A";"Freiberg (N) - Pleidelsheim - Höpfigheim
+(Schülerverkehr)";"31";"31444a";"de:vvs:31444a:";
+"446";"Freiberg (N) - Großingersheim - Kleiningersheim";"31";"31446_";"de:vvs:31446_:";
+"446A";"Freiberg (N) - Großingersheim - Kleiningersheim
+(Schülerverkehr)";"31";"31446a";"de:vvs:31446a:";
+"451";"Marbach (N) - Poppenweiler - Neckargröningen";"31";"31451_";"de:vvs:31451_:";
+"455";"Backnang -  Burgstall (- Kirchberg)";"31";"31455_";"de:vvs:31455_:";
+"456";"Marbach (N) - Affalterbach (- Winnenden)";"31";"31456_";"de:vvs:31456_:";
+"456A";"Marbach (N) - Erdmannhausen - Affalterbach
+(Schülerverkehr)";"31";"31456a";"de:vvs:31456a:";
+"457";"(Backnang -)  Aspach - Rielingshausen - Marbach - Hörnle";"31";"31457_";"de:vvs:31457_:";
+"459";"Freiberg (N) - Pleidelsheim - Besigheim";"31";"31459_";"de:vvs:31459_:";
+"459A";"Mundelsheim - Hessigheim - Besigheim
+(Schülerverkehr)";"31";"31459a";"de:vvs:31459a:";
+"460";"Beilstein - Oberstenfeld - Großbottwar -
+Steinheim (M) - Marbach (N)";"31";"31460_";"de:vvs:31460_:";
+"460A";"Beilstein - Oberstenfeld - Großbottwar - Steinheim (M) - Marbach (N)";"31";"31460a";"de:vvs:31460a:";
+"461";"Winzerhausen - Großbottwar - Steinheim - Marbach (N)";"31";"31461_";"de:vvs:31461_:";
+"463";"Prevorst - Gronau - Oberstenfeld";"31";"31463_";"de:vvs:31463_:";
+"464";"Marbach - Bottwartal - Neckartal - Besigheim";"31";"31464_";"de:vvs:31464_:";
+"465";"Hof und Lembach - Großbottwar";"31";"31465_";"de:vvs:31465_:";
+"467";"Backnang - Kleinaspach - Oberstenfeld - Prevorst
+(Berg- und Talbus)";"31";"31467_";"de:vvs:31467_:";
+"477";"Burgstall - Kirchberg - Zwingelhausen - Großaspach";"31";"31477_";"de:vvs:31477_:";
+"488";"Kirchberg (M) Bf - Zwingelhausen - Kirchberg (M) Bf
+(Ortsbus Kirchberg(M))";"31";"31488_";"de:vvs:31488_:";
+"501";"Feuerbach - Kallenberg - Münchingen - Schwieberdingen (- Hemmingen)";"31";"31501_";"de:vvs:31501_:";
+"502";"Feuerbach - Schwieberdingen - Hemmingen -
+Eberdingen - Riet";"31";"31502_";"de:vvs:31502_:";
+"503";"Feuerbach - Schwieberdingen - Vaihingen (E)";"31";"31503_";"de:vvs:31503_:";
+"504";"Feuerbach - Kallenberg - Münchingen - Schwieberdingen";"31";"31504_";"de:vvs:31504_:";
+"508";"Ludwigsburg - Möglingen - Zuffenhausen";"31";"31508_";"de:vvs:31508_:";
+"531";"Asperg - Markgröningen - Schwieberdingen";"31";"31531_";"de:vvs:31531_:";
+"531A";"Hemmingen - Schwieberdingen -  Markgröningen";"31";"31531a";"de:vvs:31531a:";
+"532";"Ludwigsburg - Asperg - Markgröningen - Oberriexingen";"31";"31532_";"de:vvs:31532_:";
+"532A";"Unterriexingen - Markgröningen";"31";"31532a";"de:vvs:31532a:";
+"533";"Aldingen - Ludwigsburg - Möglingen - Markgröningen";"31";"31533_";"de:vvs:31533_:";
+"533";"Aldingen - Ludwigsburg - Möglingen - Markgröningen";"31";"31533_";"de:vvs:31533_:";
+"533A";"Möglingen - Markgröningen";"31";"31533a";"de:vvs:31533a:";
+"534";"Ludwigsburg - Möglingen - Schwieberdingen - Hemmingen";"31";"31534_";"de:vvs:31534_:";
+"534A";"Unterriex. - Markgr. - Mögl. - Ludwigsburg";"31";"31534a";"de:vvs:31534a:";
+"535";"Ludwigsburg - Möglingen - Münchingen - Ditzingen";"31";"31535_";"de:vvs:31535_:";
+"536";"Ludw. IKEA - Breuningerland - Tamm - Möglingen";"31";"31536_";"de:vvs:31536_:";
+"536A";"Tamm - Asperg - Möglingen";"31";"31536a";"de:vvs:31536a:";
+"541";"(Tamm -) Bissingen - Unterriexingen";"31";"31541_";"de:vvs:31541_:";
+"542";"Bietigheim - Bissingen - Tamm - Hoheneck";"31";"31542_";"de:vvs:31542_:";
+"544";"Bietigheim - Sachsenheim - Eichwald";"31";"31544_";"de:vvs:31544_:";
+"551";"Tammerfeld - Buch - Bietigheim - Metterzimmern - Sachsenheim";"31";"31551_";"de:vvs:31551_:";
+"551A";"Bietigheim - Metterzimmern - Sachsenheim (Schülerverkehr)";"31";"31551a";"de:vvs:31551a:";
+"554";"Sachsenheim - Bissingen -  ZOB - Bietigheim - Bönnigheim";"31";"31554_";"de:vvs:31554_:";
+"554A";"Ellental - Bissingen -  ZOB - Bietigh. - Bönnigh. (Schülerverkehr)";"31";"31554a";"de:vvs:31554a:";
+"556";"ZOB - Bissingen - Ellental - Kronenzentrum";"31";"31556_";"de:vvs:31556_:";
+"558";"Bietigheim ZOB - Bruchwald - Laiern - ZOB";"31";"31558_";"de:vvs:31558_:";
+"559";"Bietigheim ZOB - Gustav-Rau-Str. - Büttenwiesen - ZOB";"31";"31559_";"de:vvs:31559_:";
+"560";"Stadtverkehr Besigheim";"31";"31560_";"de:vvs:31560_:";
+"561";"Ellentalgymnasien - Kronenzentrum - ZOB - Buchzentrum";"31";"31561_";"de:vvs:31561_:";
+"562";"Oberriexingen - Sachsenheim";"31";"31562_";"de:vvs:31562_:";
+"563";"Bietigheim Kammgarnspinnerei - Bietigheim Kronenzentrum";"31";"31563_";"de:vvs:31563_:";
+"564";"Bietgh. Krankenhaus - Bietigheim ZOB - Freiberg (N)";"31";"31564_";"de:vvs:31564_:";
+"566";"Vaihingen (E) - Sersheim - Sachsenheim - Bietigheim";"31";"31566_";"de:vvs:31566_:";
+"567";"Hohenhaslach - Freudental - Bietigheim -
+Großingersheim - Pleidelsheim (- Murr)";"31";"31567_";"de:vvs:31567_:";
+"567A";"Kleiningersheim - Großingersheim - Bietigheim
+(Schülerverkehr)";"31";"31567a";"de:vvs:31567a:";
+"568";"Freudental - Löchgau - Besigheim - Ottmarsheim";"31";"31568_";"de:vvs:31568_:";
+"568A";"Freudental - Löchgau - Besigheim - Ottmarsheim
+(Schülerverkehr)";"31";"31568a";"de:vvs:31568a:";
+"571";"(Bietigheim -) Sachsenheim - Häfnerhaslach";"31";"31571_";"de:vvs:31571_:";
+"571A";"Häfnerhaslach - Hohenhaslach - Großsachsenheim
+(Schülerverkehr)";"31";"31571a";"de:vvs:31571a:";
+"572";"Bietigheim - Tripsdrill - Kirbachtal
+(Fahrrad- & Wanderbus ""Stromer"")";"31";"31572_";"de:vvs:31572_:";
+"573";"Kirchheim (N) - Gemmrigheim (- Ottmarsheim)";"31";"31573_";"de:vvs:31573_:";
+"574";"Besigheim - Kirchheim (N) - Bönnigheim";"31";"31574_";"de:vvs:31574_:";
+"574A";"Bönnigh. - Kirchheim (N) - Gemmrigh. - Besigh.
+(Schülerverkehr)";"31";"31574a";"de:vvs:31574a:";
+"578";"Sachsenheim - Sersheim - Kleinglattbach - Vaihingen (E)";"31";"31578_";"de:vvs:31578_:";
+"579";"Oberriexingen - Enzweihingen - Vaihingen (E) -";"31";"31579_";"de:vvs:31579_:";
+"590";"Vaihingen (E) - Ensingen - Horrheim - Hohenhaslach";"31";"31590_";"de:vvs:31590_:";
+"591";"Ensingen - Kleinglattbach - Vaihingen (E) - Roßwag";"31";"31591_";"de:vvs:31591_:";
+"591A";"Ensingen - Kleinglattbach - Vaihingen (E) Schülerverkehr";"31";"31591a";"de:vvs:31591a:";
+"592";"Gündelbach - Vaihingen (E) - Eberdingen (- Hochdorf)";"31";"31592_";"de:vvs:31592_:";
+"592A";"Eberdingen - Nußdorf - Aurich - Vaihingen (E)
+(Schülerverkehr)";"31";"31592a";"de:vvs:31592a:";
+"592B";"Gündelbach - Horrheim - Vaihingen (E)
+(Schülerverkehr)";"31";"31592b";"de:vvs:31592b:";
+"595";"Vaihingen (E) - Enzweihingen - Riet - Hochdorf";"31";"31595_";"de:vvs:31595_:";
+"612";"Korntal - Neuwirtshaus - Kallenberg - Münchingen";"31";"31612_";"de:vvs:31612_:";
+"612A";"Kallenberg - Münchingen (Schülerverkehr)";"31";"31612a";"de:vvs:31612a:";
+"620";"Ditzingen - Heimerdingen";"31";"31620_";"de:vvs:31620_:";
+"620A";"Ditzingen - Heimerdingen (Schülerverkehr)";"31";"31620a";"de:vvs:31620a:";
+"622";"Stadtverkehr Ditzingen: Bf - Am Maurener Berg - Bf";"31";"31622_";"de:vvs:31622_:";
+"623";"Ditzingen - Schöckingen ";"31";"31623_";"de:vvs:31623_:";
+"623A";"Schöckingen - Hirschlanden - Ditzingen
+(Schülerverkehr)";"31";"31623a";"de:vvs:31623a:";
+"624";"Stadtverkehr Ditzingen: Bf - ""Ob dem Korntaler Weg"" - Bf";"31";"31624_";"de:vvs:31624_:";
+"625";"Ditzingen Bahnhof Süd - Gewerbegebiet Süd";"31";"31625_";"de:vvs:31625_:";
+"626";"Stadtverkehr Ditzingen: Bf - Industriegebiet Ost und zurück";"31";"31626_";"de:vvs:31626_:";
+"631";"Leonberg - Warmbronn (- Sindelfingen)";"31";"31631_";"de:vvs:31631_:";
+"631A";"Schülerverkehr: Leonberg / Ramtel - Eltingen - Warmbronn";"31";"31631a";"de:vvs:31631a:";
+"634";"Weissach - Rutesheim - Leonberg";"31";"31634_";"de:vvs:31634_:";
+"634A";"Weissach - Flacht - Rutesheim (Schülerverkehr)";"31";"31634a";"de:vvs:31634a:";
+"635";"Leonberg - Gerlingen";"31";"31635_";"de:vvs:31635_:";
+"636";"Weissach - Rutesheim - Renningen";"31";"31636_";"de:vvs:31636_:";
+"636";"Weissach - Rutesheim - Renningen";"31";"31636_";"de:vvs:31636_:";
+"637";"Renningen Süd - Bf - Robert-Bosch-Campus - Malmsheim (- Rutesheim)";"31";"31637_";"de:vvs:31637_:";
+"637";"Renningen Süd - Bf - Robert-Bosch-Campus - Malmsheim (-Rutesheim)";"31";"31637_";"de:vvs:31637_:";
+"638";"Ditzingen - Gerlingen - Leonberg Golfplatz";"31";"31638_";"de:vvs:31638_:";
+"640";"Leonberg Blosenbergkirche - Bahnhof - Ramtel";"31";"31640_";"de:vvs:31640_:";
+"641";"Leonberg Bahnhof - Gewerbegebiet Hertichstraße - Längenbühl";"31";"31641_";"de:vvs:31641_:";
+"642";"Leonberg Bf - Ramtel - Waldfriedhof";"31";"31642_";"de:vvs:31642_:";
+"650";"Leonberg - Höfingen - Hirschlanden -
+Schöckingen - Hemmingen";"31";"31650_";"de:vvs:31650_:";
+"651";"Leonberg Ezach - Bahnhof - Haldengebiet - Höfingen";"31";"31651_";"de:vvs:31651_:";
+"651A";"Schülerverkehr: Leonberg - Höfingen";"31";"31651a";"de:vvs:31651a:";
+"652";"Weissach Porsche - Heimsheim Dieb - Friolzheim -
+Tiefenbronn - Heimsheim - Leonberg";"31";"31652_";"de:vvs:31652_:";
+"653";"Weissach / Wiernsheim - Mönsheim -
+Heimsheim - Rutesheim - Leonberg";"31";"31653_";"de:vvs:31653_:";
+"653A";"Heckengäu - Rutesheim / Weissach / JCB-Schule
+(Schülerverkehr)";"31";"31653a";"de:vvs:31653a:";
+"654";"Rutesheim  - Gebersheim - Leonberg und zurück";"31";"31654_";"de:vvs:31654_:";
+"654A";"Schülerverkehr: Rutesheim Bahnhof - Schulzentrum";"31";"31654a";"de:vvs:31654a:";
+"660";"Schnellbus Wiernsheim - Mönsheim - Heimsheim - Leonberg";"31";"31660_";"de:vvs:31660_";
+"663";"Weil der Stadt - Merklingen - Münklingen - Neuhausen (Enzkreis)";"31";"31663_";"de:vvs:31663_:";
+"663";"Weil der Stadt - Merklingen - Münklingen - Neuhausen (Enzkreis)";"31";"31663_";"de:vvs:31663_:";
+"663A";"Schülerverkehr: Weil der Stadt - Merklingen - Münklingen - Hausen";"31";"31663a";"de:vvs:31663a:";
+"663A";"Schülerverkehr: Weil der Stadt - Merklingen - Münklingen - Hausen";"31";"31663a";"de:vvs:31663a:";
+"665";"Weil der Stadt Bf - Blammerberg - Bf";"31";"31665_";"de:vvs:31665_:";
+"666";"Weil der Stadt - Lehningen - Tiefenbronn - Pforzheim";"31";"31666_";"de:vvs:31666_:";
+"666A";"Schülerverkehr: Tiefenbronn - Neuhausen - Steinegg";"31";"31666a";"de:vvs:31666a:";
+"701";"Böbl. Diezenhalde - ZOB - Sindelf. ZOB - Eichholz";"31";"31701_";"de:vvs:31701_:";
+"701A";"Böblingen ZOB - Sindelfingen ZOB";"31";"31701a";"de:vvs:31701a:";
+"702";"(Landhaussiedlung - Maichingen -) Hinterweil -
+Sindelfingen ZOB - Mercedes-Benz-Werk";"31";"31702_";"de:vvs:31702_:";
+"703";"Böblingen ZOB - Mercedes-Benz-Werk";"31";"31703_";"de:vvs:31703_:";
+"704";"Böblingen ZOB - Goldberg - Sindelfingen ZOB - Hinterweil - 
+Maichingen Schlüsseläcker - Bahnhof/Darmsheim Häslach";"31";"31704_";"de:vvs:31704_:";
+"704A";"Maichingen - Hinterweil - Sindelfingen ZOB - 
+Goldberg - Böblingen Waldorfschule";"31";"31704a";"de:vvs:31704a:";
+"705";"Böblingen Diezenhalde - Reiterhof - Bahnhof - Flugfeld -
+Sindelfingen ZOB - Maichingen - Landhaussiedlung (- Waldfriedhof)";"31";"31705_";"de:vvs:31705_:";
+"705A";"Landhaussiedlung - Maichingen - Sindelfingen";"31";"31705a";"de:vvs:31705a:";
+"706";"Böblingen ZOB - Goldberg - Sindelfingen Breuningerland - Viehweide";"31";"31706_";"de:vvs:31706_:";
+"707";"Hulb - Sindelfingen Mercedes-Benz - ZOB";"31";"31707_";"de:vvs:31707_:";
+"708";"(Sindelfingen Dachsklinge -) Eichholz - Krankenhaus - 
+ZOB - Goldberg - Böblingen Thermalbad (- AWB)";"31";"31708_";"de:vvs:31708_:";
+"709";"Böblingen ZOB - Hallenbad - Rauher Kapf";"31";"31709_";"de:vvs:31709_:";
+"709A";"Sindelfingen Frankenstraße - Böblingen Rauher Kapf";"31";"31709a";"de:vvs:31709a:";
+"711";"Sindelfingen ZOB - Goldberg (Leipziger Straße) - Breuningerland";"31";"31711_";"de:vvs:31711_:";
+"717";"Sindelf. Viehweide - ZOB - Dagersheim - Darmsheim -
+(Böblingen ZOB)";"31";"31717_";"de:vvs:31717_:";
+"717A";"Viehweide - Sindelfingen ZOB - Goldberg-Schulen";"31";"31717a";"de:vvs:31717a:";
+"721";"Böblingen Diezenhalde - Grund - ZOB
+- Kreiskrankenhaus - Thermalbad";"31";"31721_";"de:vvs:31721_:";
+"721A";"Böblingen Grund - Diezenhalde";"31";"31721a";"de:vvs:31721a:";
+"722";"Böblingen ZOB - Herrenberger Straße - 
+Dagersheim - Darmsheim Inneres Bühl - Häslach";"31";"31722_";"de:vvs:31722_:";
+"722A";"Darmsheim Inneres Bühl - Dagersheim - Sindelf. Goldberg-Gymnasium";"31";"31722a";"de:vvs:31722a:";
+"723";"Dagersh. Goethestraße - Böblingen ZOB - Tannenberg";"31";"31723_";"de:vvs:31723_:";
+"723A";"Dagersheim Ost - Böblingen Kremser Straße - ZOB";"31";"31723a";"de:vvs:31723a:";
+"725";"Böblingen ZOB - Reußensteinstraße - Waldorfschule - 
+Panzerkaserne - AWB";"31";"31725_";"de:vvs:31725_:";
+"728";"Böblingen ZOB - Hulb - Hulb-West";"31";"31728_";"de:vvs:31728_:";
+"734";"Sindelfingen ZOB - Goldberg - Schönaich -
+Schönaich - Goldberg - Sindelfingen ZOB";"31";"31734_";"de:vvs:31734_:";
+"734";"Sindelfingen ZOB - Goldberg - Schönaich -
+Schönaich - Goldberg - Sindelfingen ZOB";"31";"31734_";"de:vvs:31734_:";
+"743";"Böblingen - Aidlingen - Deufringen - Gechingen";"31";"31743_";"de:vvs:31743_:";
+"744";"(Sindelfingen -) Böblingen - Aidlingen - Dachtel (- Gechingen)";"31";"31744_";"de:vvs:31744_:";
+"745";"Magstadt - Maichingen (- Sindelfingen)";"31";"31745_";"de:vvs:31745_:";
+"745A";"Magstadt - Maichingen (- Sindelfingen)";"31";"31745a";"de:vvs:31745a:";
+"747";"Universität - Büsnau - Warmbronn - Renningen";"31";"31747_";"de:vvs:31747_:";
+"748";"Universität - Sindelfingen - Maichingen - Grafenau - Ostelsheim";"31";"31748_";"de:vvs:31748_:";
+"748A";"Schülerverkehr
+Sindelfingen - Maichingen - Grafenau - Schafhausen - Ostelsheim";"31";"31748a";"de:vvs:31748a:";
+"751";"Herrenberg ZOB - Hildrizhausen - Holzgerlingen";"31";"31751_";"de:vvs:31751_:";
+"752";"Ehningen - Hildrizhausen - Altdorf
+Holzgerlingen Friedhof  (- Sindelfingen ZOB)";"31";"31752_";"de:vvs:31752_:";
+"753";"Rohrau - Gärtringen - Nufringen - Herrenberg";"31";"31753_";"de:vvs:31753_:";
+"755";"Glashütte - Waldenbuch Schloss";"31";"31755_";"de:vvs:31755_:";
+"756";"(Weil im Schönbuch -) Neuweiler - Holzgerlingen - Neuweiler (- Weil i. S.)";"31";"31756_";"de:vvs:31756_:";
+"757";"Holzgerlingen Buch - Schönaich";"31";"31757_";"de:vvs:31757_:";
+"760";"Böblingen - Schönaich - Steinenbronn (- Waldenbuch Schloss)";"31";"31760_";"de:vvs:31760_:";
+"760A";"Schülerverkehr Sindelfingen - Böblingen - Schönbuchlichtung";"31";"31760a";"de:vvs:31760a:";
+"761";"Böblingen - Schönaich - Weil i. S.";"31";"31761_";"de:vvs:31761_:";
+"761A";"Breitenstein - Neuweiler - Weil im Schönbuch";"31";"31761a";"de:vvs:31761a:";
+"763";"(Sindelfingen -) Böblingen - Aidlingen - Deufringen -
+Dachtel - Gechingen - Stammheim (CW) - Calw";"31";"31763_";"de:vvs:31763_:";
+"763A";"Schülerverkehr Sindelfingen - Böblingen - Dagersheim - Aidlingen -
+Deufringen - Dachtel - Gechingen - Stammheim (CW)";"31";"31763a";"de:vvs:31763a:";
+"764";"Dachtel - Aidlingen - Ehningen Bahnhof - IBM - Bahnhof";"31";"31764_";"de:vvs:31764_:";
+"766";"Böblingen - Döffingen - Dätzingen - Weil der Stadt";"31";"31766_";"de:vvs:31766_:";
+"768";"Gärtringen Riedbrunnen - Bahnhof - Aidlingen - Lehenweiler";"31";"31768_";"de:vvs:31768_:";
+"768A";"Schülerverkehr Gärtringen - Ehningen - Aidlingen - Döffingen";"31";"31768a";"de:vvs:31768a:";
+"769";"Sindelfingen - Döffingen - Dätzingen - Weil der Stadt";"31";"31769_";"de:vvs:31769_:";
+"770";"RegioBus: Herrenberg - Deckenpfronn - Calw";"31";"31770_";"de:vvs:31770_:";
+"773";"Herrenberg - Deckenpfronn";"31";"31773_";"de:vvs:31773_:";
+"773A";"Herrenberg - Deckenpfronn";"31";"31773a";"de:vvs:31773a:";
+"774";"Nagold - Jettingen - Haslach - Herrenberg";"31";"31774_";"de:vvs:31774_:";
+"774A";"Schülerverkehr Nagold - Herrenberg";"31";"31774a";"de:vvs:31774a:";
+"776";"Altingen - Öschelbronn - Gäufelden";"31";"31776_";"de:vvs:31776_:";
+"777";"Nagold - Mötzingen - Gäufelden - Altingen";"31";"31777_";"de:vvs:31777_:";
+"778";"Nagold - Mötzingen - Bondorf";"31";"31778_";"de:vvs:31778_:";
+"780";"Herrenberg Hallenbad - ZOB - Nord - West - Kalkofenstraße";"31";"31780_";"de:vvs:31780_:";
+"780";"Herrenberg Hallenbad - ZOB - Nord - West - Kalkofenstraße";"31";"317803";"de:vvs:317803:";
+"782";"Herrenberg ZOB - Ziegelfeld - Ehbühl - ZOB";"31";"31782_";"de:vvs:31782_:";
+"783";"Herrenberg ZOB - Polizeihochschule - Herrenberg ZOB";"31";"31783_";"de:vvs:31783_:";
+"790";"Herrenberg - Nebringen - Öschelbronn - Mötzingen";"31";"31790_";"de:vvs:31790_:";
+"791";"Entringen - Breitenholz - Kayh - Herrenberg";"31";"31791_";"de:vvs:31791_:";
+"794";"(Herrenberg ZOB - Kayh -) Tailfingen - Herrenberg ZOB (- Vogelsang - ZOB)";"31";"31794_";"de:vvs:31794_:";
+"805";"Bernhausen - Aich - Schlaitdorf - Altenriet -
+Walddorfhäslach";"31";"31805_";"de:vvs:31805_:";
+"807";"Bernhausen - Harthausen
+- Grötzingen - Aich Rudolfshöhe";"31";"31807_";"de:vvs:31807_:";
+"808";"Bernhausen - Aich - Neckartailfingen - Altdorf -
+Neckartenzlingen ( - Altenriet - Schlaitdorf)";"31";"31808_";"de:vvs:31808_:";
+"808A";"Neckartenzlingen - Aichtal";"31";"31808a";"de:vvs:31808a:";
+"809";"Bernhausen - Harthausen
+- Grötzingen - Aich - Neuenhaus";"31";"31809_";"de:vvs:31809_:";
+"809A";"Sielmingen - Bonlanden - Grötzingen
+- Aich - Neuenhaus - Waldenbuch";"31";"31809a";"de:vvs:31809a:";
+"811";"Bernhausen - Stetten (F) Gewerbegebiet - Erlach";"31";"31811_";"de:vvs:31811_:";
+"812";"Bernhausen - Flughafen/Messe - Stetten -
+Bonlanden - Bernhausen";"31";"31812_";"de:vvs:31812_:";
+"813";"Bernhausen - Bonlanden - Stetten -
+Flughafen/Messe - Bernhausen";"31";"31813_";"de:vvs:31813_:";
+"814";"Bernhausen - Plattenhardt - Echterdingen - Musberg";"31";"31814_";"de:vvs:31814_:";
+"815";"Bernhausen - Plattenhardt - Waldenbuch";"31";"31815_";"de:vvs:31815_:";
+"816";"Bernhausen - Neuhausen - Ruit";"31";"31816_";"de:vvs:31816_:";
+"816A";"Neuhausen - Bernhausen - Bonlanden (Schülerverkehr)";"31";"31816a";"de:vvs:31816a:";
+"817";"Neuhausen - Sielmingen - Bernhausen";"31";"31817_";"de:vvs:31817_:";
+"817";"Neuhausen - Sielmingen - Bernhausen";"31";"31817_";"de:vvs:31817_:";
+"818";"(Bernhausen -) Stetten - Echterdingen -
+Leinfelden - Musberg";"31";"31818_";"de:vvs:31818_:";
+"818A";"Musberg - Leinfelden - Echterdingen - Plattenhardt (Schülerverkehr)";"31";"31818a";"de:vvs:31818a:";
+"826";"Leinfelden - Waldenbuch - Tübingen";"31";"31826_";"de:vvs:31826_:";
+"826A";"Leinfelden - Waldenbuch (Schülerverkehr)";"31";"31826a";"de:vvs:31826a:";
+"826A";"Waldenbuch - Leinfelden (Schülerverkehr)";"31";"31826a";"de:vvs:31826a:";
+"827";"Häslach - Walddorf - Dettenhausen - Pfrondorf - Tübingen";"31";"31827_";"de:vvs:31827_:";
+"828";"Flughafen - Echterdingen - Waldenbuch - Tübingen";"31";"31828_";"de:vvs:31828_:";
+"901";"Göppingen ZOB - Friedhof - Stauferpark - Lise-Meitner-Straße";"31";"31901_";"de:vvs:31901_:";
+"901A";"Göppingen ZOB - Friedhof - Roseggerweg / Stadthalle";"31";"31901a";"de:vvs:31901a:";
+"902";"Göppingen ZOB - Klinik am Eichert";"31";"31902_";"de:vvs:31902_:";
+"903";"Göppingen ZOB - Galgenberg";"31";"31903_";"de:vvs:31903_:";
+"904";"Göppingen ZOB - Bartenbach - Hohrein Ortsmitte";"31";"31904_";"de:vvs:31904_:";
+"905";"Göppingen ZOB - Reuschkirche - Christkönigskirche";"31";"31905_";"de:vvs:31905_:";
+"906";"Göppingen ZOB - Jebenhausen Industriegebiet";"31";"31906_";"de:vvs:31906_:";
+"911";"Göppingen - Faurndau - Uhingen - Albershausen";"31";"31911_";"de:vvs:31911_:";
+"911A";"Göppingen - Faurndau - Uhingen - Albershausen";"31";"31911a";"de:vvs:31911a:";
+"912";"Göppingen - Faurndau - Wangen - Oberwälden";"31";"31912_";"de:vvs:31912_:";
+"912A";"Göppingen - Faurndau - Wangen - Oberwälden";"31";"31912a";"de:vvs:31912a:";
+"913";"Göppingen - Faurndau - Sparwiesen";"31";"31913_";"de:vvs:31913_:";
+"913A";"Sparwiesen - Faurndau - Göppingen";"31";"31913a";"de:vvs:31913a:";
+"914";"Göppingen - Faurndau - Uhingen - Albershausen
+- Schlierbach - Kirchheim (T)";"31";"31914_";"de:vvs:31914_:";
+"914A";"Göppingen ZOB - Faurndau - Uhingen - Albershausen -
+Schlierbach - Kirchheim (T)";"31";"31914a";"de:vvs:31914a:";
+"915";"Rechberghausen - Uhingen - Göppingen";"31";"31915_";"de:vvs:31915_:";
+"916";"Uhingen - Bünzwangen - Ebersbach";"31";"31916_";"de:vvs:31916_:";
+"916A";"Baiereck - Bünzwangen - Ebersbach";"31";"31916a";"de:vvs:31916a:";
+"917";"Ebersbach (F) - Winterbach";"31";"31917_";"de:vvs:31917_:";
+"918";"Uhingen - Baiereck";"31";"31918_";"de:vvs:31918_:";
+"920";"Göppingen ZOB - Jebenhausen - Bad Boll - Zell -
+Aichelberg - Weilheim (T)";"31";"31920_";"de:vvs:31920_:";
+"920A";"Göppingen ZOB - Jebenhausen - Bad Boll - Zell -
+Aichelberg - Weilheim (T)";"31";"31920a";"de:vvs:31920a:";
+"921";"Göppingen ZOB - Jebenhausen - Hattenhofen - Zell";"31";"31921_";"de:vvs:31921_:";
+"921A";"Göppingen ZOB - Jebenhausen - Hattenhofen - Zell";"31";"31921a";"de:vvs:31921a:";
+"922";"Uhingen - Sparwiesen - Hattenhofen - Zell";"31";"31922_";"de:vvs:31922_:";
+"922A";"Uhingen - Sparwiesen - Hattenhofen - Zell";"31";"31922a";"de:vvs:31922a:";
+"924";"Ebersbach - Weiler - Roßwälden - Schlierbach - Bad Boll";"31";"31924_";"de:vvs:31924_:";
+"924A";"Ebersbach - Weiler - Roßwälden - Schlierbach - Bad Boll";"31";"31924a";"de:vvs:31924a:";
+"931";"Göppingen - Rechberghausen - Wäschenbeuren";"31";"31931_";"de:vvs:31931_:";
+"931A";"Göppingen - Rechberghausen - Wäschenbeuren - (Lenglingen)";"31";"31931a";"de:vvs:31931a:";
+"932";"Göppingen - Faurndau - Rechberghausen - Schwäbisch Gmünd";"31";"31932_";"de:vvs:31932_:";
+"932A";"Göppingen - Rechberghausen - Lenglingen";"31";"31932a";"de:vvs:31932a:";
+"933";"Göppingen - Hohenstaufen - Maitis - Lenglingen";"31";"31933_";"de:vvs:31933_:";
+"933A";"Göppingen - Hohenstaufen (- Maitis - Lenglingen)";"31";"31933a";"de:vvs:31933a:";
+"934";"Göppingen - Bartenbach - Rechberghausen- Börtlingen";"31";"31934_";"de:vvs:31934_:";
+"934A";"Göppingen - Bartenbach - Rechberghausen - (Börtlingen)";"31";"31934a";"de:vvs:31934a:";
+"935";"Göppingen - Rechberghausen - Adelberg - Schorndorf";"31";"31935_";"de:vvs:31935_:";
+"935A";"Göppingen - Rechberghausen - Adelberg - Schorndorf";"31";"31935a";"de:vvs:31935a:";
+"940";"Göppingen ZOB - Eislingen Schlossplatz/Bahnhof";"31";"31940_";"de:vvs:31940_:";
+"941";"Göppingen - Eislingen - Salach - Eislingen - Ottenbach";"31";"31941_";"de:vvs:31941_:";
+"941A";"Eislingen - Salach - Eislingen - Ottenbach";"31";"31941a";"de:vvs:31941a:";
+"942";"Göppingen ZOB - Eislingen Zeisigweg";"31";"31942_";"de:vvs:31942_:";
+"950";"Böhmenkirch - Stötten - Geislingen ZOB";"31";"31950_";"de:vvs:31950_:";
+"950A";"Böhmenkirch - Stötten - Geislingen ZOB";"31";"31950a";"de:vvs:31950a:";
+"951";"Süßen - Gingen - Geislingen Stadtkirche";"31";"31951_";"de:vvs:31951_:";
+"951A";"Süßen - Gingen - Geislingen Stadtkirche";"31";"31951a";"de:vvs:31951a:";
+"957";"Geislingen Stadtkirche - Weiler - Schalkstetten";"31";"31957_";"de:vvs:31957_:";
+"958";"Geislingen ZOB - Eybach - Böhmenkirch";"31";"31958_";"de:vvs:31958_:";
+"958A";"Geislingen ZOB - Eybach - Böhmenkirch";"31";"31958a";"de:vvs:31958a:";
+"959";"Geislingen - Waldhausen - Gerstetten";"31";"31959_";"de:vvs:31959_:";
+"961";"Deggingen - Hohenstadt";"31";"31961_";"de:vvs:31961_:";
+"962";"Geislingen ZOB - Berufsschulzentrum - Wilhelmshöhe - ZOB";"31";"31962_";"de:vvs:31962_:";
+"963";"Geislingen ZOB - Wilhelmshöhe - Neuwiesen - Geislingen ZOB";"31";"31963_";"de:vvs:31963_:";
+"964";"Geislingen - Oberböhringen";"31";"31964_";"de:vvs:31964_:";
+"965";"Geislingen ZOB - Unterböhringen";"31";"31965_";"de:vvs:31965_:";
+"965A";"Geislingen Stadtkirche - Unterböhringen";"31";"31965a";"de:vvs:31965a:";
+"966";"Geislingen ZOB - Wiesensteig Rathaus";"31";"31966_";"de:vvs:31966_:";
+"966A";"Geislingen ZOB - Wiesensteig Rathaus";"31";"31966a";"de:vvs:31966a:";
+"967";"Merklingen - Wiesensteig - Gosbach - Merklingen";"31";"31967_";"de:vvs:31967_:";
+"968";"Merklingen - Gosbach - Wiesensteig - Merklingen";"31";"31968_";"de:vvs:31968_:";
+"970";"Süßen Fuchseckstr. - Bahnhof - Donzdorf Schulzentrum (Citybus)";"31";"31970_";"de:vvs:31970_:";
+"971";"Süßen - Reichenbach u.R. - Wißgoldingen";"31";"31971_";"de:vvs:31971_:";
+"972";"Göppingen ZOB - Süßen - Donzdorf - Böhmenkirch";"31";"31972_";"de:vvs:31972_:";
+"972A";"Göppingen ZOB - Süßen - Donzdorf - Böhmenkirch";"31";"31972a";"de:vvs:31972a:";
+"980";"Göppingen ZOB - Ursenwang - Schlat";"31";"31980_";"de:vvs:31980_:";
+"980A";"Göppingen ZOB - Ursenwang - Schlat";"31";"31980a";"de:vvs:31980a:";
+"981";"Göppingen ZOB - Gruibingen - Wiesensteig";"31";"31981_";"de:vvs:31981_:";
+"981A";"Deggingen - Gruibingen - Göppingen ZOB";"31";"31981a";"de:vvs:31981a:";
+"982";"Gammelshausen - Bad Ditzenbach - Deggingen";"31";"31982_";"de:vvs:31982_:";
+"983";"Göppingen ZOB - Heiningen - Bad Boll";"31";"31983_";"de:vvs:31983_:";
+"983A";"Göppingen ZOB - Heiningen - Bad Boll";"31";"31983a";"de:vvs:31983a:";
+"984";"Göppingen ZOB - Süßen ZOB";"31";"31984_";"de:vvs:31984_:";
+"984A";"Göppingen ZOB - Süßen ZOB";"31";"31984a";"de:vvs:31984a:";
+"997";"Göppingen ZOB - Berufsschulzentrum Öde";"31";"31997_";"de:vvs:31997_:";
+"X16";"(Sindelfingen -) Böblingen - Waldenbuch - Aichtal - Nürtingen";"31";"31X16_";"de:vvs:31X16_:";
+"X18";"Nürtingen - Neckartenzlingen - Mittelstadt";"31";"31X18_";"de:vvs:31X18_:";
+"X19";" Großbettlingen - Nürtingen";"31";"31X19_";"de:vvs:31X19_:";
+"X43";"Ludwigsburg - Neckargröningen - Hegnach - Waiblingen";"31";"31X43_";"de:vvs:31X43_:";
+"X46";"Beilstein - Oberstenfeld - Großbottwar - Marbach (N)";"31";"31X46_";"de:vvs:31X46_:";
+"X74";"Universität - Magstadt - Weil der Stadt";"31";"31X74_";"de:vvs:31X74_:";
+"X76";"Böblingen - Schönaich - Waldenbuch";"31";"31X76_";"de:vvs:31X76_:";
+"X77";"Altensteig - Nagold - Herrenberg (Schnellbus)";"31";"31X77_";"de:vvs:31X77_:";
+"X82";"Flughafen - Echterdingen - Waldenbuch - Tübingen";"31";"31X82_";"de:vvs:31X82_:";
+"N1";"Schlossplatz - Vaihingen
+Büsnau - Schlossplatz";"33";"33001_";"de:vvs:33001_:";
+"N2";"Schlossplatz - Botnang
+- Schlossplatz";"33";"33002_";"de:vvs:33002_:";
+"N3";"Schlossplatz - Gerlingen
+- Schlossplatz";"33";"33003_";"de:vvs:33003_:";
+"N4";"Schlossplatz - Zuffenhausen
+- Schlossplatz";"33";"33004_";"de:vvs:33004_:";
+"N5";"Schlossplatz - Neugereut
+- Schlossplatz";"33";"33005_";"de:vvs:33005_:";
+"N6";"Schlossplatz - Fellbach
+- Schlossplatz";"33";"33006_";"de:vvs:33006_:";
+"N7";"Schlossplatz - Heumaden
+- Schlossplatz";"33";"33007_";"de:vvs:33007_:";
+"N8";"Schlossplatz - Plieningen - Schlossplatz";"33";"33008_";"de:vvs:33008_:";
+"N9";"Schlossplatz - Fasanenhof
+- Schlossplatz";"33";"33009_";"de:vvs:33009_:";
+"N10";"Schlossplatz - Rohrer Höhe
+ - Schlossplatz";"33";"33010_";"de:vvs:33010_:";
+"N11";"Plochingen - Reichenbach - Hochdorf - Notzingen";"34";"34011_";"de:vvs:34011_:";
+"N12";"Esslingen (N) ZOB - Wäldenbronn - Wiflingshausen - Sulzgries -
+Rüdern - Neckarhalde - Sulzgries - Esslingen (N) ZOB";"34";"34012_";"de:vvs:34012_:";
+"N13";"Esslingen ZOB - Sirnau - Berkheim - Zollberg - ZOB";"34";"34013_";"de:vvs:34013_:";
+"N14";"Esslingen - Liebersbronn - Aichschieß - Aichelberg";"34";"34014_";"de:vvs:34014_:";
+"N15";"Wendlingen (N) - Köngen - Unterensingen -
+Nürtingen - Oberboihingen - Wendlingen (N)";"34";"34015_";"de:vvs:34015_:";
+"N16";"Esslingen - Baltmannsweiler - Hohengehren - Plochingen - Esslingen";"34";"34016_";"de:vvs:34016_:";
+"N18";"Oberaichen - Leinfelden - Echterdingen - Stetten";"34";"34018_";"de:vvs:34018_:";
+"N19";"Esslingen - Nellingen - Denkendorf -
+Neuhausen - Esslingen";"34";"34019_";"de:vvs:34019_:";
+"N21";"Waiblingen - Beinstein - Endersbach - Stetten - Waiblingen";"34";"34021_";"de:vvs:34021_:";
+"N22";"Esslingen - Ruit - Kemnat - Scharnhausen - Esslingen";"34";"34022_";"de:vvs:34022_:";
+"N24";"Bittenfeld - Hohenacker - Neustadt - Waiblingen - Hegnach";"34";"34024_";"de:vvs:34024_:";
+"N30";"Backnang - Burgstall - Kirchberg (M)";"34";"34030_";"de:vvs:34030_:";
+"N31";"Waiblingen - Korb - Großheppach";"34";"34031_";"de:vvs:34031_:";
+"N36";"Backnang - Steinbach - Heiningen -
+Waldrems - Maubach - Backnang";"34";"34036_";"de:vvs:34036_:";
+"N36";"Backnang - Steinbach - Heiningen -
+Waldrems - Maubach - Backnang";"34";"34036_";"de:vvs:34036_:";
+"N40";"Marbach (N) - Affalterbach - Kirchberg - Marbach (N)";"34";"34040_";"de:vvs:34040_:";
+"N41";"Ludwigsburg - Eglosheim - Neckarweihingen -
+Hoheneck";"34";"34041_";"de:vvs:34041_:";
+"N42";"Ludwigsburg Ost";"34";"34042_";"de:vvs:34042_:";
+"N43";"Ludwigsburg - Pattonville - Remseck - Poppenweiler ";"34";"34043_";"de:vvs:34043_:";
+"N44";"Freiberg (N) - Großingersheim - Pleidelsheim - Höpfigheim -
+Mundelsheim - Hessigheim - Kleiningersheim - Freiberg (N)";"34";"34044_";"de:vvs:34044_:";
+"N46";"Beilstein - Oberstenfeld - Großbottwar - Marbach (N)";"34";"34046_";"de:vvs:34046_:";
+"N47";"Kornwestheim Nord und Ost";"34";"34047_";"de:vvs:34047_:";
+"N48";"Kornwestheim Süd, Ost und Pattonville";"34";"34048_";"de:vvs:34048_:";
+"N52";"Bietigheim - Sachsenheim - Sersheim - Kleinglattbach
+Ensingen - Horrheim - Hohenhaslach - Bietigheim";"34";"34052_";"de:vvs:34052_:";
+"N53";"Ludwigsburg - Möglingen - Markgröningen -
+Schwieberdingen - Hemmingen - Münchingen";"34";"34053_";"de:vvs:34053_:";
+"N55";"Neuwirtshaus - Kallenberg - Münchingen -
+Schwieberdingen - Hemmingen - Eberdingen - Riet - Hochdorf";"34";"34055_";"de:vvs:34055_:";
+"N56";"Bietigheim - Untermberg - Unterriexingen - Oberriexingen
+Enzweihingen -Vaihingen(E) - Sachsenheim - Bietigheim";"34";"34056_";"de:vvs:34056_:";
+"N57";"Bietigheim - Löchgau - Freudental - Bönnigheim";"34";"34057_";"de:vvs:34057_:";
+"N58";"Bietigheim - Großingersheim - Besigheim - Ottmarsheim -
+Gemmrigheim - Kirchheim (N) - Walheim - Besigheim - Bietigheim";"34";"34058_";"de:vvs:34058_:";
+"N61";"Döffingen - Weil der Stadt - Hausen";"34";"34061_";"de:vvs:34061_:";
+"N62";"Leonberg - Gebersheim - Rutesheim
+- Perouse - Flacht - Weissach";"34";"34062_";"de:vvs:34062_:";
+"N63";"Universität - Gerlingen Schillerhöhe - Leonberg Bf
+- Ramtel - Eltingen - Warmbronn - Universität";"34";"34063_";"de:vvs:34063_:";
+"N70";"Herrenberg - Bondorf - Mötzingen - Nagold";"34";"34070_";"de:vvs:34070_:";
+"N73";"Böblingen ZOB - Diezenhalde - Panzerkaserne -
+Sindelfingen Eichholz - Böblingen ZOB";"34";"34073_";"de:vvs:34073_:";
+"N74";"Böblingen - Holzgerlingen - Altdorf - Hildrizhausen -
+Weil i.S. - Neuweiler - Breitenstein - Schönaich- Böbl.";"34";"34074_";"de:vvs:34074_:";
+"N75";"Böblingen - Dagersheim - Aidlingen -
+Deufringen - Dagersheim - Böblingen";"34";"34075_";"de:vvs:34075_:";
+"N77";"Gärtringen - Rohrau - Herrenberg - Affstätt - Kuppingen - 
+Oberjesingen - Deckenpfronn - Gärtringen";"34";"34077_";"de:vvs:34077_:";
+"N80";"Tübingen - Herrenberg";"34";"34080_";"de:naldo:53N80_:";
+"N85";"Nürtingen - Rossdorf - Enzenhardt -
+Raidwangen - Großbettlingen - Nürtingen";"34";"34085_";"de:vvs:34085_:";
+"N87";"Nürtingen - Neckartenzlingen -Schlaitdorf -
+Altenriet - Nürtingen";"34";"34087_";"de:vvs:34087_:";
+"N89";"Bernhausen - Bonlanden - Aichtal - Neckartailfingen - Bernhausen";"34";"34089_";"de:vvs:34089_:";
+"N90";"Göppingen ZOB - Faurndau - Wangen - Rechberghausen -
+Bartenbach - Göppingen ZOB";"34";"34090_";"de:vvs:34090_:";
+"N91";"Uhingen - Schlierbach - Ebersbach - Uhingen";"34";"34091_";"de:vvs:34091_:";
+"N92";"Göppingen ZOB - Jebenhausen - Hattenhofen - Zell - Bad Boll -
+Jebenhausen - Göppingen ZOB";"34";"34092_";"de:vvs:34092_:";
+"N93";"Göppingen ZOB - Bartenbach - Rechberghausen - Birenbach -
+Wäschenbeuren - Maitis- Lenglingen - Hohenstaufen - Göppingen";"34";"34093_";"de:vvs:34093_:";
+"N94";"Göppingen ZOB - Eschenbach - Heiningen - Göppingen ZOB";"34";"34094_";"de:vvs:34094_:";
+"N96";"Geislingen ZOB - Bad Ditzenbach - Gruibingen";"34";"34096_";"de:vvs:34096_:";
+"N97";"Göppingen ZOB - Süßen - Donzdorf - Böhmenkirch";"34";"34097_";"de:vvs:34097_:";
+"N98";"Göppingen ZOB - Heiningen - Bad Boll - Göppingen ZOB";"34";"34098_";"de:vvs:34098_:";
+"X10";"Kirchheim (T) - Flughafen/Messe";"35";"35X10_";"de:vvs:35X10_:";
+"X20";"Waiblingen - Esslingen";"35";"35X20_";"de:vvs:35X20_:";
+"X60";"Leonberg - Universität - Flughafen/Messe";"35";"35X60_";"de:vvs:35X60_:";
+"X93";"Göppingen - Lorch";"35";"35X93_";"de:vvs:35X93_:";
+"MEX16E";"Ulm - Plochingen
+(Schienenersatzverkehr)";"36";"36016e";"de:vvs:36016e:";
+"BB03";"";"41";"410B3_";"de:vvs:410B3_:";
+"BB11";"";"41";"41B11_";"de:vvs:41B11_:";
+"BB15";"";"41";"41B15_";"de:vvs:41B15_:";
+"BB16";"";"41";"41B16_";"de:vvs:41B16_:";
+"BB17";"";"41";"41B17_";"de:vvs:41B17_:";
+"BB40";"";"41";"41B40_";"de:vvs:41B40_:";
+"BB43";"";"41";"41B43_";"de:vvs:vvs-41-B43:";
+"BB81";"";"41";"41B81A";"de:vvs:41B81A:";
+"BB81";"";"41";"41B81B";"de:vvs:41B81B:";
+"BB82";"";"41";"41B82A";"de:vvs:41B82A:";
+"BB90";"";"41";"41B90_";"de:vvs:41B90_:";
+"BB91";"";"41";"41B91_";"de:vvs:41B91_:";
+"BB92";"";"41";"41B92_";"de:vvs:41B92_:";
+"BB93";"";"41";"41B93_";"de:vvs:41B93_:";
+"BB94";"";"41";"41B94_";"de:vvs:41B94_:";
+"RT92";"Heslach Vogelrain - Rudolf-Sophien-Stift";"50";"50092_";"de:vvs:50092_:";
+"RT161";"Ruftaxi Kirchheim (T) Altvaterweg - Ötlingen";"50";"50161_";"de:vvs:50161_:";
+"RT163";"Ötlingen - Lindorf - Kirchheim (T) ZOB - Schafhof";"50";"50163_";"de:vvs:50163_:";
+"RT165";"Kirchheim (T) - Ohmden - Zell (A)";"50";"50165_";"de:vvs:50165_:";
+"RT202";"Endersbach - Strümpfelbach";"50";"50202_";"de:vvs:50202_:";
+"RT206";"Endersbach - Beutelsbach - Schnait";"50";"50206_";"de:vvs:50206_:";
+"RT217";"Grunbach - Buoch - Hebsack - Rohrbronn";"50";"50217_";"de:vvs:50217_:";
+"RT380";"Sulzbach (M) - Großerlach";"50";"50380_";"de:vvs:50380_:";
+"RT386";"Sulzbach (M) - Spiegelberg";"50";"50386_";"de:vvs:50386_:";
+"RT413";"Ruftaxi Kornwestheim";"50";"50413_";"de:vvs:50413_:";
+"RT753";"Rohrau Rathaus - Gärtringen Bahnhof";"50";"50753_";"de:vvs:50753_:";
+"RT759";"Liebelsberg - Wildberg - Deckenpfronn - Gärtringen";"50";"50759_";"de:vvs:50759_:";
+"RT775";"Wildberg - Kuppingen - Herrenberg";"50";"50775_";"de:vvs:50775_:";
+"RT779";"Herrenb. ZOB Bhfstr. - Vogelsang - ZOB";"50";"50779_";"de:vvs:50779_:";
+"RT780";"Herrenberg ZOB - Nord - West - Kalkofenstraße";"50";"50780_";"de:vvs:50780_:";
+"RT782";"Herrenberg ZOB - Ehbühl - Waldfriedhof";"50";"50782_";"de:vvs:50782_:";
+"RT783";"Herrenberg ZOB - Polizeihochschule - Herrenberg ZOB";"50";"50783_";"de:vvs:50783_:";
+"RT791";"Entringen - Breitenholz - Kayh";"50";"50791_";"de:vvs:50791_:";
+"RT828";"Dettenhausen - Tübingen";"50";"50828_";"de:vvs:50828_:";
+"RT904";"Göppingen ZOB - Bartenbach - Hohrein Ortsmitte";"50";"50904_";"de:vvs:50904_:";
+"RT915";"Wangen - Oberwälden - Rechberghausen";"50";"50915_";"de:vvs:50915_:";
+"RT916";"Bünzwangen - Ebersbach (F)";"50";"50916_";"de:vvs:50916_:";
+"RT917";"Ebersbach (F) - Büchenbronn";"50";"50917_";"de:vvs:50917_:";
+"RT918";"Uhingen - Baiereck";"50";"50918_";"de:vvs:50918_:";
+"RT920";"Zell - Aichelberg - Weilheim (T)";"50";"50920_";"de:vvs:50920_:";
+"RT922";"Uhingen - Sparwiesen";"50";"50922_";"de:vvs:50922_:";
+"RT924";"Ebersbach - Roßwälden - Bad Boll";"50";"50924_";"de:vvs:50924_:";
+"RT934";"Rechberghausen - Börtlingen";"50";"50934_";"de:vvs:50934_:";
+"RT935";"Rechberghausen - Adelberg";"50";"50935_";"de:vvs:50935_:";
+"RT941";"Eislingen - Ottenbach";"50";"50941_";"de:vvs:50941_:";
+"RT971";"Donzdorf - Reichenbach u.R. -  Wißgoldingen";"50";"50971_";"de:vvs:50971_:";
+"RT982";"Gammelshausen - Bad Ditzenbach - Deggingen";"50";"50982_";"de:vvs:50982_:";
+"RT4";"Zuffenhausen Rathaus - Zazenhausen";"51";"51004_";"de:vvs:51004_:";
+"RT6";"Kelterplatz - Rotenberg";"51";"51006_";"de:vvs:51006_:";
+"RT7";"Ährenweg - Rohracker";"51";"51007_";"de:vvs:51007_:";
+"RT16";"Kirchh. (T) Marktplatz. - Rembrandtweg - Marktplatz";"51";"51016_";"de:vvs:51016_:";
+"RT17";"Ruftaxi Kirchheim (T) Im Münzen - Saarstraße - ZOB";"51";"51017_";"de:vvs:51017_:";
+"RT37";"Murrhardt Nord";"51";"51037_";"de:vvs:51037_:";
+"RT38";"Murrhardt Süd";"51";"51038_";"de:vvs:51038_:";
+"RT39";"Murrhardt Mitte";"51";"51039_";"de:vvs:51039_:";
+"RT70";"Degerloch (B27) - Königsträßle - Ruhbank";"51";"51070_";"de:vvs:51070_:";
+"RTN99";"Gammelshausen - Bad Ditzenbach - Drackenstein";"51";"51099_";"de:vvs:51099_:";
+"RT225";"Ruftaxi Rommelshausen";"51";"51225_";"de:vvs:51225_:";
+"LT967";"Wiesensteig - Gosbach - Merklingen";"52";"52967_";"de:vvs:52967_:";
+"35";"Heidenheim - Söhnstetten - Böhmenkirch";"73";"73035_";"de:din:20035e:";
+"268";"Alfdorf - Pfahlbronn - Lorch";"74";"74268_";"de:ostalbmobil:40268_:";
+"46";"Ulm - Amstetten - Geislingen";"75";"75046_";"de:ding.eu:20046_:";
+"346";"Hohenstadt - Westerheim - Laichingen (- Heroldstatt)";"75";"75346_";"de:ding.eu:88346_:";
+"350";"(Laichingen - Merklingen) - Aufhausen - Geislingen";"75";"75350_";"de:din:88350_:";
+"670";"Weil der Stadt - Schafhausen - Dätzingen - Althengstett - Calw";"76";"76670_";"de:vgc-online:03670_:";
+"670.2";"Hirsau - Calw - Althengstett - Weil der Stadt";"76";"766702";"de:vgc-online:01670_:";
+"759";"Liebelsberg - Wildberg - Deckenpfronn - Gärtringen";"76";"76759_";"de:vgc-online:15759_: ";
+"775";"Wildberg - Kuppingen - Herrenberg";"76";"76775_";"de:vgc-online:15775_: ";
+"880";"Bad Liebenzell - Weil der Stadt";"76";"76880_";"de:vgc-online:01880_:";
+"707";"Mühlacker - Mühlhausen (E) - Illingen - Vaihingen (E) - Großglattbach";"77";"77707_";"de:vpe:04707_:";
+"762";"Pforzheim - Heimsheim - Malmsheim Bosch-Campus - Renningen";"77";"77762_";"de:vpe:04762_:";
+"763";"Pforzheim - Mönsheim - Iptingen (-Weissach Porsche)";"77";"77763_";"de:vpe:04763_:";
+"765";"Weissach Porsche - Mönsheim - Wiernsheim";"77";"77765_";"de:vpe:04765_:";
+"644";"Ilsfeld - Beilstein - Prevorst";"78";"78644_";"de:h3nv:31644_:";
+"646";"Kirchheim (N) - Neckarwestheim - Untergruppenbach";"78";"78646_";"de:h3nv:31646_:";
+"666";"Freudental - Tripsdrill - Brackenheim";"78";"78666_";"de:h3nv:31666_:";
+"7627";"Rottenburg (N) - Bondorf (- Ergenzingen/Mötzingen)";"80";"80627_";"de:naldo:bd9146d427364d8780b3fafc3fc269a1:";
+"X27";"Rottenburg (N) - Remmingsheim - Seebronn - Bondorf";"80";"80X27_";"de:naldo:7e75e6be45cd40b9bf51980ddd28853d:";
+"X3";"Pfullingen - Reutlingen - Flughafen - Bernhausen";"81";"810X3_";"de:naldo:e4ae154a02ff40458760abdcbaf6dfb3:";

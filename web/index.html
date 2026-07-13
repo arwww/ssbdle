@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <meta
+      name="description"
+      content="SSBdle – Errate die gesuchte Haltestelle."
+    />
+
+    <title>SSBdle</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="page-shell">
+      <header class="site-header">
+        <div class="brand-area">
+          <div class="brand-mark" aria-hidden="true">
+            SSB
+          </div>
+
+          <div>
+            <p class="brand-kicker">
+              Stuttgarter Haltestellen-Wordle
+            </p>
+
+            <h1>SSBdle</h1>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <button
+            id="toggle-hints-button"
+            class="header-button"
+            type="button"
+            aria-pressed="false"
+          >
+            <span aria-hidden="true">◉</span>
+
+            <span id="toggle-hints-label">
+              Suchhilfen an
+            </span>
+          </button>
+
+          <button
+            id="theme-toggle"
+            class="header-button"
+            type="button"
+            aria-label="Farbschema wechseln"
+          >
+            <span id="theme-icon" aria-hidden="true">
+              ◐
+            </span>
+
+            <span id="theme-label">
+              Dark Mode
+            </span>
+          </button>
+        </div>
+
+        <div class="hero-content">
+          <div>
+            <p class="hero-title">
+              Welche Haltestelle wird gesucht?
+            </p>
+
+            <p class="hero-description">
+              Vergleiche Verkehrsmittel, Teilort,
+              Linienzahl, gemeinsame Linien und Entfernung.
+            </p>
+          </div>
+
+          <div class="attempt-display">
+            <span>Versuche</span>
+
+            <strong id="attempt-counter">
+              0 / 6
+            </strong>
+          </div>
+        </div>
+      </header>
+
+      <section class="results-panel">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">
+              Spielverlauf
+            </p>
+
+            <h2>Deine Tipps</h2>
+          </div>
+
+          <div
+            class="result-legend"
+            aria-label="Farblegende"
+          >
+            <span class="legend-pill correct">
+              Richtig
+            </span>
+
+            <span class="legend-pill partial">
+              Teilweise
+            </span>
+
+            <span class="legend-pill wrong">
+              Falsch
+            </span>
+          </div>
+        </div>
+
+        <div id="empty-state" class="empty-state">
+          <div class="empty-symbol" aria-hidden="true">
+            ?
+          </div>
+
+          <div>
+            <strong>Noch kein Tipp</strong>
+
+            <p>
+              Wähle unten eine Haltestelle aus und
+              starte deinen ersten Versuch.
+            </p>
+          </div>
+        </div>
+
+        <div class="table-wrapper">
+          <table class="results-table">
+            <thead>
+              <tr>
+                <th>Haltestelle</th>
+                <th>Verkehrsmittel</th>
+                <th>Teilort / Ort</th>
+                <th>Linienzahl</th>
+                <th>Gemeinsame Linien</th>
+                <th>Entfernung</th>
+              </tr>
+            </thead>
+
+            <tbody id="results-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section
+        id="end-message"
+        class="end-message hidden"
+        aria-live="polite"
+      >
+        <div class="end-symbol" aria-hidden="true">
+          ✓
+        </div>
+
+        <div class="end-content">
+          <h2 id="end-title"></h2>
+          <p id="end-text"></p>
+        </div>
+
+        <button
+          id="restart-button"
+          class="secondary-button"
+          type="button"
+        >
+          Neue Testrunde
+        </button>
+      </section>
+
+      <section id="search-dock" class="search-dock">
+        <div class="search-dock-header">
+          <div>
+            <p class="section-kicker">
+              Nächster Versuch
+            </p>
+
+            <h2>Haltestelle eingeben</h2>
+          </div>
+
+          <span id="search-mode-note">
+            Ort und Linien werden angezeigt
+          </span>
+        </div>
+
+        <form id="guess-form" class="guess-form">
+          <label
+            for="station-input"
+            class="visually-hidden"
+          >
+            Haltestelle suchen
+          </label>
+
+          <div class="input-row">
+            <div class="station-search">
+              <div class="display-casing">
+                <div
+                  id="led-input-screen"
+                  class="led-input-screen"
+                >
+                  <canvas
+                    id="led-input-canvas"
+                    aria-hidden="true"
+                  ></canvas>
+
+                  <span
+                    id="led-fallback-text"
+                    class="led-fallback-text"
+                    aria-hidden="true"
+                  >
+                    Haltestelle suchen
+                  </span>
+
+                  <input
+                    id="station-input"
+                    name="station"
+                    type="text"
+                    autocomplete="off"
+                    role="combobox"
+                    aria-autocomplete="list"
+                    aria-expanded="false"
+                    aria-controls="search-results"
+                    aria-label="Haltestelle suchen"
+                    disabled
+                  />
+
+                  <button
+                    id="clear-search"
+                    class="clear-search hidden"
+                    type="button"
+                    aria-label="Eingabe löschen"
+                  >
+                    ×
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <button
+              id="guess-button"
+              class="primary-button"
+              type="submit"
+              disabled
+            >
+              Raten
+            </button>
+          </div>
+        </form>
+
+        <!--
+          Die Vorschläge stehen bewusst unterhalb
+          des unveränderten Eingabefeldes.
+        -->
+
+        <div
+          id="search-results"
+          class="search-results hidden"
+          role="listbox"
+          aria-label="Haltestellenvorschläge"
+        ></div>
+
+        <div class="status-bar">
+          <span class="status-light" aria-hidden="true"></span>
+
+          <p id="status-message" aria-live="polite">
+            Haltestellendaten werden geladen …
+          </p>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <span>SSBdle</span>
+        <span>Lokaler Entwicklungsmodus</span>
+      </footer>
+    </main>
+
+    <!--
+      Wichtig: LED-Zeichensatz muss vor script.js
+      geladen werden.
+    -->
+
+    <script src="ledfont5x7.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

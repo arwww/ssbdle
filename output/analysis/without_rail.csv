@@ -1,0 +1,594 @@
+﻿id,name,name_with_place,municipality,locality,modes,lines,line_count,has_bus,has_rail
+de:08115:3105,Elbenplatz,Böblingen Elbenplatz,Böblingen,Böblingen,Bus,"705, 709, 709A, 721, 721A, 723, 725, 760, 760A, 761, X16, X76",12,True,False
+de:08115:4631,Hauptstraße,Dagersheim Hauptstraße,Böblingen,Dagersheim,Bus; Nachtbus,"707, 717, 722, 722A, 723, 723A, 743, 744, 763, 763A, 766, N75",12,True,False
+de:08115:4630,Haus der Vereine,Dagersh. Haus d. Vereine,Böblingen,Dagersheim,Bus; Nachtbus,"707, 717, 722, 722A, 723, 723A, 743, 744, 763, 763A, 766, N75",12,True,False
+de:08115:3104,Postplatz,Böblingen Postplatz,Böblingen,Böblingen,Bus,"705, 709, 709A, 721, 721A, 723, 725, 760, 760A, 761, X16, X76",12,True,False
+de:08115:3101,Arbeiterzentrum,Böblingen Arbeiterzentrum,Böblingen,Böblingen,Bus,"705, 709, 709A, 721, 723, 725, 760, 760A, 761, X16, X76",11,True,False
+de:08115:4620,Calwer Straße,Böblingen Calwer Str.,Böblingen,Böblingen,Bus; Nachtbus,"707, 717, 722A, 723, 728, 743, 744, 763, 763A, 766, N75",11,True,False
+de:08115:4621,Calwer Straße (Hulb),Böblingen Calwer Str. (Hulb),Böblingen,Böblingen,Bus; Nachtbus,"705, 707, 717, 722A, 723, 743, 744, 763, 763A, 766, N75",11,True,False
+de:08115:3125,Klaffensteinstraße,Böblingen Klaffensteinstr.,Böblingen,Böblingen,Bus; Ruftaxi,"705, 709, 723, 725, 760, 760A, 761, X16, X76, RT760",10,True,False
+de:08115:4619,Talstraße,Böblingen Talstraße,Böblingen,Böblingen,Bus,"707, 717, 722A, 723, 728, 743, 744, 763, 763A, 766",10,True,False
+de:08115:4764,Aidlinger Straße,Dagersheim Aidlinger Str.,Böblingen,Dagersheim,Bus,"707, 717, 722, 722A, 723, 743, 744, 763, 763A",9,True,False
+de:08115:3127,Sporthalle,Böblingen Sporthalle,Böblingen,Böblingen,Bus; Nachtbus,"703, 705, 709, 760, 760A, 761, X16, X76, N73",9,True,False
+de:08115:3112,Friedrich-List-Platz,Böblingen Friedrich-List-Platz,Böblingen,Böblingen,Bus; Nachtbus,"705, 706, 709, 709A, 721, 723, 725, N74",8,True,False
+de:08115:4672,Schönaicher First,Böblingen Schönaicher First,Böblingen,Böblingen,Bus; Nachtbus,"709, 709A, 760, 760A, 761, X16, X76, N74",8,True,False
+de:08115:4655,Eichenpfädle,Dagersh. Eichenpfädle,Böblingen,Dagersheim,Bus,"707, 717, 717A, 722A, 723, 723A, 763",7,True,False
+de:08115:4692,Hallenbad,Böblingen Hallenbad,Böblingen,Böblingen,Bus; Nachtbus,"709, 760, 760A, 761, X16, X76, N74",7,True,False
+de:08115:4632,Kirche,Dagersheim Kirche,Böblingen,Dagersheim,Bus,"707, 717, 717A, 722A, 723, 723A, 763",7,True,False
+de:08115:4633,Schützenweg,Dagersheim Schützenweg,Böblingen,Dagersheim,Bus,"707, 717, 717A, 722A, 723, 723A, 763",7,True,False
+de:08115:4205,Sindelfinger Straße,Böblingen Sindelfinger Str.,Böblingen,Böblingen,Bus,"701, 701A, 709, 709A, 744, 763, 763A",7,True,False
+de:08115:4617,Abzweig Rauher Kapf,Böblingen Abzw. Rauher Kapf,Böblingen,Böblingen,Bus; Nachtbus,"760, 760A, 761, X16, X76, N74",6,True,False
+de:08115:6751,Diezenhalde (Zentrum),Böbl. Diezenhalde (Zentrum),Böblingen,Böblingen,Bus; Nachtbus,"701, 703, 705, 721, 721A, N73",6,True,False
+de:08115:3139,Diezenhalde (Zentrum) Süd,Böbl. Diezenh. (Zentrum) Süd,Böblingen,Böblingen,Bus,"701, 701A, 705, 721, 721A",5,True,False
+de:08115:4669,Eichendorff-Schule,Böblingen Eichendorff-Schule,Böblingen,Böblingen,Bus; Nachtbus,"703, 709A, 723, 725, N73",5,True,False
+de:08115:4705,Freiburger Allee,Böblingen Freiburger Allee,Böblingen,Böblingen,Bus,"701, 701A, 703, 705, 721A",5,True,False
+de:08115:4716,Herrenberger Straße,Böblingen Herrenberger Straße,Böblingen,Böblingen,Bus; SEV-Bus,"R46E, 722, 722A, 763A, S1E",5,True,False
+de:08115:3103,Karlstraße,Böblingen Karlstraße,Böblingen,Böblingen,Bus; Nachtbus,"701, 701A, 703, 721, N74",5,True,False
+de:08115:4707,Kremser Straße,Böblingen Kremser Straße,Böblingen,Böblingen,Bus; SEV-Bus,"R46E, 722, 722A, 723A, 763A",5,True,False
+de:08115:5807,Panzerkaserne,Böblingen Panzerkaserne,Böblingen,Böblingen,Bus; Nachtbus,"704A, 708, 725, 734, N73",5,True,False
+de:08115:4670,Schulzentrum Murkenbach,Böbl. Schulzentrum Murkenbach,Böblingen,Böblingen,Bus,"703, 709A, 721A, 723",4,True,False
+de:08116:7801,ZOB,Esslingen (N) ZOB,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus; SEV-Bus,"101, 102, 103, 104, 105, 106, 108, 109, 110, 111, 113, 114, 115, 118, 119, 120, 122, 130, 131, 140, N12, N13, N14, N16, N19, N22, X20, S1E, MEX16E",29,True,False
+de:08116:2806,Pliensauturm,Esslingen (N) Pliensauturm,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"101, 102, 103, 104, 106, 108, 110, 111, 113, 114, 115, 118, 119, 120, 130, 131, 140, N12, N13, N14, N16, N19, N22",23,True,False
+de:08116:2800,Maille,Esslingen (N) Maille,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"102, 103, 108, 110, 111, 113, 118, 119, 120, 130, 131, N14, N16, N19, N22",15,True,False
+de:08116:4007,Schelztor,Esslingen (N) Schelztor,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"101, 102, 103, 105, 108, 109, 110, 115, 122, N14",10,True,False
+de:08116:2801,Weilstraße,Pliensauv. Weilstraße,Esslingen am Neckar,Pliensauvorstadt,Bus; Nachtbus,"113, 118, 119, 120, 122, 130, 131, N19, N22",9,True,False
+de:08116:4094,Katharinenstaffel,Essl.(N) Katharinenstaffel,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"102, 103, 105, 108, 110, 111, N12, N14",8,True,False
+de:08116:4034,Kleiner Markt,Esslingen (N) Kleiner Markt,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"102, 103, 105, 108, 109, 110, 122, N14",8,True,False
+de:08116:4006,Schwimmbad,Esslingen (N) Schwimmbad,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"101, 106, 113, 114, 115, 140, N13, N16",8,True,False
+de:08116:4033,Neckar Forum,Esslingen (N) Neckar Forum,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"102, 103, 105, 108, 110, 122, N14",7,True,False
+de:08116:4002,Steinhalde,Oberesslingen Steinhalde,Esslingen am Neckar,Oberesslingen,Bus; Nachtbus,"101, 106, 114, 114A, 132, 140, N16",7,True,False
+de:08116:3807,Alte Heusteige,Zell Alte Heusteige,Esslingen am Neckar,Zell (Esslingen),Bus,"102, 103, 114A, 115, 138, 140",6,True,False
+de:08116:4170,Berufliches Schulzentrum,Zell Berufliches Schulzentrum,Esslingen am Neckar,Zell (Esslingen),Bus,"102, 103, 104, 114A, 115, 138",6,True,False
+de:08116:3805,Charlottenplatz,Esslingen (N) Charlottenplatz,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"101, 106, 114, 115, 140, N16",6,True,False
+de:08116:4028,Hirschlandkopf,Esslingen (N) Hirschlandkopf,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"102, 103, 105, 108, 111, N14",6,True,False
+de:08116:4022,Hochschule,Esslingen (N) Hochschule,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"108, 110, 111, 122, N12, N14",6,True,False
+de:08116:3810,Indexstraße/Bahnhof,Oberesslingen Indexstr/Bahnhof,Esslingen am Neckar,Oberesslingen,Bus; Nachtbus,"101, 106, 114, 115, 140, N16",6,True,False
+de:08116:4063,Lenaudenkmal,Esslingen (N) Lenaudenkmal,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"102, 103, 105, 108, 111, N14",6,True,False
+de:08116:4037,Adalbert-Stifter-Schule,Pliensauv. A.-Stifter-Schule,Esslingen am Neckar,Pliensauvorstadt,Bus,"102, 103, 122, 130, 131",5,True,False
+de:08116:4047,Alleenstraße,Zell Alleenstraße,Esslingen am Neckar,Zell (Esslingen),Bus,"102, 103, 104, 115, 138",5,True,False
+de:08116:6770,Im Holder,Pliensauv. Im Holder,Esslingen am Neckar,Pliensauvorstadt,Bus; Nachtbus,"113, 118, 119, 120, N19",5,True,False
+de:08116:5024,Oberer Eisbergweg,Zollberg Ob. Eisbergweg,Esslingen am Neckar,Zollberg,Bus; Nachtbus,"113, 118, 119, 120, N19",5,True,False
+de:08116:3850,Steinbeisstraße,Zell Steinbeisstraße,Esslingen am Neckar,Zell (Esslingen),Bus,"102, 103, 114A, 115, 138",5,True,False
+de:08116:4026,Weiherstraße,Oberessl. Weiherstraße,Esslingen am Neckar,Oberesslingen,Bus,"102, 103, 114A, 132, 138",5,True,False
+de:08116:4169,Zentrum,Zell Zentrum,Esslingen am Neckar,Zell (Esslingen),Bus,"102, 103, 114A, 115, 138",5,True,False
+de:08116:4027,Zimmerbachstraße,Oberesslingen Zimmerbachstr.,Esslingen am Neckar,Oberesslingen,Bus,"102, 103, 114A, 132, 138",5,True,False
+de:08116:2803,Zollberg,Zollberg,Esslingen am Neckar,Zollberg,Bus; Nachtbus,"113, 118, 119, 120, N19",5,True,False
+de:08116:4148,Gemeindezentrum,Berkh. Gemeindezentrum,Esslingen am Neckar,Berkheim,Bus; Nachtbus,"113, 138, N13",3,True,False
+de:08116:4113,Zentrum,Sulzgries Zentrum,Esslingen am Neckar,Sulzgries,Bus; Nachtbus,"109, 132, N12",3,True,False
+de:08116:3326,Bahnhof (Süd),Oberessl. Bahnhof (Süd),Esslingen am Neckar,Oberesslingen,Bus,"104, 121",2,True,False
+de:08119:2378,Jakob-/Butterstraße,Schmiden Jakob-/Butterstr.,Fellbach,Schmiden,Bus; Nachtbus,"58, 60, 205, 214, N6",5,True,False
+de:08119:2377,Rathaus,Schmiden Rathaus,Fellbach,Schmiden,Bus; Nachtbus,"58, 60, 205, 214, N6",5,True,False
+de:08119:2381,Gemeindezentrum,Oeffingen Gemeindezentrum,Fellbach,Oeffingen,Bus; Nachtbus,"60, 214, N6",3,True,False
+de:08116:2006,Bahnhof,Bernhausen Bahnhof,Filderstadt,Bernhausen,Bus; Nachtbus; SEV-Bus,"X4, 74, 76, 805, 807, 808, 809, 809A, 811, 812, 813, 814, 815, 816, 816A, 817, 818, N89, S2E, X3",20,True,False
+de:08116:2071,Fleinsbach,Bernhausen Fleinsbach,Filderstadt,Bernhausen,Bus,"76, 805, 807, 808, 809, 809A, 812, 813, 814, 815, 816A, 818",12,True,False
+de:08116:2025,Driefbrunnen,Plattenhardt Driefbrunnen,Filderstadt,Plattenhardt,Bus,"X7, 76, 77, 812, 813, 814, 816A, 818, 818A",9,True,False
+de:08116:2028,Rathaus,Plattenhardt Rathaus,Filderstadt,Plattenhardt,Bus; Nachtbus,"X7, 76, 77, 809A, 812, 813, 816A, 818A, N89",9,True,False
+de:08116:2024,Kirche,Harthausen Kirche,Filderstadt,Harthausen,Bus; Nachtbus,"X7, 77, 805, 807, 809, 809A, 816A, N89",8,True,False
+de:08116:2023,Linde,Harthausen Linde,Filderstadt,Harthausen,Bus; Nachtbus,"X7, 77, 805, 807, 809, 809A, 816A, N89",8,True,False
+de:08116:2029,Waldstraße,Plattenhardt Waldstraße,Filderstadt,Plattenhardt,Bus,"76, 77, 812, 813, 814, 816A, 818, 818A",8,True,False
+de:08116:2078,Marktstraße,Bonlanden Marktstraße,Filderstadt,Bonlanden,Bus; Nachtbus,"X7, 76, 77, 809A, 816A, 818A, N89",7,True,False
+de:08116:5798,Metzinger Straße,Bonl. Metzinger Straße,Filderstadt,Bonlanden,Bus; Nachtbus,"X7, 76, 77, 809A, 816A, 818A, N89",7,True,False
+de:08116:2080,Roßbergstraße,Harthausen Roßbergstraße,Filderstadt,Harthausen,Bus; Nachtbus,"77, 805, 807, 809, 809A, 816A, N89",7,True,False
+de:08116:2015,Bonlandener Straße,Bonlanden Bonlandener Straße,Filderstadt,Bonlanden,Bus; Nachtbus,"77, 805, 808, 816A, 818A, N89",6,True,False
+de:08116:2081,Carl-Zeiss-Straße,Harthausen Carl-Zeiss-Straße,Filderstadt,Harthausen,Bus,"X7, 77, 805, 809, 809A, 816A",6,True,False
+de:08116:2017,Fildorado,Bonlanden Fildorado,Filderstadt,Bonlanden,Bus,"809A, 812, 813, 815, 816A, 818A",6,True,False
+de:08116:6727,Griebenäcker,Plattenhardt Griebenäcker,Filderstadt,Plattenhardt,Bus; Nachtbus,"809A, 814, 816A, 818, 818A, N89",6,True,False
+de:08116:6735,Kronenbrunnen,Plattenhardt Kronenbrunnen,Filderstadt,Plattenhardt,Bus,"76, 77, 812, 813, 816A, 818A",6,True,False
+de:08116:2021,Nord,Bonlanden Nord,Filderstadt,Bonlanden,Bus,"76, 809A, 812, 813, 815, 816A",6,True,False
+de:08116:1997,Raiffeisenstraße,Bonlanden Raiffeisenstraße,Filderstadt,Bonlanden,Bus,"805, 807, 808, 809, 809A, 816A",6,True,False
+de:08116:2051,Schillerstraße,Plattenhardt Schillerstraße,Filderstadt,Plattenhardt,Bus; Nachtbus,"809A, 814, 816A, 818, 818A, N89",6,True,False
+de:08116:2082,Am Lindle,Bonlanden Am Lindle,Filderstadt,Bonlanden,Bus,"812, 813, 815, 816A, 818A",5,True,False
+de:08116:2049,Eduard-Spranger-Gymnasium,Bernh. Ed.-Spranger-Gymnasium,Filderstadt,Bernhausen,Bus,"809A, 814, 816A, 818, 818A",5,True,False
+de:08116:2016,Filderklinik,Bonlanden Filderklinik,Filderstadt,Bonlanden,Bus,"809A, 812, 813, 815, 816A",5,True,False
+de:08116:2086,Hasenheim,Harthausen Hasenheim,Filderstadt,Harthausen,Bus; Nachtbus,"807, 809, 809A, 816A, N89",5,True,False
+de:08116:2019,Hauptstraße,Bonlanden Hauptstraße,Filderstadt,Bonlanden,Bus,"809A, 812, 813, 815, 816A",5,True,False
+de:08116:2091,Kreuzäcker,Bonlanden Kreuzäcker,Filderstadt,Bonlanden,Bus; Nachtbus,"77, 809A, 816A, 818A, N89",5,True,False
+de:08116:2052,Rainäckerstraße,Bonlanden Rainäckerstraße,Filderstadt,Bonlanden,Bus,"76, 809A, 813, 815, 816A",5,True,False
+de:08116:2042,Schul-/Sportzentrum,Sielmingen Schul-/Sportzentrum,Filderstadt,Sielmingen,Bus,"74, 809A, 816A, 817",4,True,False
+de:08116:2090,Luftfrachtzentrum,Bernhausen Luftfrachtzentrum,Filderstadt,Bernhausen,Bus,"811, 812, 813",3,True,False
+de:08116:2114,Kasparswald,Stetten (F) Kasparswald,Leinfelden-Echterdingen,Stetten (Leinfelden-Echt.),Bus; Nachtbus,"X7, 76, 77, 812, 813, 814, 816A, 818A, N18",9,True,False
+de:08116:2115,Hof,Stetten (F) Hof,Leinfelden-Echterdingen,Stetten (Leinfelden-Echt.),Bus; Nachtbus,"X7, 76, 77, 812, 813, 814, 818A, N18",8,True,False
+de:08116:7178,Hirschstraße,Echterdingen Hirschstr.,Leinfelden-Echterdingen,Echterdingen,Bus; Nachtbus,"76, 77, 818, 818A, 828, X82, N18",7,True,False
+de:08116:2147,Stadtbücherei,Leinfelden Stadtbücherei,Leinfelden-Echterdingen,Leinfelden,Bus; Nachtbus,"82, 86, 818, 818A, 826, 826A, N18",7,True,False
+de:08116:7179,Waldhornstraße,Echterdingen Waldhornstraße,Leinfelden-Echterdingen,Echterdingen,Bus; Nachtbus,"76, 77, 818, 818A, 828, X82, N18",7,True,False
+de:08116:2156,Gewerbegebiet,Stetten (F) Gewerbegebiet,Leinfelden-Echterdingen,Stetten (Leinfelden-Echt.),Bus; Nachtbus,"X7, 811, 812, 813, 814, N18",6,True,False
+de:08116:7185,Gymnasium,Echterdingen Gymnasium,Leinfelden-Echterdingen,Echterdingen,Bus; Nachtbus,"814, 818, 818A, 826, 826A, N18",6,True,False
+de:08116:2099,Riedweg,Leinfelden Riedweg,Leinfelden-Echterdingen,Leinfelden,Bus; Nachtbus,"82, 86, 814, 826, 826A, N18",6,True,False
+de:08116:7103,Schönbuchstraße,Leinfelden Schönbuchstr.,Leinfelden-Echterdingen,Leinfelden,Bus; Nachtbus,"82, 86, 814, 826, 826A, N18",6,True,False
+de:08116:7176,Spielkartenmuseum.,Leinf. Spielkartenmuseum.,Leinfelden-Echterdingen,Leinfelden,Bus; Nachtbus,"814, 818, 818A, 826, 826A, N18",6,True,False
+de:08116:7102,Bad,Leinfelden Bad,Leinfelden-Echterdingen,Leinfelden,Bus; Nachtbus,"818, 818A, 826, 826A, N18",5,True,False
+de:08116:2101,Bonländer Straße,Echterdingen Bonländer Straße,Leinfelden-Echterdingen,Echterdingen,Bus; Nachtbus,"76, 77, 818, 818A, N18",5,True,False
+de:08116:2124,Erlach,Stetten (F) Erlach,Leinfelden-Echterdingen,Stetten (Leinfelden-Echt.),Bus; Nachtbus,"811, 814, 818, 818A, N18",5,True,False
+de:08116:2107,Eulenberg,Musberg Eulenberg,Leinfelden-Echterdingen,Musberg,Bus; Nachtbus,"82, 86, 818, 818A, N18",5,True,False
+de:08116:2111,Hohlweg,Stetten (F) Hohlweg,Leinfelden-Echterdingen,Stetten (Leinfelden-Echt.),Bus; Nachtbus,"76, 77, 818, 818A, N18",5,True,False
+de:08116:2112,Holderweg,Stetten (F) Holderweg,Leinfelden-Echterdingen,Stetten (Leinfelden-Echt.),Bus; Nachtbus,"76, 77, 818, 818A, N18",5,True,False
+de:08116:2108,Kirche,Musberg Kirche,Leinfelden-Echterdingen,Musberg,Bus,"82, 86, 814, 818, 818A",5,True,False
+de:08116:2110,Klingenstraße,Musberg Klingenstraße,Leinfelden-Echterdingen,Musberg,Bus; Nachtbus,"82, 86, 818, 818A, N18",5,True,False
+de:08116:2109,Ludwigstraße,Musberg Ludwigstraße,Leinfelden-Echterdingen,Musberg,Bus,"82, 86, 814, 818, 818A",5,True,False
+de:08116:2106,Oberaichen Waldheim,Leinfelden Oberaichen Waldheim,Leinfelden-Echterdingen,Leinfelden,Bus; Nachtbus,"82, 86, 818, 818A, N18",5,True,False
+de:08116:2139,Sielminger Straße,Stetten (F) Sielminger Str.,Leinfelden-Echterdingen,Stetten (Leinfelden-Echt.),Bus; Nachtbus,"76, 77, 818, 818A, N18",5,True,False
+de:08116:2138,Sonnenhalde,Musberg Sonnenhalde,Leinfelden-Echterdingen,Musberg,Bus,"82, 86, 814, 818, 818A",5,True,False
+de:08116:7177,Sportzentrum,Leinfelden Sportzentrum,Leinfelden-Echterdingen,Leinfelden,Bus,"828, X82",2,True,False
+de:08115:2333,Römer-/Poststraße,Leonberg Römer-/Poststr.,Leonberg,Leonberg,Bus; Nachtbus; Ruftaxi,"92, 631, 631A, 632, 632A, 634, 640, 641, 642, 643, 651, 651A, 652, 653, 653A, 654, 660, N62, N63, RT644",20,True,False
+de:08115:2329,Johannes-Kepler-Gymnasium,Leonb. Joh.-Kepler-Gymnasium,Leonberg,Leonberg,Bus; Nachtbus,"X2, 92, 631, 631A, 632, 632A, 634, 635, 640, 650, 651, 651A, 652, 653, 653A, 654, 660, N62, N63",19,True,False
+de:08115:4547,Albert-Schweitzer-Gymnasium,Leonb. A.-Schweitzer-Gymnasium,Leonberg,Leonberg,Bus; Nachtbus,"631, 631A, 632, 632A, 634, 642, 643, 651, 651A, 652, 653, 653A, 654, 660, N62, N63",16,True,False
+de:08115:2345,Belforter Platz,Leonberg Belforter Platz,Leonberg,Leonberg,Bus; Nachtbus,"631, 631A, 632, 632A, 634, 643, 652, 653, 653A, 654, 660, N62",12,True,False
+de:08115:2327,Krankenhaus,Leonberg Krankenhaus,Leonberg,Leonberg,Bus; Nachtbus,"631A, 632A, 634, 640, 652, 653, 653A, 654, 660, N62",10,True,False
+de:08115:2328,Neuköllner Platz,Eltingen Neuköllner Pl.,Leonberg,Eltingen,Bus; Ruftaxi,"92, 631, 631A, 632, 632A, 640, 641, 651, 651A, RT644",10,True,False
+de:08115:2352,Altstadt,Leonberg Altstadt,Leonberg,Leonberg,Bus; Nachtbus,"X2, 92, 635, 643, 650, 651, 651A, N63, X60",9,True,False
+de:08115:2355,Törlensweg,Leonberg Törlensweg,Leonberg,Leonberg,Bus; Nachtbus,"X2, 92, 635, 640, 650, 651, 651A, N63",8,True,False
+de:08115:2322,Gartenstadt,Leonberg Gartenstadt,Leonberg,Leonberg,Bus; Nachtbus,"634, 652, 653, 653A, 654, 660, N62",7,True,False
+de:08115:4602,Büsnauer Straße 41,Warmbronn Büsnauer Str. 41,Leonberg,Warmbronn,Bus; Nachtbus,"631, 631A, 632, 632A, 747, N63",6,True,False
+de:08115:4601,Büsnauer Straße 6,Warmbronn Büsnauer Str. 6,Leonberg,Warmbronn,Bus; Nachtbus,"631, 631A, 632, 632A, 747, N63",6,True,False
+de:08115:4538,Hauptstraße 77,Warmbronn Hauptstraße 77,Leonberg,Warmbronn,Bus; Nachtbus,"631, 631A, 632, 632A, 747, N63",6,True,False
+de:08115:4539,Lauerhalde,Warmbronn Lauerhalde,Leonberg,Warmbronn,Bus; Nachtbus,"631, 631A, 632, 632A, 747, N63",6,True,False
+de:08115:4549,Talackerstraße,Warmbronn Talackerstraße,Leonberg,Warmbronn,Bus; Nachtbus,"631, 631A, 632, 632A, 747, N63",6,True,False
+de:08115:4543,Brennerstraße,Eltingen Brennerstraße,Leonberg,Eltingen,Bus,"631, 631A, 632, 632A, 651",5,True,False
+de:08115:5824,Carl-Zeiss-Straße,Gebersheim Carl-Zeiss-Str.,Leonberg,Gebersheim,Bus; Nachtbus,"634, 653, 653A, 654, N62",5,True,False
+de:08115:6055,Feuerbacher Straße,Leonberg Feuerbacher Str.,Leonberg,Leonberg,Bus,"635, 643, 650, 651, 651A",5,True,False
+de:08115:2339,Göppinger Straße,Ramtel Göppinger Str.,Leonberg,Ramtel,Bus; Nachtbus; Ruftaxi,"92, 640, 642, N63, RT644",5,True,False
+de:08115:2326,Hirschberger Straße,Ramtel Hirschberger Str.,Leonberg,Ramtel,Bus; Nachtbus; Ruftaxi,"92, 640, 642, N63, RT644",5,True,False
+de:08115:4541,Niederhofen,Eltingen Niederhofen,Leonberg,Eltingen,Bus; Nachtbus,"631, 631A, 632, 632A, N63",5,True,False
+de:08115:4537,Ortsmitte,Warmbronn Ortsmitte,Leonberg,Warmbronn,Bus,"631, 631A, 632, 632A, 747",5,True,False
+de:08115:4550,Rathaus,Gebersheim Rathaus,Leonberg,Gebersheim,Bus; Nachtbus,"634, 653, 653A, 654, N62",5,True,False
+de:08115:7030,Schopfloch,Eltingen Schopfloch,Leonberg,Eltingen,Bus; Nachtbus,"631, 631A, 632, 632A, N63",5,True,False
+de:08115:6051,Alter Bahnhofsweg,Höfingen Alter Bahnhofsweg,Leonberg,Höfingen,Bus,"651, 651A",2,True,False
+de:08118:3408,Arsenalplatz,Ludwigsburg Arsenalplatz,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 422, 422A, 424, 425, 425A, 426, 427, 427A, 430, 430A, 431, 433, 433A, 443, 444, 533, N41, N42, N43",21,True,False
+de:08118:3419,Rathaus,Ludwigsburg Rathaus,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 422, 422A, 424, 425, 425A, 426, 427, 427A, 430, 430A, 431, 433, 433A, 443, 444, 533, N41, N42, N43",21,True,False
+de:08118:5497,Blühendes Barock,Ludw. Blühendes Barock,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"422, 422A, 425, 425A, 426, 431, 433, 433A, 443, N42, N43",11,True,False
+de:08118:4894,Schorndorfer Tor,Ludw. Schorndorfer Tor,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"422, 422A, 425, 425A, 426, 431, 433, 433A, 443, N42, N43",11,True,False
+de:08118:5454,Residenzschloss,Ludwigsburg Residenzschloss,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 424, 427, 427A, 430, 430A, 444, N41",9,True,False
+de:08118:5506,Schloss Favorite,Ludw. Schloss Favorite,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 427, 427A, 429, 430, 430A, 444, N41",9,True,False
+de:08118:4893,Comburgstraße,Ludwigsburg Comburgstr.,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"425, 425A, 426, 431, 433A, N42, N43",7,True,False
+de:08118:3418,Neckarbrücke,Ludwigsburg Neckarbrücke,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 429, 430, 430A, 443, N41",7,True,False
+de:08118:5514,Neckarstraße,Ludwigsburg Neckarstr.,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"425, 425A, 426, 431, 433, 433A, N43",7,True,False
+de:08118:3426,Apotheke,Neckarweihingen Apotheke,Ludwigsburg,Neckarweihingen,Bus; Nachtbus,"421, 421A, 428, 430, 430A, N41",6,True,False
+de:08118:5558,Friedhof,Poppenweiler Friedhof,Ludwigsburg,Poppenweiler,Bus; Nachtbus,"430, 430A, 433, 433A, 451, N43",6,True,False
+de:08118:6985,Jahnstraße,Poppenweiler Jahnstr.,Ludwigsburg,Poppenweiler,Bus; Nachtbus,"430, 430A, 433, 433A, 451, N43",6,True,False
+de:08118:5483,Obere Marbacher Straße,Ludw. Obere Marbacher Str.,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 429, 430, 430A, N41",6,True,False
+de:08118:5557,Steinheimer Straße,Poppenweiler Steinheimer Str.,Ludwigsburg,Poppenweiler,Bus; Nachtbus,"430, 430A, 433, 433A, 451, N43",6,True,False
+de:08118:5484,Untere Marbacher Straße,Ludw. Untere Marbacher Str.,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 429, 430, 430A, N41",6,True,False
+de:08118:5559,Zehntscheuer,Poppenweiler Zehntscheuer,Ludwigsburg,Poppenweiler,Bus; Nachtbus,"430, 430A, 433, 433A, 451, N43",6,True,False
+de:08118:7401,Bahnhof (Arena),Ludwigsburg Bahnhof (Arena),Ludwigsburg,Ludwigsburg,Bus; SEV-Bus,"420, 532, S4E, S5E, MEX17E",5,True,False
+de:08118:7419,Bildungszentrum West,Ludwigsburg Bildungsz. West,Ludwigsburg,Ludwigsburg,Bus,"421A, 422A, 425A, 427A, 433A",5,True,False
+de:08118:5561,Burghaldenstraße,Poppenweiler Burghaldenstr.,Ludwigsburg,Poppenweiler,Bus; Nachtbus,"430, 430A, 433, 433A, N43",5,True,False
+de:08118:5515,Friesenstraße,Oßweil Friesenstraße,Ludwigsburg,Oßweil,Bus; Nachtbus,"425, 425A, 433A, N42, N43",5,True,False
+de:08118:7451,Immanuel-Dornfeld-Straße,Neckarw. Imman.-Dornfeld-Str.,Ludwigsburg,Neckarweihingen,Bus; Nachtbus,"421, 421A, 428, 443, N41",5,True,False
+de:08115:3200,ZOB,Sindelfingen ZOB,Sindelfingen,Sindelfingen,Bus; SEV-Bus,"84, 631, 701, 701A, 702, 704, 704A, 705, 705A, 707, 708, 711, 717, 717A, 734, 744, 752, 760A, 763A, 769, S60E",21,True,False
+de:08115:3205,Gottlieb-Daimler-Schule,Sind. Gottlieb-Daimler-Schule,Sindelfingen,Sindelfingen,Bus,"631, 701, 701A, 702, 704, 704A, 705A, 708, 717A, 734, 744, 760A, 763, 763A, 769, X76",16,True,False
+de:08115:3204,Goldberg-Gymnasium,Sindelf. Goldberg-Gymnasium,Sindelfingen,Sindelfingen,Bus,"701, 701A, 704A, 705A, 708, 722A, 734, 744, 760A, 763, 763A, 769, X76",13,True,False
+de:08115:2216,Pfarrwiesengymnasium,Sindelfingen Pfarrwiesengymn.,Sindelfingen,Sindelfingen,Bus; Nachtbus,"84, 701, 701A, 702, 704A, 708, 745A, 748, 748A, N73",10,True,False
+de:08115:2210,Daimlersteg,Sindelfingen Daimlersteg,Sindelfingen,Sindelfingen,Bus,"84, 702, 707, 717, 717A, 752, 763, 769",8,True,False
+de:08115:3208,Hallenbad,Maichingen Hallenbad,Sindelfingen,Maichingen,Bus,"702, 704, 704A, 705, 705A, 745, 748A, 769",8,True,False
+de:08115:3184,Berliner Straße,Maichingen Berliner Str.,Sindelfingen,Maichingen,Bus,"702, 704, 704A, 705, 705A, 748, 748A",7,True,False
+de:08115:3215,Bürgerhaus,Maichingen Bürgerhaus,Sindelfingen,Maichingen,Bus,"702, 704, 704A, 705, 705A, 748A, 769",7,True,False
+de:08115:4645,Essegger Straße,Sindelfingen Essegger Str.,Sindelfingen,Sindelfingen,Bus; Nachtbus,"702, 704, 704A, 745A, 748, 748A, N73",7,True,False
+de:08115:3206,Frankenstraße,Sindelfingen Frankenstraße,Sindelfingen,Sindelfingen,Bus,"705A, 709, 709A, 717A, 722A, 763, 763A",7,True,False
+de:08115:4644,Guttenbrunnstraße,Sindelfingen Guttenbrunnstr.,Sindelfingen,Sindelfingen,Bus; Nachtbus,"702, 704, 704A, 745A, 748, 748A, N73",7,True,False
+de:08115:4624,Calwer Brücke,Sindelf. Calwer Brücke,Sindelfingen,Sindelfingen,Bus,"707, 717, 717A, 752, 763, 769",6,True,False
+de:08115:4605,Eschenried,Sindelf. Eschenried,Sindelfingen,Sindelfingen,Bus; Nachtbus,"701, 701A, 702, 708, 748, N73",6,True,False
+de:08115:4659,Gottscheer Straße,Sindelfingen Gottscheer Str.,Sindelfingen,Sindelfingen,Bus,"702, 704, 704A, 745A, 748, 748A",6,True,False
+de:08115:4638,Hofstraße,Darmsheim Hofstraße,Sindelfingen,Darmsheim,Bus,"707, 717, 717A, 722, 722A, 723",6,True,False
+de:08115:3207,Landhaussiedlung,Maich. Landhaussiedlung,Sindelfingen,Maichingen,Bus,"702, 704A, 705, 705A, 745, 745A",6,True,False
+de:08115:2228,Mercedes-Benz Hst. C,Sindelf. Mercedes-Benz Hst. C,Sindelfingen,Sindelfingen,Bus,"702, 703, 707, 744, 763, 769",6,True,False
+de:08115:2229,Mercedes-Benz Hst. D,Sindelf. Mercedes-Benz Hst. D,Sindelfingen,Sindelfingen,Bus,"702, 703, 707, 744, 763, 769",6,True,False
+de:08115:2230,Mercedes-Benz Hst. E,Sindelf. Mercedes-Benz Hst. E,Sindelfingen,Sindelfingen,Bus,"702, 703, 707, 744, 763, 769",6,True,False
+de:08115:2237,Mercedes-Benz Hst. K,Sindelf. Mercedes-Benz Hst. K,Sindelfingen,Sindelfingen,Bus,"702, 703, 707, 744, 763, 769",6,True,False
+de:08115:4608,Robert-Bosch-Straße,Darmsheim Robert-Bosch-Str.,Sindelfingen,Darmsheim,Bus,"707, 717, 717A, 722, 722A, 723",6,True,False
+de:08115:4641,Schoßhöfe,Sindelfingen Schoßhöfe,Sindelfingen,Sindelfingen,Bus,"707, 717, 717A, 752, 763, 769",6,True,False
+de:08115:3210,Solo,Maichingen Solo,Sindelfingen,Maichingen,Bus,"702, 704A, 705, 705A, 745, 748",6,True,False
+de:08115:4640,Tessiner Straße,Darmsheim Tessiner Str.,Sindelfingen,Darmsheim,Bus,"707, 717, 717A, 722, 722A, 723",6,True,False
+de:08115:7029,Allmendstraße,Maichingen Allmendstr.,Sindelfingen,Maichingen,Bus,"704A, 705, 705A, 745, 748A",5,True,False
+de:08115:4637,Alter Friedhof,Darmsheim Alter Friedhof,Sindelfingen,Darmsheim,Bus; Nachtbus,"717, 717A, 722A, 766, N75",5,True,False
+de:08115:4611,Calwer Straße,Sindelfingen Calwer Str.,Sindelfingen,Sindelfingen,Bus,"702, 704, 704A, 705, 705A",5,True,False
+de:08115:4615,Leipziger Straße,Sindelfingen Leipziger Str.,Sindelfingen,Sindelfingen,Bus,"702, 704, 704A, 706, 711",5,True,False
+de:08115:2222,Mercedes-Benz Hst. A,Sindelf. Mercedes-Benz Hst. A,Sindelfingen,Sindelfingen,Bus,"702, 703, 744, 763, 769",5,True,False
+de:08115:2226,Mercedes-Benz Hst. B,Sindelf. Mercedes-Benz Hst. B,Sindelfingen,Sindelfingen,Bus,"702, 703, 744, 763, 769",5,True,False
+de:08115:2231,Mercedes-Benz Hst. F,Sindelf. Mercedes-Benz Hst. F,Sindelfingen,Sindelfingen,Bus,"702, 703, 744, 763, 769",5,True,False
+de:08115:2234,Mercedes-Benz Hst. I,Sindelf. Mercedes-Benz Hst. I,Sindelfingen,Sindelfingen,Bus,"702, 703, 744, 763, 769",5,True,False
+de:08115:2227,Stadthalle,Sindelfingen Stadthalle,Sindelfingen,Sindelfingen,Bus,"84, 704A, 708, 717, 717A",5,True,False
+de:08115:5857,Stiftsgymnasium,Sindelf. Stiftsgymnasium,Sindelfingen,Sindelfingen,Bus,"711, 717A, 734, 744, 763A",5,True,False
+de:08115:4654,Textilzentrum,Sindelf. Textilzentrum,Sindelfingen,Sindelfingen,Bus,"702, 706, 711",3,True,False
+de:08115:4626,Badezentrum,Sindelf. Badezentrum,Sindelfingen,Sindelfingen,Bus,"702, 708",2,True,False
+de:08111:2591,Lauchhau,Lauchhau,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 82, 84, 91, 92, 747, 748, X74, N1, N63",10,True,False
+de:08111:6462,Zuffenhausen Porsche,Zuffenhausen Porsche,Stuttgart,Stuttgart,Bus; Nachtbus; SEV-Bus,"52, 99, 501, 502, 503, 504, 612, N4, N55, S6E",10,True,False
+de:08111:6570,Albschule,Albschule,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 71, 73, 74, 76, 77, N8, N9, N10",9,True,False
+de:08111:2596,Am Schattwald,Am Schattwald,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 84, 91, 92, 747, 748, X74, N1, N63",9,True,False
+de:08111:2589,Max-Planck-Institute,Max-Planck-Institute,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 84, 91, 92, 747, 748, X74, N1, N63",9,True,False
+de:08111:2603,Schranne,Schranne,Stuttgart,Stuttgart,Bus; Nachtbus,"82, 84, 91, 92, 747, 748, X74, N1, N63",9,True,False
+de:08111:6163,Degerloch ZOB,Degerloch ZOB,Stuttgart,Stuttgart,Bus,"X4, X7, 70, 71, 73, 74, 76, 77",8,True,False
+de:08111:6018,Nobelstraße,Nobelstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"82, 84, 91, 92, 747, 748, X74, N63",8,True,False
+de:08111:2039,Plieningen Post,Plieningen Post,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 73, 74, 76, 122, 816A, N8",8,True,False
+de:08111:6554,Plieningen Garbe,Plieningen Garbe,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 73, 74, 76, 816A, N8",7,True,False
+de:08111:6184,Degerloch Epplestraße,Degerloch Epplestraße,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 71, 74, 76, N9, N10",6,True,False
+de:08111:2553,Fraubronnstraße,Fraubronnstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 73, 74, 76, N8",6,True,False
+de:08111:6467,Ohmstraße (Zuffenhausen Bf),Ohmstraße (Zuffenhausen Bf),Stuttgart,Stuttgart,Bus; Nachtbus,"52, 501, 502, 503, 504, N4",6,True,False
+de:08111:2554,Windhalmweg,Windhalmweg,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 73, 74, 76, N8",6,True,False
+de:08111:2567,Wurmlinger Straße,Wurmlinger Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 71, 74, 76, N9, N10",6,True,False
+de:08111:2557,Birkach Friedhof,Birkach Friedhof,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 74, 76, N8",5,True,False
+de:08111:2558,Birkheckenstraße,Birkheckenstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 74, 76, N8",5,True,False
+de:08111:6423,Feuerbach Bosch,Feuerbach Bosch,Stuttgart,Stuttgart,Bus,"53, 501, 502, 503, 504",5,True,False
+de:08111:2556,Genossenschaftsakademie,Genossenschaftsakademie,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 74, 76, N8",5,True,False
+de:08111:6571,Hohe Eiche,Hohe Eiche,Stuttgart,Stuttgart,Bus,"71, 73, 74, 76, 77",5,True,False
+de:08111:2580,Johannesgraben,Johannesgraben,Stuttgart,Stuttgart,Bus; Nachtbus,"82, 84, 91, 92, N1",5,True,False
+de:08111:2463,Marconistraße,Marconistraße,Stuttgart,Stuttgart,Bus; Nachtbus,"52, 99, 502, 503, N4",5,True,False
+de:08111:2054,Marienstraße,Marienstraße,Stuttgart,Stuttgart,Bus; SEV-Bus,"X2, 43, 44, 92, RE14E",5,True,False
+de:08111:2579,Ob dem Steinbach,Ob dem Steinbach,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 84, 91, 92, N1",5,True,False
+de:08111:2543,Obertürkh. Bf (Göppinger Str.),Obertürkh. Bf (Göppinger Str.),Stuttgart,Stuttgart,Bus; Nachtbus; SEV-Bus,"61, 62, 65, N7, S1E",5,True,False
+de:08111:3308,Pfullinger Straße,Pfullinger Straße,Stuttgart,Stuttgart,Bus,"71, 73, 74, 76, 77",5,True,False
+de:08111:6014,Rohr Mitte,Rohr Mitte,Stuttgart,Stuttgart,Bus; Nachtbus; SEV-Bus,"81, 82, 86, N10, S2E",5,True,False
+de:08111:3309,Tränke,Tränke,Stuttgart,Stuttgart,Bus,"71, 73, 74, 76, 77",5,True,False
+de:08111:2202,Wagenburgstraße,Wagenburgstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"40, 42, 45, 47, N9",5,True,False
+de:08111:4402,Werner und Pfleiderer,Werner und Pfleiderer,Stuttgart,Stuttgart,Bus,"53, 501, 502, 503, 504",5,True,False
+de:08111:2061,Wilhelmsbau,Wilhelmsbau,Stuttgart,Stuttgart,Bus; Nachtbus,"X2, 43, 47, 92, N10",5,True,False
+de:08111:2573,Asemwald,Asemwald,Stuttgart,Stuttgart,Bus; Nachtbus,"71, 74, 76, N8",4,True,False
+de:08111:2037,Bernhäuser Straße,Bernhäuser Straße,Stuttgart,Stuttgart,Bus,"65, 74, 76, 816A",4,True,False
+de:08111:2576,Dürnauer Weg,Dürnauer Weg,Stuttgart,Stuttgart,Bus; Nachtbus,"71, 74, 76, N8",4,True,False
+de:08111:86,Großglocknerstraße,Großglocknerstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"60, 61, N6, N7",4,True,False
+de:08111:6110,Hauptbf (Pariser Platz),Hauptbf (Pariser Platz),Stuttgart,Stuttgart,SEV-Bus,"RE14E, MEX16E, MEX90E, Bus EV",4,True,False
+de:08111:2196,Hegelplatz (Linden-Museum),Hegelplatz (Linden-Museum),Stuttgart,Stuttgart,Bus; Nachtbus,"40, 42, 43, N2",4,True,False
+de:08111:164,Karl-Pfaff-Straße,Karl-Pfaff-Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"10, N8, N9, N10",4,True,False
+de:08111:2572,Kaserne Möhringen (Karlshof),Kaserne Möhringen (Karlshof),Stuttgart,Stuttgart,Bus; Nachtbus,"71, 74, 76, N8",4,True,False
+de:08111:6136,Kemnater Straße,Kemnater Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 66, 131, N7",4,True,False
+de:08111:6271,Mühlhausen Schloss,Mühlhausen Schloss,Stuttgart,Stuttgart,Bus; Nachtbus,"53, 53E, 54, N5",4,True,False
+de:08111:2534,Otto-Hirsch-Brücken,Otto-Hirsch-Brücken,Stuttgart,Stuttgart,Bus; Nachtbus,"62, 65, 103, N7",4,True,False
+de:08111:2976,Plieningen Seemühlenweg,Plieningen Seemühlenweg,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 73, 122, N8",4,True,False
+de:08111:2092,Ressestraße,Ressestraße,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 73, 122, N8",4,True,False
+de:08111:2040,Scharnhäuser Brücke,Scharnhäuser Brücke,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 73, 122, N8",4,True,False
+de:08111:6351,Sternhäule,Sternhäule,Stuttgart,Stuttgart,Bus,"X4, X7, 73, 77",4,True,False
+de:08111:2406,Tunnel Ostportal,Tunnel Ostportal,Stuttgart,Stuttgart,Bus; Nachtbus,"40, 47, N5, N7",4,True,False
+de:08111:6021,Universität (Schleife),Universität (Schleife),Stuttgart,Stuttgart,Bus,"82, 84, X74, X60",4,True,False
+de:08111:2555,Universität Hohenheim,Universität Hohenheim,Stuttgart,Stuttgart,Bus,"65, 70, 74, 76",4,True,False
+de:08111:2509,Untertürkheim Kelterplatz,Untertürkheim Kelterplatz,Stuttgart,Stuttgart,Bus; Nachtbus; Ruftaxi,"60, 61, N6, RT6",4,True,False
+de:08111:2,Waldburgstraße,Waldburgstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 82, 86, N10",4,True,False
+de:08111:6624,Withauweg,Neuwirtshaus Withauweg,Stuttgart,Stuttgart,Bus; Nachtbus,"501, 504, 612, N55",4,True,False
+de:08111:94,Wollinstraße,Wollinstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"52, 99, 612, N4",4,True,False
+de:08111:2405,Wunnensteinstraße,Wunnensteinstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"40, 47, N5, N7",4,True,False
+de:08111:2535,Ährenweg,Ährenweg,Stuttgart,Stuttgart,Bus; Nachtbus; Ruftaxi,"62, 65, N7, RT7",4,True,False
+de:08111:162,Altenbergstaffel,Altenbergstaffel,Stuttgart,Stuttgart,Nachtbus,"N8, N9, N10",3,True,False
+de:08111:2453,Am Bismarckturm,Am Bismarckturm,Stuttgart,Stuttgart,Bus; Nachtbus,"43, 50, N2",3,True,False
+de:08111:2532,Asang,Asang,Stuttgart,Stuttgart,Bus; Nachtbus,"62, 65, N7",3,True,False
+de:08111:2459,Asperger Straße,Asperger Straße,Stuttgart,Stuttgart,Bus,"98, 412, 508",3,True,False
+de:08111:2559,Birkach West,Birkach West,Stuttgart,Stuttgart,Bus,"65, 70, 71",3,True,False
+de:08111:6214,Botnanger Sattel,Botnanger Sattel,Stuttgart,Stuttgart,Bus; Nachtbus,"40, 50, N2",3,True,False
+de:08111:2470,Burgholzhof,Burgholzhof,Stuttgart,Stuttgart,Bus; Nachtbus,"52, 57, N5",3,True,False
+de:08111:2590,Büsnauer Platz,Büsnauer Platz,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 91, N1",3,True,False
+de:08111:2190,Doggenburg,Doggenburg,Stuttgart,Stuttgart,Bus; Nachtbus,"43, 50, N2",3,True,False
+de:08111:6023,Dorotheenstraße,Dorotheenstraße,Stuttgart,Stuttgart,Bus,"43, 44, 47",3,True,False
+de:08111:2454,Feuerbacher Weg,Feuerbacher Weg,Stuttgart,Stuttgart,Bus; Nachtbus,"43, 50, N2",3,True,False
+de:08111:2200,Gablenberg,Gablenberg,Stuttgart,Stuttgart,Bus; Nachtbus,"42, 45, N9",3,True,False
+de:08111:6135,Geschwister-Scholl-Gymnasium,Geschwister-Scholl-Gymnasium,Stuttgart,Stuttgart,Bus,"65, 66, 131",3,True,False
+de:08111:2250,Hallschlag (bis 13.09.13),Hallschlag (bis 13.09.13),Stuttgart,Stuttgart,Bus; Nachtbus,"52, 56, N4",3,True,False
+de:08111:6068,Hegel-/Seidenstraße,Hegel-/Seidenstr.,Stuttgart,Stuttgart,Bus; Nachtbus,"40, 43, N2",3,True,False
+de:08111:2265,Herbsthalde,Herbsthalde,Stuttgart,Stuttgart,Bus; Nachtbus,"40, 50, N2",3,True,False
+de:08111:2569,Hoffeld,Hoffeld,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 71, N8",3,True,False
+de:08111:2533,Im Mäder,Im Mäder,Stuttgart,Stuttgart,Bus; Nachtbus,"62, 65, N7",3,True,False
+de:08111:2472,Im Raiser,Im Raiser,Stuttgart,Stuttgart,Bus; Nachtbus,"52, N4, N5",3,True,False
+de:08111:2093,In den Entenäckern,In den Entenäckern,Stuttgart,Stuttgart,Bus; Nachtbus,"74, 76, N8",3,True,False
+de:08111:2203,Katharinenhospital,Katharinenhospital,Stuttgart,Stuttgart,Bus; Nachtbus,"40, 42, N2",3,True,False
+de:08111:2248,Kleiststraße,Kleiststraße,Stuttgart,Stuttgart,Bus; Nachtbus,"X2, 44, N2",3,True,False
+de:08111:6201,Krehlstraße,Krehlstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 84, N1",3,True,False
+de:08111:2401,Kräherwald,Kräherwald,Stuttgart,Stuttgart,Bus; Nachtbus,"40, 50, N2",3,True,False
+de:08111:2565,Königsträßle,Königsträßle,Stuttgart,Stuttgart,Bus; Linientaxi; Nachtbus,"70, N9, RT70",3,True,False
+de:08111:2414,Lehenstraße,Lehenstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"10, 43, N1",3,True,False
+de:08111:2566,Leinfeldener Straße,Leinfeldener Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 71, N8",3,True,False
+de:08111:2201,Libanonstraße,Libanonstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"42, 45, N9",3,True,False
+de:08111:97,Marco-Polo-Weg,Marco-Polo-Weg,Stuttgart,Stuttgart,Bus; Nachtbus,"52, 99, N4",3,True,False
+de:08111:6101,Marienhospital,Marienhospital,Stuttgart,Stuttgart,Bus; Nachtbus,"U1E, 41, N1",3,True,False
+de:08111:2527,Mönchweg,Mönchweg,Stuttgart,Stuttgart,Bus; Nachtbus,"60, 61, N6",3,True,False
+de:08111:161,Neue Weinsteige 61,Neue Weinsteige 61,Stuttgart,Stuttgart,Nachtbus,"N8, N9, N10",3,True,False
+de:08111:95,Neuwirtshauskreuzung,Neuwirtshauskreuzung,Stuttgart,Stuttgart,Bus; Nachtbus,"52, 99, N4",3,True,False
+de:08111:96,Niebuhrweg,Niebuhrweg,Stuttgart,Stuttgart,Bus; Nachtbus,"52, 99, N4",3,True,False
+de:08111:2560,Pallotti-Kirche,Pallotti-Kirche,Stuttgart,Stuttgart,Bus,"65, 70, 71",3,True,False
+de:08111:6567,Reutlinger Straße,Reutlinger Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 71, N8",3,True,False
+de:08111:2204,Rosenberg-/Johannesstraße,Rosenberg-/Johannesstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"41, 42, N2",3,True,False
+de:08111:2561,Rotwiesenstraße,Rotwiesenstraße,Stuttgart,Stuttgart,Bus,"65, 70, 71",3,True,False
+de:08111:2209,Rudolf-Sophien-Stift,Rudolf-Sophien-Stift,Stuttgart,Stuttgart,Bus; Nachtbus; Ruftaxi,"92, N1, RT92",3,True,False
+de:08111:2207,Schwab-/Reinsburgstraße,Schwab-/Reinsburgstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"42, 92, N10",3,True,False
+de:08111:6729,Schwabengalerie,Schwabengalerie,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 84, N1",3,True,False
+de:08111:2131,Spaichinger Straße,Spaichinger Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 66, N7",3,True,False
+de:08111:6078,Tal-/Landhausstraße,Tal-/Landhausstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"45, N5, N7",3,True,False
+de:08111:2531,Terlanerstraße,Terlanerstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"62, 65, N7",3,True,False
+de:08111:2530,Uhlbach,Uhlbach,Stuttgart,Stuttgart,Bus; Nachtbus,"62, 65, N7",3,True,False
+de:08111:279,Weserstraße,Weserstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"56, 59, N4",3,True,False
+de:08111:6249,Westbahnhof,Westbahnhof,Stuttgart,Stuttgart,Bus,"44, 50, 92",3,True,False
+de:08111:215,Wielandstraße,Wielandstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"40, 50, N2",3,True,False
+de:08111:2469,Yitzhak-Rabin-Straße,Yitzhak-Rabin-Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"52, 57, N5",3,True,False
+de:08111:106,Zahn-Nopper-Straße,Zahn-Nopper-Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"99, 508, N4",3,True,False
+de:08111:6269,Zazenhausen Steigle,Zazenhausen Steigle,Stuttgart,Stuttgart,Bus; Ruftaxi,"53, 53E, RT4",3,True,False
+de:08111:2568,Zur Anhöhe,Zur Anhöhe,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 71, N8",3,True,False
+de:08111:2480,Aalstraße,Aalstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"54, N5",2,True,False
+de:08111:6016,Albblick,Albblick,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N10",2,True,False
+de:08111:6274,Alpseeweg,Alpseeweg,Stuttgart,Stuttgart,Bus; Nachtbus,"54, N5",2,True,False
+de:08111:2508,Alte Krone,Alte Krone,Stuttgart,Stuttgart,Bus,"60, 61",2,True,False
+de:08111:2251,Altenburg,Altenburg,Stuttgart,Stuttgart,Bus,"52, 56",2,True,False
+de:08111:2544,Am Bergwald,Am Bergwald,Stuttgart,Stuttgart,Bus; Nachtbus,"65, N7",2,True,False
+de:08111:2592,Am Feldrand,Am Feldrand,Stuttgart,Stuttgart,Bus; Nachtbus,"81, N1",2,True,False
+de:08111:2245,Am Kriegsbergturm,Am Kriegsbergturm,Stuttgart,Stuttgart,Bus; Nachtbus,"44, N2",2,True,False
+de:08111:2615,Am Ochsenwald,Am Ochsenwald,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N10",2,True,False
+de:08111:2511,Aspen,Aspen,Stuttgart,Stuttgart,Bus; Ruftaxi,"61, RT6",2,True,False
+de:08111:2546,Augustinum,Augustinum,Stuttgart,Stuttgart,Bus; Nachtbus,"65, N7",2,True,False
+de:08111:6272,Bachhalde,Bachhalde,Stuttgart,Stuttgart,Bus,"53, 53E",2,True,False
+de:08111:6007,Berghaustraße,Berghaustraße,Stuttgart,Stuttgart,Bus,"82, 86",2,True,False
+de:08111:90,Bergstaffelstraße,Bergstaffelstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"61, N7",2,True,False
+de:08111:2582,Berufsbildungszentrum,Berufsbildungszentrum,Stuttgart,Stuttgart,Bus; Nachtbus,"80, N10",2,True,False
+de:08111:6069,Bismarckplatz,Bismarckplatz,Stuttgart,Stuttgart,Bus; Nachtbus,"42, N10",2,True,False
+de:08111:2460,Borkumstraße (Neuw.-siedl.),Borkumstraße (Neuw.-siedl.),Stuttgart,Stuttgart,Bus,"52, 612",2,True,False
+de:08111:2520,Bächlenweg,Bächlenweg,Stuttgart,Stuttgart,Bus; Ruftaxi,"62, RT7",2,True,False
+de:08111:2605,Dachswald,Dachswald,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N1",2,True,False
+de:08111:2259,Dessauer Straße,Dessauer Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"56, N4",2,True,False
+de:08111:6099,Dornhaldenstraße,Dornhaldenstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"41, N10",2,True,False
+de:08111:6172,Dornröschenweg,Dornröschenweg,Stuttgart,Stuttgart,Bus; Nachtbus,"72, N9",2,True,False
+de:08111:2521,Dürrbachstraße,Dürrbachstraße,Stuttgart,Stuttgart,Bus; Ruftaxi,"62, RT7",2,True,False
+de:08111:89,Ebniseestraße,Ebniseestraße,Stuttgart,Stuttgart,Bus; Nachtbus,"61, N7",2,True,False
+de:08111:2487,Edelweißweg,Edelweißweg,Stuttgart,Stuttgart,Bus,"54, 58",2,True,False
+de:08111:2609,Elsental,Elsental,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N1",2,True,False
+de:08111:318,Elsterstaffel,Elsterstaffel,Stuttgart,Stuttgart,Bus; Nachtbus,"U1E, N1",2,True,False
+de:08111:2358,Elwertstraße,Elwertstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"45, N5",2,True,False
+de:08111:2199,Falbenhennenstraße,Falbenhennenstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"43, N1",2,True,False
+de:08111:6012,Fanny-Leicht-Straße,Fanny-Leicht-Straße,Stuttgart,Stuttgart,Bus,"81, 82",2,True,False
+de:08111:2403,Fichtestraße,Fichtestraße,Stuttgart,Stuttgart,Bus; Nachtbus,"40, N2",2,True,False
+de:08111:2481,Forellenweg,Forellenweg,Stuttgart,Stuttgart,Bus; Nachtbus,"54, N5",2,True,False
+de:08111:2416,Forsthaus I,Forsthaus I,Stuttgart,Stuttgart,Bus,"91, 92",2,True,False
+de:08111:2467,Frankenstraße,Frankenstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"52, N4",2,True,False
+de:08111:361,Freytagweg,Freytagweg,Stuttgart,Stuttgart,Bus; Nachtbus,"72, N9",2,True,False
+de:08111:303,Friedhofstraße,Friedhofstraße,Stuttgart,Stuttgart,Nachtbus,"N3, N4",2,True,False
+de:08111:2402,Gaußstraße,Gaußstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"40, N2",2,True,False
+de:08111:5868,Gehrenwald,Gehrenwald,Stuttgart,Stuttgart,Bus; Nachtbus,"60, N6",2,True,False
+de:08111:2408,Geibelstraße,Geibelstraße,Stuttgart,Stuttgart,Bus,"40, 50",2,True,False
+de:08111:2620,Gerlinger Straße,Gerlinger Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"90, N3",2,True,False
+de:08111:2537,Glaunerweg,Glaunerweg,Stuttgart,Stuttgart,Bus; Nachtbus,"65, N7",2,True,False
+de:08111:2186,Grünlingweg/Rotwiesenstraße,Grünlingweg/Rotwiesenstraße,Stuttgart,Stuttgart,Bus,"70, 71",2,True,False
+de:08111:2519,Haus am Weinberg,Haus am Weinberg,Stuttgart,Stuttgart,Bus; Nachtbus,"61, N7",2,True,False
+de:08111:2593,Heerstraße,Heerstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"81, N1",2,True,False
+de:08111:6013,Hegel-Gymnasium,Hegel-Gymnasium,Stuttgart,Stuttgart,Bus,"81, 86",2,True,False
+de:08111:2587,Heigelinstraße,Heigelinstraße,Stuttgart,Stuttgart,Bus,"X4, X7",2,True,False
+de:08111:2244,Helfferichstraße,Helfferichstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"44, N2",2,True,False
+de:08111:2538,Heumaden Rose,Heumaden Rose,Stuttgart,Stuttgart,Bus; Nachtbus,"65, N7",2,True,False
+de:08111:2539,Heumaden Schule,Heumaden Schule,Stuttgart,Stuttgart,Bus; Nachtbus,"65, N7",2,True,False
+de:08111:6155,Hohewartstraße,Hohewartstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"91, N3",2,True,False
+de:08111:2404,Honoldweg,Honoldweg,Stuttgart,Stuttgart,Bus; Nachtbus,"40, N2",2,True,False
+de:08111:2440,Im Chausseefeld,Im Chausseefeld,Stuttgart,Stuttgart,Bus; Nachtbus,"73, N8",2,True,False
+de:08111:2578,Im Elsental,Im Elsental,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N1",2,True,False
+de:08111:2507,Im Hag,Im Hag,Stuttgart,Stuttgart,Bus; Nachtbus,"60, N6",2,True,False
+de:08111:2246,Im Kaisemer,Im Kaisemer,Stuttgart,Stuttgart,Bus; Nachtbus,"44, N2",2,True,False
+de:08111:2094,Im Köpfert,Im Köpfert,Stuttgart,Stuttgart,Bus,"74, 122",2,True,False
+de:08111:137,Isegrimweg,Isegrimweg,Stuttgart,Stuttgart,Bus; Nachtbus,"65, N7",2,True,False
+de:08111:2585,Jelinstraße,Jelinstraße,Stuttgart,Möhringen,Bus; Nachtbus,"72, N9",2,True,False
+de:08111:2038,Kaserne Möhringen,Kaserne Möhringen,Stuttgart,Stuttgart,Bus; Nachtbus,"73, N8",2,True,False
+de:08111:6011,Katzenbachstraße,Katzenbachstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"81, N1",2,True,False
+de:08111:370,Kelterstraße,Kelterstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"U1E, N1",2,True,False
+de:08111:6179,Kerschensteinerschule,Kerschensteinerschule,Stuttgart,Stuttgart,Bus; Nachtbus,"91, N3",2,True,False
+de:08111:2604,Knappenweg,Knappenweg,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N1",2,True,False
+de:08111:2701,Kreuzstraße,Kreuzstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N1",2,True,False
+de:08111:2241,Kunstakademie,Kunstakademie,Stuttgart,Stuttgart,Bus; Nachtbus,"44, N2",2,True,False
+de:08111:2581,Kurt-Schumacher-Straße,Kurt-Schumacher-Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"72, N9",2,True,False
+de:08111:6353,Landhauskreuzung,Landhauskreuzung,Stuttgart,Stuttgart,Bus; Nachtbus,"73, N8",2,True,False
+de:08111:2057,Landhausstraße 43,Landhausstraße 43,Stuttgart,Stuttgart,Bus; Nachtbus,"42, N9",2,True,False
+de:08111:2536,Lederberg,Lederberg,Stuttgart,Stuttgart,Bus; Nachtbus,"65, N7",2,True,False
+de:08111:2407,Leibnizstraße,Leibnizstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"40, N2",2,True,False
+de:08111:2050,Leipziger Platz,Leipziger Platz,Stuttgart,Stuttgart,Bus; Nachtbus,"44, N2",2,True,False
+de:08111:6100,Lerchenrainschule,Lerchenrainschule,Stuttgart,Stuttgart,Bus; Nachtbus,"41, N10",2,True,False
+de:08111:6173,Lohäckerstraße,Lohäckerstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"72, N9",2,True,False
+de:08111:2506,Luginsland,Luginsland,Stuttgart,Stuttgart,Bus; Nachtbus,"60, N6",2,True,False
+de:08111:2525,Luikenweg,Luikenweg,Stuttgart,Stuttgart,Bus; Ruftaxi,"62, RT7",2,True,False
+de:08111:2483,Marabustraße,Marabustraße,Stuttgart,Stuttgart,Bus; Nachtbus,"54, N5",2,True,False
+de:08111:2410,Marien-/Silberburgstraße,Marien-/Silberburgstraße,Stuttgart,Stuttgart,Bus,"41, 43",2,True,False
+de:08111:2411,Markuskirche,Markuskirche,Stuttgart,Stuttgart,Bus; Nachtbus,"43, N1",2,True,False
+de:08111:2252,Martinskirche,Martinskirche,Stuttgart,Stuttgart,Bus,"52, 56",2,True,False
+de:08111:6464,Morsestraße,Morsestraße,Stuttgart,Stuttgart,Bus; Nachtbus,"52, N4",2,True,False
+de:08111:373,Moselstraße,Stuttgart Moselstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"59, N4",2,True,False
+de:08111:2488,Muckensturm,Muckensturm,Stuttgart,Stuttgart,Bus; Nachtbus,"54, N5",2,True,False
+de:08111:2583,Möhringen Rathaus,Möhringen Rathaus,Stuttgart,Stuttgart,Bus; Nachtbus,"72, N9",2,True,False
+de:08111:2409,Mörikestraße,Mörikestraße,Stuttgart,Stuttgart,Bus,"41, 43",2,True,False
+de:08111:2258,Nastplatz,Nastplatz,Stuttgart,Stuttgart,Bus; Nachtbus,"56, N4",2,True,False
+de:08111:87,Neckarhalde,Neckarhalde,Stuttgart,Stuttgart,Bus; Nachtbus,"61, N7",2,True,False
+de:08111:2452,Nikolauspflege,Nikolauspflege,Stuttgart,Stuttgart,Bus,"40, 50",2,True,False
+de:08111:6275,Nixenweg,Nixenweg,Stuttgart,Stuttgart,Bus; Nachtbus,"54, N5",2,True,False
+de:08111:2243,Obere Mönchhalde,Obere Mönchhalde,Stuttgart,Stuttgart,Bus; Nachtbus,"44, N2",2,True,False
+de:08111:2612,Osterbronnstraße,Osterbronnstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"81, N10",2,True,False
+de:08111:6015,Pestalozzi-Schule,Pestalozzi-Schule,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N10",2,True,False
+de:08111:6466,Pflugfelder Straße,Pflugfelder Straße,Stuttgart,Stuttgart,Bus,"98, 508",2,True,False
+de:08111:2310,Planckstraße,Planckstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"42, N9",2,True,False
+de:08111:2247,Postdörfle,Postdörfle,Stuttgart,Stuttgart,Bus; Nachtbus,"44, N2",2,True,False
+de:08111:2474,Rilke-Realschule,Rilke-Realschule,Stuttgart,Stuttgart,Bus; Nachtbus,"52, N5",2,True,False
+de:08111:2524,Rohracker,Rohracker,Stuttgart,Stuttgart,Bus; Ruftaxi,"62, RT7",2,True,False
+de:08111:2522,Rohracker Kelter,Rohracker Kelter,Stuttgart,Stuttgart,Bus; Ruftaxi,"62, RT7",2,True,False
+de:08111:2616,Rohrer Höhe,Rohrer Höhe,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N10",2,True,False
+de:08111:2205,Rosenbergplatz,Rosenbergplatz,Stuttgart,Stuttgart,Bus; Nachtbus,"42, N2",2,True,False
+de:08111:2510,Rotenberg,Rotenberg,Stuttgart,Stuttgart,Bus; Ruftaxi,"61, RT6",2,True,False
+de:08111:2208,Schickhardtschule,Schickhardtschule,Stuttgart,Stuttgart,Bus; Nachtbus,"42, N10",2,True,False
+de:08111:2526,Schildfarnweg,Schildfarnweg,Stuttgart,Stuttgart,Bus; Nachtbus,"65, N7",2,True,False
+de:08111:2471,Schnarrenberg,Schnarrenberg,Stuttgart,Stuttgart,Bus; Nachtbus,"52, N4",2,True,False
+de:08111:6276,Schneideräckerstraße,Schneideräckerstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"54, N5",2,True,False
+de:08111:2059,Schwarenbergstraße,Schwarenbergstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"42, N9",2,True,False
+de:08111:2575,Schönberg,Schönberg,Stuttgart,Stuttgart,Bus,"70, 71",2,True,False
+de:08111:2053,Senefelderstraße,Senefelderstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"44, N2",2,True,False
+de:08111:2263,Seyfferstraße,Seyfferstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"44, N2",2,True,False
+de:08111:114,Sonatenweg,Sonatenweg,Stuttgart,Stuttgart,Bus,"98, 412",2,True,False
+de:08111:2528,Sonnenbühl,Sonnenbühl,Stuttgart,Stuttgart,Bus; Ruftaxi,"61, RT6",2,True,False
+de:08111:2041,Steckfeld,Steckfeld,Stuttgart,Stuttgart,Bus; Nachtbus,"73, N8",2,True,False
+de:08111:2482,Steinbuttstraße,Steinbuttstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"54, N5",2,True,False
+de:08111:306,Tal-/Ostendstraße,Tal-/Ostendstraße,Stuttgart,Stuttgart,Nachtbus,"N5, N7",2,True,False
+de:08111:2574,Taldorfer Straße,Taldorfer Straße,Stuttgart,Stuttgart,Bus,"70, 71",2,True,False
+de:08111:2344,Tennisplatz,Tennisplatz,Stuttgart,Stuttgart,Bus,"50, 92",2,True,False
+de:08111:2611,Thingstraße,Thingstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N10",2,True,False
+de:08111:2523,Tiefenbachschule,Tiefenbachschule,Stuttgart,Stuttgart,Bus; Ruftaxi,"62, RT7",2,True,False
+de:08111:376,Ulmenstraße,Ulmenstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"U1E, N1",2,True,False
+de:08111:2512,Untertürkheim Alter Friedhof,Untertürkheim Alter Friedhof,Stuttgart,Stuttgart,Bus,"60, 61",2,True,False
+de:08111:2513,Untertürkheim Friedhof,Untertürkheim Friedhof,Stuttgart,Stuttgart,Bus; Ruftaxi,"61, RT6",2,True,False
+de:08111:2058,Urachstraße,Urachstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"42, N9",2,True,False
+de:08111:2602,Vaihingen Alter Friedhof,Vaihingen Alter Friedhof,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N1",2,True,False
+de:08111:2595,Vaihingen Rathaus,Vaihingen Rathaus,Stuttgart,Stuttgart,Bus; Nachtbus,"82, N1",2,True,False
+de:08111:2242,Viergiebelweg,Viergiebelweg,Stuttgart,Stuttgart,Bus; Nachtbus,"44, N2",2,True,False
+de:08111:6568,Waldenbucher Platz,Waldenbucher Platz,Stuttgart,Stuttgart,Bus,"70, 71",2,True,False
+de:08111:6572,Weidachtal,Weidachtal,Stuttgart,Stuttgart,Bus,"73, 77",2,True,False
+de:08111:6277,Wildgansweg,Wildgansweg,Stuttgart,Stuttgart,Bus; Nachtbus,"54, N5",2,True,False
+de:08111:2198,Wilhelm-/Olgastraße,Wilhelm-/Olgastraße,Stuttgart,Stuttgart,Bus; Nachtbus,"43, N1",2,True,False
+de:08111:4400,Zazenhausen Krone,Zazenhausen Krone,Stuttgart,Stuttgart,Bus; Ruftaxi,"53, RT4",2,True,False
+de:08111:6989,Zazenhausen Viadukt,Zazenhausen Viadukt,Stuttgart,Stuttgart,Bus; Ruftaxi,"53, RT4",2,True,False
+de:08111:2491,Zuckerberg,Zuckerberg,Stuttgart,Stuttgart,Bus; Nachtbus,"54, N5",2,True,False
+de:08111:109,Zuffenhausen Friedhof,Zuffenhausen Friedhof,Stuttgart,Stuttgart,Bus; Ruftaxi,"53, RT4",2,True,False
+de:08111:4401,Zuffenhausen Reibedanz,Zuffenhausen Reibedanz,Stuttgart,Stuttgart,Bus; Ruftaxi,"53, RT4",2,True,False
+de:08111:201,Admiralweg,Admiralweg,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:2476,Albert-Luthuli-Platz,Albert-Luthuli-Platz,Stuttgart,Stuttgart,Bus,57,1,True,False
+de:08111:2189,Albert-Schäffle-Straße,Albert-Schäffle-Straße,Stuttgart,Stuttgart,Bus,45,1,True,False
+de:08111:2428,Alter Gutshof,Alter Gutshof,Stuttgart,Stuttgart,Bus,57,1,True,False
+de:08111:199,Am Kirchplatz,Am Kirchplatz,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:4067,Am Mittelkai,Am Mittelkai,Stuttgart,Stuttgart,Bus,103,1,True,False
+de:08111:192,Am Äußeren Graben,Am Äußeren Graben,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:4068,Amstetter Straße,Amstetter Straße,Stuttgart,Stuttgart,Bus,103,1,True,False
+de:08111:2418,Aspenwaldstraße,Aspenwaldstraße,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:5854,Auberlenweg,Auberlenweg,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:2380,Auf der Gans,Auf der Gans,Stuttgart,Stuttgart,Bus,58,1,True,False
+de:08111:242,Austraße,Austraße,Stuttgart,Stuttgart,Bus,59,1,True,False
+de:08111:2434,Baumgartenweg,Baumgartenweg,Stuttgart,Stuttgart,Bus,66,1,True,False
+de:08111:6267,Beilsteiner Straße,Beilsteiner Straße,Stuttgart,Stuttgart,Bus,53,1,True,False
+de:08111:375,Bieler Weg,Bieler Weg,Stuttgart,Stuttgart,Nachtbus,N7,1,True,False
+de:08111:2545,Birkacher Straße,Birkacher Straße,Stuttgart,Stuttgart,Bus,65,1,True,False
+de:08111:2451,Birkenkopf,Birkenkopf,Stuttgart,Stuttgart,Bus,92,1,True,False
+de:08111:2261,Bismarckstaffel,Bismarckstaffel,Stuttgart,Stuttgart,Bus,92,1,True,False
+de:08111:2421,Botnang Freibad,Botnang Freibad,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:244,Brigachstraße,Brigachstraße,Stuttgart,Stuttgart,Bus,59,1,True,False
+de:08111:2206,Bruderhaus,Bruderhaus,Stuttgart,Stuttgart,Bus,92,1,True,False
+de:08111:6200,Buchrain Friedhof,Buchrain Friedhof,Stuttgart,Stuttgart,Bus,84,1,True,False
+de:08111:2187,Buchwald,Buchwald,Stuttgart,Stuttgart,Bus,45,1,True,False
+de:08111:245,Burgholzstraße,Burgholzstraße,Stuttgart,Stuttgart,Bus,59,1,True,False
+de:08111:2432,Bußbachstraße,Bußbachstraße,Stuttgart,Stuttgart,Bus,66,1,True,False
+de:08111:69,Büchsenstraße,Büchsenstraße,Stuttgart,Stuttgart,Bus,47,1,True,False
+de:08111:2194,Dillmannstraße,Dillmannstraße,Stuttgart,Stuttgart,Bus,43,1,True,False
+de:08111:2621,Ditzinger Straße,Ditzinger Straße,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:246,Dreiecksplatz,Dreiecksplatz,Stuttgart,Stuttgart,Bus,59,1,True,False
+de:08111:2614,Dürrlewang (bis 12.05.2016),Dürrlewang (bis 12.05.2016),Stuttgart,Stuttgart,Bus,81,1,True,False
+de:08111:2193,Ehrenhalde,Ehrenhalde,Stuttgart,Stuttgart,Bus,43,1,True,False
+de:08111:6098,Eiernest,Eiernest,Stuttgart,Stuttgart,Bus,41,1,True,False
+de:08111:193,Emerholz,Emerholz,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:2439,Erdbeerweg,Erdbeerweg,Stuttgart,Stuttgart,Bus,66,1,True,False
+de:08111:6794,Ernst-Reuter-Platz,Ernst-Reuter-Platz,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:2541,Eselweg,Eselweg,Stuttgart,Stuttgart,Bus,64,1,True,False
+de:08111:6580,Fasanenhof Abzweig,Fasanenhof Abzw.,Stuttgart,Stuttgart,Bus,77,1,True,False
+de:08111:2564,Fernsehturm,Fernsehturm,Stuttgart,Stuttgart,Bus,70,1,True,False
+de:08111:2422,Feuerbach Friedhof,Feuerbach Friedhof,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:316,Filderbahnstraße,Filderbahnstraße,Stuttgart,Stuttgart,Nachtbus,N10,1,True,False
+de:08111:2542,Filderblickweg,Filderblickweg,Stuttgart,Stuttgart,Bus,64,1,True,False
+de:08111:2623,Flachter Straße,Flachter Straße,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:2342,Forsthaus II,Forsthaus II,Stuttgart,Stuttgart,Bus,92,1,True,False
+de:08111:2425,Forsthaus Parkplatz,Forsthaus Parkplatz,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:2540,Frauenkopf,Frauenkopf,Stuttgart,Stuttgart,Bus,64,1,True,False
+de:08111:6286,Freiberg Schulzentrum,Freiberg Schulzentrum,Stuttgart,Stuttgart,Bus,99,1,True,False
+de:08111:198,Freihofplatz,Freihofplatz,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:2436,Fridinger Straße,Fridinger Straße,Stuttgart,Stuttgart,Bus,66,1,True,False
+de:08111:6328,Fritz-Walter-Weg,Fritz-Walter-Weg,Stuttgart,Stuttgart,Bus,45,1,True,False
+de:08111:2188,Fuchsrain,Fuchsrain,Stuttgart,Stuttgart,Bus,45,1,True,False
+de:08111:207,Generationenhaus,Generationenhaus,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:2346,Generatorstraße,Generatorstraße,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:2699,Gewerbestraße,Gewerbestraße,Stuttgart,Stuttgart,Bus,80,1,True,False
+de:08111:195,Greut,Greut,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:2630,Greutterstraße,Greutterstraße,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:6203,Gründgensstraße,Gründgensstraße,Stuttgart,Stuttgart,Bus,84,1,True,False
+de:08111:2562,Grünlingweg,Grünlingweg,Stuttgart,Stuttgart,Bus,70,1,True,False
+de:08111:3997,Hafenbahnstraße (FOB),Hafenbahnstr. (FOB),Stuttgart,Stuttgart,Bus,103,1,True,False
+de:08111:2700,Handwerkstraße,Handwerkstraße,Stuttgart,Stuttgart,Bus,80,1,True,False
+de:08111:2610,Hans-Rehn-Stift,Hans-Rehn-Stift,Stuttgart,Stuttgart,Bus,82,1,True,False
+de:08111:2619,Hausenring,Hausenring,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:248,Havelweg,Havelweg,Stuttgart,Stuttgart,Bus,59,1,True,False
+de:08111:2477,Hebsacker Straße,Hebsacker Straße,Stuttgart,Stuttgart,Bus,52,1,True,False
+de:08111:2423,Heimberg,Heimberg,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:2357,Hemminger Straße,Hemminger Straße,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:6511,Herweghstraße,Herweghstraße,Stuttgart,Stuttgart,Bus,44,1,True,False
+de:08111:2617,Holderäcker,Holderäcker,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:2629,Huttenstraße,Huttenstraße,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:2419,Händelstraße,Händelstraße,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:2455,Höhenfreibad,Höhenfreibad,Stuttgart,Stuttgart,Bus,43,1,True,False
+de:08111:2195,Hölderlinstraße,Hölderlinstraße,Stuttgart,Stuttgart,Bus,43,1,True,False
+de:08111:2450,Im Himmerreich,Im Himmerreich,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:2431,Im Lauch,Im Lauch,Stuttgart,Stuttgart,Bus,66,1,True,False
+de:08111:3996,In den Stegwiesen,In den Stegwiesen,Stuttgart,Stuttgart,Bus,103,1,True,False
+de:08111:2433,In der Werre,In der Werre,Stuttgart,Stuttgart,Bus,66,1,True,False
+de:08111:2601,Industriestraße,Industriestraße,Stuttgart,Stuttgart,Bus,80,1,True,False
+de:08111:6268,Johanneskirche,Johanneskirche,Stuttgart,Stuttgart,Bus,53,1,True,False
+de:08111:200,Kameralamtsstraße,Kameralamtsstraße,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:2598,Kautt und Bux,Kautt und Bux,Stuttgart,Stuttgart,Bus,80,1,True,False
+de:08111:2430,Kirchheimer Straße,Kirchheimer Straße,Stuttgart,Stuttgart,Bus,66,1,True,False
+de:08111:2382,Kleiner Ostring,Kleiner Ostring,Stuttgart,Stuttgart,Bus,58,1,True,False
+de:08111:70,Kleiner Schlossplatz,Kleiner Schlossplatz,Stuttgart,Stuttgart,Bus,47,1,True,False
+de:08111:2563,Kolpingsiedlung,Kolpingsiedlung,Stuttgart,Stuttgart,Bus,70,1,True,False
+de:08111:105,Kornwestheimer Straße,Kornwestheimer Straße,Stuttgart,Stuttgart,Bus,412,1,True,False
+de:08111:2347,Kranstraße,Kranstraße,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:6202,Kurmärker Kaserne,Kurmärker Kaserne,Stuttgart,Stuttgart,Bus,84,1,True,False
+de:08111:2437,Kühwasen,Kühwasen,Stuttgart,Stuttgart,Bus,66,1,True,False
+de:08111:2420,Laihle,Laihle,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:6164,Laustraße,Laustraße,Stuttgart,Stuttgart,Nachtbus,N9,1,True,False
+de:08111:249,Lechweg,Lechweg,Stuttgart,Stuttgart,Bus,59,1,True,False
+de:08111:156,Leobener Straße,Leobener Straße,Stuttgart,Stuttgart,Nachtbus,N3,1,True,False
+de:08111:2348,Lilienthalstraße,Lilienthalstraße,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:319,Losäcker,Losäcker,Stuttgart,Stuttgart,Nachtbus,N3,1,True,False
+de:08111:3995,Manzeller Weg,Manzeller Weg,Stuttgart,Stuttgart,Bus,103,1,True,False
+de:08111:2464,Marconibrücke,Marconibrücke,Stuttgart,Stuttgart,Bus,99,1,True,False
+de:08111:150,Mathildenstraße,Mathildenstraße,Stuttgart,Stuttgart,Nachtbus,N3,1,True,False
+de:08111:6031,Meitnerstraße,Meitnerstraße,Stuttgart,Stuttgart,Bus,82,1,True,False
+de:08111:4066,Mercedes-Benz,Mercedes-Benz,Stuttgart,Stuttgart,Bus,103,1,True,False
+de:08111:2331,Mercedes-Benz Welt,Mercedes-Benz Welt,Stuttgart,Stuttgart,Bus,45,1,True,False
+de:08111:2415,Metzgerhau,Metzgerhau,Stuttgart,Stuttgart,Bus,92,1,True,False
+de:08111:2350,Motorstraße 24,Motorstraße 24,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:2427,Mähderklinge,Mähderklinge,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:2635,Mönsheimer Weg,Mönsheimer Weg,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:250,Münster Friedhof,Münster Friedhof,Stuttgart,Stuttgart,Bus,59,1,True,False
+de:08111:251,Münster Kultur-/Sportzentrum,Münster Kultur-/Sportzentrum,Stuttgart,Stuttgart,Bus,59,1,True,False
+de:08111:2461,Nordsee-/Schwieberd. Straße,Nordsee-/Schwieberd. Straße,Stuttgart,Stuttgart,Bus,52,1,True,False
+de:08111:2435,Oberwiesenstraße 55,Oberwiesenstraße 55,Stuttgart,Stuttgart,Bus,66,1,True,False
+de:08111:252,Oderstraße,Oderstraße,Stuttgart,Stuttgart,Bus,59,1,True,False
+de:08111:2236,Oskar-Schlemmer-Straße,Oskar-Schlemmer-Straße,Stuttgart,Stuttgart,Bus,43,1,True,False
+de:08111:2429,Paul-Lincke-Straße,Paul-Lincke-Straße,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:6792,Rappachschule,Rappachschule,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:2653,Rappachstraße,Rappachstraße,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:2184,Relenbergstraße,Relenbergstraße,Stuttgart,Stuttgart,Bus,43,1,True,False
+de:08111:374,Rembrandtstraße,Stuttgart Rembrandtstraße,Stuttgart,Stuttgart,Nachtbus,N9,1,True,False
+de:08111:2548,Riedenberg,Riedenberg,Stuttgart,Stuttgart,Bus,65,1,True,False
+de:08111:2475,Robert-Bosch-Krankenhaus,Robert-Bosch-Krankenhaus,Stuttgart,Stuttgart,Bus,57,1,True,False
+de:08111:6296,Rosensteinstraße,Rosensteinstraße,Stuttgart,Stuttgart,Nachtbus,N5,1,True,False
+de:08111:2262,Rotebühl-/Reinsburgstraße,Rotebühl-/Reinsburgstraße,Stuttgart,Stuttgart,Bus,92,1,True,False
+de:08111:6147,Roßbachstraße,Roßbachstraße,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:6174,Rübezahlweg,Stuttgart Rübezahlweg,Stuttgart,Stuttgart,Bus,72,1,True,False
+de:08111:6028,STEP,Stuttgart STEP,Stuttgart,Stuttgart,Bus,X60,1,True,False
+de:08111:2118,Schattengrund,Schattengrund,Stuttgart,Stuttgart,Bus,92,1,True,False
+de:08111:2465,Schlotwiese,Schlotwiese,Stuttgart,Stuttgart,Bus,99,1,True,False
+de:08111:2192,Schottstraße,Schottstraße,Stuttgart,Stuttgart,Bus,43,1,True,False
+de:08111:2600,Schulze-Delitzsch-Straße,Schulze-Delitzsch-Str.,Stuttgart,Stuttgart,Bus,80,1,True,False
+de:08111:205,Schwilkenhofstraße,Schwilkenhofstraße,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:202,Schwärmerweg,Schwärmerweg,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:203,Segelfalterstraße,Segelfalterstraße,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:2264,Silberburg-/Reinsburgstraße,Silberburg-/Reinsburgstraße,Stuttgart,Stuttgart,Bus,92,1,True,False
+de:08111:2316,Solitude,Solitude,Stuttgart,Stuttgart,Bus,92,1,True,False
+de:08111:6137,Sportplatz,Sportplatz,Stuttgart,Stuttgart,Bus,131,1,True,False
+de:08111:4013,Stadtgrenze,Stadtgrenze,Stuttgart,Stuttgart,Bus,101,1,True,False
+de:08111:206,Stammheim Friedhof,Stammheim Friedhof,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:196,Stammheim Sporthalle,Stammheim Sporthalle,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:2547,Steinäcker,Steinäcker,Stuttgart,Stuttgart,Bus,65,1,True,False
+de:08111:2311,Straußstaffel,Straußstaffel,Stuttgart,Stuttgart,Bus,42,1,True,False
+de:08111:204,Tagfalterweg,Tagfalterweg,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:5852,Tigerstraße,Tigerstraße,Stuttgart,Stuttgart,Bus,84,1,True,False
+de:08111:2438,Treiberstraße,Treiberstraße,Stuttgart,Stuttgart,Bus,66,1,True,False
+de:08111:371,Tunnelstraße,Tunnelstraße,Stuttgart,Stuttgart,Nachtbus,N3,1,True,False
+de:08111:2417,Umgelterweg,Umgelterweg,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:6006,Vaihingen Bf (Ost),Vaihingen Bf (Ost),Stuttgart,Stuttgart,Bus,80,1,True,False
+de:08111:2332,Veielbrunnenweg,Veielbrunnenweg,Stuttgart,Stuttgart,Bus,45,1,True,False
+de:08111:2191,Viktor-Köchl-Weg,Viktor-Köchl-Weg,Stuttgart,Stuttgart,Bus,43,1,True,False
+de:08111:372,Villastraße,Villastraße,Stuttgart,Stuttgart,Nachtbus,N4,1,True,False
+de:08111:377,Wangen Kelter,Wangen Kelter,Stuttgart,Wangen (Stuttgart),Nachtbus,N6,1,True,False
+de:08111:2637,Weilemer Pfad,Weilemer Pfad,Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:2624,Weilimdorf Bf (Unterführung),Weilimdorf Bf (Unterführung),Stuttgart,Stuttgart,Bus,90,1,True,False
+de:08111:197,Wespenweg,Wespenweg,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:2424,Wildensteinstraße,Wildensteinstraße,Stuttgart,Stuttgart,Bus,91,1,True,False
+de:08111:194,Withau,Withau,Stuttgart,Stuttgart,Bus,98,1,True,False
+de:08111:6266,Zabergäustraße,Zabergäustraße,Stuttgart,Stuttgart,Bus,53,1,True,False
+de:08111:2413,Zellerstraße,Zellerstraße,Stuttgart,Stuttgart,Bus,43,1,True,False
+de:08111:2478,Zuffenhäuser Heide,Zuffenhäuser Heide,Stuttgart,Stuttgart,Bus,52,1,True,False
+de:08119:5144,Blumenstraße,Waiblingen Blumenstraße,Waiblingen,Waiblingen,Bus; Nachtbus,"201, 204, 206, 207, 209, 211, N21, N24, N31",9,True,False
+de:08119:5391,Stadtmitte,Waiblingen Stadtmitte,Waiblingen,Waiblingen,Bus; Nachtbus,"201, 204, 206, 207, 208, 209, N21, N24, N31",9,True,False
+de:08119:5925,Obere Bahnhofstraße,Waiblingen Obere Bahnhofstr.,Waiblingen,Waiblingen,Bus; Nachtbus,"201, 204, 206, 207, 209, N21, N24, N31",8,True,False
+de:08119:3627,Bürgerzentrum (Hallenbad),Waibl. Bürgerz. (Hallenbad),Waiblingen,Waiblingen,Bus; Nachtbus,"201, 204, 207, 209, N21, N24, N31",7,True,False
+de:08119:3628,Devizesstraße,Waiblingen Devizesstraße,Waiblingen,Waiblingen,Bus; Nachtbus,"207, 211, 216, 218, N21",5,True,False
+de:08119:7602,Bahnhof (Dammstraße),Waiblingen Bahnhof (Dammstr.),Waiblingen,Waiblingen,SEV-Bus,"S2E, S2X, XEV, RE90E",4,True,False
+de:08119:3650,Berufsschulzentrum,Waiblingen Berufsschulzentrum,Waiblingen,Waiblingen,Bus; Nachtbus,"204, 205, 431, N24",4,True,False
+de:08119:5406,Mikrozentrum,Waiblingen Mikrozentrum,Waiblingen,Waiblingen,Bus; Nachtbus,"207, N31",2,True,False

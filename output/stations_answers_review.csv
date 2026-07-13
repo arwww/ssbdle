@@ -1,0 +1,403 @@
+﻿id,name,name_with_place,municipality,locality,modes,lines,original_line_count,relevant_line_count,answer_reason
+de:08115:4764,Aidlinger Straße,Dagersheim Aidlinger Str.,Böblingen,Dagersheim,Bus,"707, 717, 722, 722A, 723, 743, 744, 763, 763A",9,9,surrounding_many_lines
+de:08115:3101,Arbeiterzentrum,Böblingen Arbeiterzentrum,Böblingen,Böblingen,Bus,"705, 709, 709A, 721, 723, 725, 760, 760A, 761, X16, X76",11,11,surrounding_many_lines
+de:08115:7100,Böblingen,Böblingen,Böblingen,Böblingen,Bus; IC; Nachtbus; R-Bahn; Ruftaxi; S-Bahn; SEV-Bus,"S1, S60, S61, RE4, RE14, SVG, RB46, IC, R46E, 631, 701, 701A, 703, 704, 706, 707, 709, 709A, 717, 721, 721A, 722, 722A, 723, 723A, 725, 728, 743, 744, 760, 760A, 761, 763, 763A, 766, 769, X16, X76, N73, N74, N75, S1E, S6X, S60E, SXE, RT760, RT763, RT766, RT46",49,46,surrounding_rail
+de:08115:4620,Calwer Straße,Böblingen Calwer Str.,Böblingen,Böblingen,Bus; Nachtbus,"707, 717, 722A, 723, 728, 743, 744, 763, 763A, 766, N75",11,10,surrounding_many_lines
+de:08115:4621,Calwer Straße (Hulb),Böblingen Calwer Str. (Hulb),Böblingen,Böblingen,Bus; Nachtbus,"705, 707, 717, 722A, 723, 743, 744, 763, 763A, 766, N75",11,10,surrounding_many_lines
+de:08115:4711,Danziger Straße,Böblingen Danziger Straße,Böblingen,Böblingen,R-Bahn,RB46,1,1,surrounding_rail
+de:08115:6751,Diezenhalde (Zentrum),Böbl. Diezenhalde (Zentrum),Böblingen,Böblingen,Bus; Nachtbus,"701, 703, 705, 721, 721A, N73",6,5,surrounding_keyword
+de:08115:3139,Diezenhalde (Zentrum) Süd,Böbl. Diezenh. (Zentrum) Süd,Böblingen,Böblingen,Bus,"701, 701A, 705, 721, 721A",5,5,surrounding_keyword
+de:08115:4655,Eichenpfädle,Dagersh. Eichenpfädle,Böblingen,Dagersheim,Bus,"707, 717, 717A, 722A, 723, 723A, 763",7,7,surrounding_many_lines
+de:08115:3105,Elbenplatz,Böblingen Elbenplatz,Böblingen,Böblingen,Bus,"705, 709, 709A, 721, 721A, 723, 725, 760, 760A, 761, X16, X76",12,12,surrounding_many_lines
+de:08115:3112,Friedrich-List-Platz,Böblingen Friedrich-List-Platz,Böblingen,Böblingen,Bus; Nachtbus,"705, 706, 709, 709A, 721, 723, 725, N74",8,7,surrounding_many_lines
+de:08115:3212,Goldberg,Goldberg,Böblingen,Böblingen,Bus; R-Bahn; S-Bahn,"S1, RE4, 704, 704A, 706, 708",6,6,surrounding_rail
+de:08115:4692,Hallenbad,Böblingen Hallenbad,Böblingen,Böblingen,Bus; Nachtbus,"709, 760, 760A, 761, X16, X76, N74",7,6,surrounding_many_lines
+de:08115:4631,Hauptstraße,Dagersheim Hauptstraße,Böblingen,Dagersheim,Bus; Nachtbus,"707, 717, 722, 722A, 723, 723A, 743, 744, 763, 763A, 766, N75",12,11,surrounding_many_lines
+de:08115:4630,Haus der Vereine,Dagersh. Haus d. Vereine,Böblingen,Dagersheim,Bus; Nachtbus,"707, 717, 722, 722A, 723, 723A, 743, 744, 763, 763A, 766, N75",12,11,surrounding_many_lines
+de:08115:4712,Heusteigstraße,Böblingen Heusteigstraße,Böblingen,Böblingen,Bus; R-Bahn,"RB46, 721A",2,2,surrounding_rail
+de:08115:7115,Hulb,Hulb,Böblingen,Böblingen,Bus; R-Bahn; S-Bahn,"S1, S61, RE4, SVG, 707, 722A, 728",7,7,surrounding_rail
+de:08115:4632,Kirche,Dagersheim Kirche,Böblingen,Dagersheim,Bus,"707, 717, 717A, 722A, 723, 723A, 763",7,7,surrounding_many_lines
+de:08115:3125,Klaffensteinstraße,Böblingen Klaffensteinstr.,Böblingen,Böblingen,Bus; Ruftaxi,"705, 709, 723, 725, 760, 760A, 761, X16, X76, RT760",10,10,surrounding_many_lines
+de:08115:3104,Postplatz,Böblingen Postplatz,Böblingen,Böblingen,Bus,"705, 709, 709A, 721, 721A, 723, 725, 760, 760A, 761, X16, X76",12,12,surrounding_many_lines
+de:08115:4672,Schönaicher First,Böblingen Schönaicher First,Böblingen,Böblingen,Bus; Nachtbus,"709, 709A, 760, 760A, 761, X16, X76, N74",8,7,surrounding_many_lines
+de:08115:4670,Schulzentrum Murkenbach,Böbl. Schulzentrum Murkenbach,Böblingen,Böblingen,Bus,"703, 709A, 721A, 723",4,4,surrounding_keyword
+de:08115:4633,Schützenweg,Dagersheim Schützenweg,Böblingen,Dagersheim,Bus,"707, 717, 717A, 722A, 723, 723A, 763",7,7,surrounding_many_lines
+de:08115:4205,Sindelfinger Straße,Böblingen Sindelfinger Str.,Böblingen,Böblingen,Bus,"701, 701A, 709, 709A, 744, 763, 763A",7,7,surrounding_many_lines
+de:08115:3127,Sporthalle,Böblingen Sporthalle,Böblingen,Böblingen,Bus; Nachtbus,"703, 705, 709, 760, 760A, 761, X16, X76, N73",9,8,surrounding_many_lines
+de:08115:6742,Südbahnhof,Böblingen Südbahnhof,Böblingen,Böblingen,R-Bahn,RB46,1,1,surrounding_rail
+de:08115:4619,Talstraße,Böblingen Talstraße,Böblingen,Böblingen,Bus,"707, 717, 722A, 723, 728, 743, 744, 763, 763A, 766",10,10,surrounding_many_lines
+de:08115:4713,Zimmerschlag,Böblingen Zimmerschlag,Böblingen,Böblingen,R-Bahn,RB46,1,1,surrounding_rail
+de:08116:3807,Alte Heusteige,Zell Alte Heusteige,Esslingen am Neckar,Zell (Esslingen),Bus,"102, 103, 114A, 115, 138, 140",6,6,surrounding_many_lines
+de:08116:4170,Berufliches Schulzentrum,Zell Berufliches Schulzentrum,Esslingen am Neckar,Zell (Esslingen),Bus,"102, 103, 104, 114A, 115, 138",6,6,surrounding_many_lines
+de:08116:7800,Esslingen (N),Esslingen (N),Esslingen am Neckar,Esslingen (N),R-Bahn; S-Bahn,"S1, RE5, RE6, MEX12, MEX16, MEX18",6,6,surrounding_rail
+de:08116:3810,Indexstraße/Bahnhof,Oberesslingen Indexstr/Bahnhof,Esslingen am Neckar,Oberesslingen,Bus; Nachtbus,"101, 106, 114, 115, 140, N16",6,5,surrounding_keyword
+de:08116:4094,Katharinenstaffel,Essl.(N) Katharinenstaffel,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"102, 103, 105, 108, 110, 111, N12, N14",8,6,surrounding_many_lines
+de:08116:4034,Kleiner Markt,Esslingen (N) Kleiner Markt,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"102, 103, 105, 108, 109, 110, 122, N14",8,7,surrounding_many_lines
+de:08116:2800,Maille,Esslingen (N) Maille,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"102, 103, 108, 110, 111, 113, 118, 119, 120, 130, 131, N14, N16, N19, N22",15,11,surrounding_many_lines
+de:08116:1801,Mettingen,Mettingen,Esslingen am Neckar,Mettingen,Bus; R-Bahn; S-Bahn; SEV-Bus,"S1, RE6, MEX12, 101, 102, S1E",6,6,surrounding_rail
+de:08116:4033,Neckar Forum,Esslingen (N) Neckar Forum,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"102, 103, 105, 108, 110, 122, N14",7,6,surrounding_many_lines
+de:08116:1802,Oberesslingen,Oberesslingen,Esslingen am Neckar,Oberesslingen,Bus; R-Bahn; S-Bahn,"S1, RE6, 138, 140",4,4,surrounding_rail
+de:08116:2806,Pliensauturm,Esslingen (N) Pliensauturm,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"101, 102, 103, 104, 106, 108, 110, 111, 113, 114, 115, 118, 119, 120, 130, 131, 140, N12, N13, N14, N16, N19, N22",23,17,surrounding_many_lines
+de:08116:4007,Schelztor,Esslingen (N) Schelztor,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"101, 102, 103, 105, 108, 109, 110, 115, 122, N14",10,9,surrounding_many_lines
+de:08116:4006,Schwimmbad,Esslingen (N) Schwimmbad,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"101, 106, 113, 114, 115, 140, N13, N16",8,6,surrounding_many_lines
+de:08116:4002,Steinhalde,Oberesslingen Steinhalde,Esslingen am Neckar,Oberesslingen,Bus; Nachtbus,"101, 106, 114, 114A, 132, 140, N16",7,6,surrounding_many_lines
+de:08116:2801,Weilstraße,Pliensauv. Weilstraße,Esslingen am Neckar,Pliensauvorstadt,Bus; Nachtbus,"113, 118, 119, 120, 122, 130, 131, N19, N22",9,7,surrounding_many_lines
+de:08116:1803,Zell,Zell,Esslingen am Neckar,Zell (Esslingen),Bus; R-Bahn; S-Bahn,"S1, RE6, MEX18, 102, 103, 114A, 115, 138, 140",9,9,surrounding_rail
+de:08116:4169,Zentrum,Zell Zentrum,Esslingen am Neckar,Zell (Esslingen),Bus,"102, 103, 114A, 115, 138",5,5,surrounding_keyword
+de:08116:7801,ZOB,Esslingen (N) ZOB,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus; SEV-Bus,"101, 102, 103, 104, 105, 106, 108, 109, 110, 111, 113, 114, 115, 118, 119, 120, 122, 130, 131, 140, N12, N13, N14, N16, N19, N22, X20, S1E, MEX16E",29,23,surrounding_many_lines
+de:08119:38,Esslinger Straße,Fellbach Esslinger Straße,Fellbach,Fellbach,Bus; Stadtbahn,"U1, U16, 212",3,3,surrounding_rail
+de:08119:6500,Fellbach,Fellbach,Fellbach,Fellbach,Bus; Nachtbus; R-Bahn; S-Bahn; SEV-Bus,"S2, S3, RE1, MEX19, RE90, MEX90, 60, 210, 212, 214, 215, N6, S2E",13,12,surrounding_rail
+de:08119:37,Höhenstraße,Fellbach Höhenstraße,Fellbach,Fellbach,Nachtbus; Stadtbahn,"U1, U16, N6",3,2,surrounding_rail
+de:08119:6040,Lutherkirche,Fellbach Lutherkirche,Fellbach,Fellbach,Bus; Nachtbus; Stadtbahn,"U1, U16, 60, 207, 212, 215, N6",7,6,surrounding_rail
+de:08119:2377,Rathaus,Schmiden Rathaus,Fellbach,Schmiden,Bus; Nachtbus,"58, 60, 205, 214, N6",5,4,surrounding_keyword
+de:08119:39,Schwabenlandhalle,Fellbach Schwabenlandhalle,Fellbach,Fellbach,Bus; Stadtbahn,"U1, U16, 207, 212",4,4,surrounding_rail
+de:08116:2006,Bahnhof,Bernhausen Bahnhof,Filderstadt,Bernhausen,Bus; Nachtbus; SEV-Bus,"X4, 74, 76, 805, 807, 808, 809, 809A, 811, 812, 813, 814, 815, 816, 816A, 817, 818, N89, S2E, X3",20,19,surrounding_many_lines
+de:08116:2081,Carl-Zeiss-Straße,Harthausen Carl-Zeiss-Straße,Filderstadt,Harthausen,Bus,"X7, 77, 805, 809, 809A, 816A",6,6,surrounding_many_lines
+de:08116:2025,Driefbrunnen,Plattenhardt Driefbrunnen,Filderstadt,Plattenhardt,Bus,"X7, 76, 77, 812, 813, 814, 816A, 818, 818A",9,9,surrounding_many_lines
+de:08116:1905,Filderstadt,Filderstadt,Filderstadt,Bernhausen,S-Bahn,"S2, S24",2,2,surrounding_rail
+de:08116:2017,Fildorado,Bonlanden Fildorado,Filderstadt,Bonlanden,Bus,"809A, 812, 813, 815, 816A, 818A",6,6,surrounding_many_lines
+de:08116:2071,Fleinsbach,Bernhausen Fleinsbach,Filderstadt,Bernhausen,Bus,"76, 805, 807, 808, 809, 809A, 812, 813, 814, 815, 816A, 818",12,12,surrounding_many_lines
+de:08116:2024,Kirche,Harthausen Kirche,Filderstadt,Harthausen,Bus; Nachtbus,"X7, 77, 805, 807, 809, 809A, 816A, N89",8,7,surrounding_many_lines
+de:08116:6735,Kronenbrunnen,Plattenhardt Kronenbrunnen,Filderstadt,Plattenhardt,Bus,"76, 77, 812, 813, 816A, 818A",6,6,surrounding_many_lines
+de:08116:2023,Linde,Harthausen Linde,Filderstadt,Harthausen,Bus; Nachtbus,"X7, 77, 805, 807, 809, 809A, 816A, N89",8,7,surrounding_many_lines
+de:08116:2090,Luftfrachtzentrum,Bernhausen Luftfrachtzentrum,Filderstadt,Bernhausen,Bus,"811, 812, 813",3,3,surrounding_keyword
+de:08116:2078,Marktstraße,Bonlanden Marktstraße,Filderstadt,Bonlanden,Bus; Nachtbus,"X7, 76, 77, 809A, 816A, 818A, N89",7,6,surrounding_many_lines
+de:08116:5798,Metzinger Straße,Bonl. Metzinger Straße,Filderstadt,Bonlanden,Bus; Nachtbus,"X7, 76, 77, 809A, 816A, 818A, N89",7,6,surrounding_many_lines
+de:08116:2021,Nord,Bonlanden Nord,Filderstadt,Bonlanden,Bus,"76, 809A, 812, 813, 815, 816A",6,6,surrounding_many_lines
+de:08116:1997,Raiffeisenstraße,Bonlanden Raiffeisenstraße,Filderstadt,Bonlanden,Bus,"805, 807, 808, 809, 809A, 816A",6,6,surrounding_many_lines
+de:08116:2028,Rathaus,Plattenhardt Rathaus,Filderstadt,Plattenhardt,Bus; Nachtbus,"X7, 76, 77, 809A, 812, 813, 816A, 818A, N89",9,8,surrounding_many_lines
+de:08116:2080,Roßbergstraße,Harthausen Roßbergstraße,Filderstadt,Harthausen,Bus; Nachtbus,"77, 805, 807, 809, 809A, 816A, N89",7,6,surrounding_many_lines
+de:08116:2042,Schul-/Sportzentrum,Sielmingen Schul-/Sportzentrum,Filderstadt,Sielmingen,Bus,"74, 809A, 816A, 817",4,4,surrounding_keyword
+de:08116:2029,Waldstraße,Plattenhardt Waldstraße,Filderstadt,Plattenhardt,Bus,"76, 77, 812, 813, 814, 816A, 818, 818A",8,8,surrounding_many_lines
+de:08116:7003,Echterdingen,Echterdingen,Leinfelden-Echterdingen,Echterdingen,Bus; S-Bahn; SEV-Bus,"S2, S3, S24, 76, 77, 818, 818A, 828, X82, S2E",10,10,surrounding_rail
+de:08116:2103,Flughafen/Messe,Flughafen/Messe,Leinfelden-Echterdingen,Echterdingen,Bus; Nachtbus; S-Bahn; SEV-Bus; Stadtbahn,"S2, S3, S24, U6, 65, 122, 812, 813, 828, X82, N8, X10, X60, S2E, S2X, S6X, SXE, X3",18,17,surrounding_rail
+de:08116:7173,Frank,Leinfelden Frank,Leinfelden-Echterdingen,Leinfelden,Stadtbahn,"U5, U",2,2,surrounding_rail
+de:08116:7178,Hirschstraße,Echterdingen Hirschstr.,Leinfelden-Echterdingen,Echterdingen,Bus; Nachtbus,"76, 77, 818, 818A, 828, X82, N18",7,6,surrounding_many_lines
+de:08116:2115,Hof,Stetten (F) Hof,Leinfelden-Echterdingen,Stetten (Leinfelden-Echt.),Bus; Nachtbus,"X7, 76, 77, 812, 813, 814, 818A, N18",8,7,surrounding_many_lines
+de:08116:2114,Kasparswald,Stetten (F) Kasparswald,Leinfelden-Echterdingen,Stetten (Leinfelden-Echt.),Bus; Nachtbus,"X7, 76, 77, 812, 813, 814, 816A, 818A, N18",9,8,surrounding_many_lines
+de:08116:175,Leinfelden,Leinfelden,Leinfelden-Echterdingen,Leinfelden,Bus; Nachtbus; S-Bahn; SEV-Bus; Stadtbahn,"S2, S3, S24, U5, U, 82, 86, 818, 818A, 826, 826A, N18, S2E",13,12,surrounding_rail
+de:08116:7182,Messe West,Echterdingen Messe West,Leinfelden-Echterdingen,Echterdingen,Bus; SEV-Bus; Stadtbahn,"U6, 812, 813, 828, X82, X10, X60, SXE, X3",9,9,surrounding_rail
+de:08116:2069,Neuer Markt,Leinfelden Neuer Markt,Leinfelden-Echterdingen,Leinfelden,Bus; Nachtbus; Stadtbahn,"U5, U, 814, 818, N18",5,4,surrounding_rail
+de:08116:2105,Oberaichen,Oberaichen,Leinfelden-Echterdingen,Leinfelden,Bus; Nachtbus; S-Bahn; SEV-Bus,"S2, S3, S24, 818, 818A, N18, S2E",7,6,surrounding_rail
+de:08116:7180,Stadionstraße,Echterdingen Stadionstr.,Leinfelden-Echterdingen,Echterdingen,Bus; Stadtbahn,"U6, 828, X82",3,3,surrounding_rail
+de:08116:2147,Stadtbücherei,Leinfelden Stadtbücherei,Leinfelden-Echterdingen,Leinfelden,Bus; Nachtbus,"82, 86, 818, 818A, 826, 826A, N18",7,6,surrounding_many_lines
+de:08116:174,Unteraichen,Leinf. Unteraichen,Leinfelden-Echterdingen,Leinfelden,Bus; Stadtbahn,"U5, U, 818",3,3,surrounding_rail
+de:08116:7179,Waldhornstraße,Echterdingen Waldhornstraße,Leinfelden-Echterdingen,Echterdingen,Bus; Nachtbus,"76, 77, 818, 818A, 828, X82, N18",7,6,surrounding_many_lines
+de:08115:4547,Albert-Schweitzer-Gymnasium,Leonb. A.-Schweitzer-Gymnasium,Leonberg,Leonberg,Bus; Nachtbus,"631, 631A, 632, 632A, 634, 642, 643, 651, 651A, 652, 653, 653A, 654, 660, N62, N63",16,14,surrounding_many_lines
+de:08115:2352,Altstadt,Leonberg Altstadt,Leonberg,Leonberg,Bus; Nachtbus,"X2, 92, 635, 643, 650, 651, 651A, N63, X60",9,8,surrounding_many_lines
+de:08115:2345,Belforter Platz,Leonberg Belforter Platz,Leonberg,Leonberg,Bus; Nachtbus,"631, 631A, 632, 632A, 634, 643, 652, 653, 653A, 654, 660, N62",12,11,surrounding_many_lines
+de:08115:2322,Gartenstadt,Leonberg Gartenstadt,Leonberg,Leonberg,Bus; Nachtbus,"634, 652, 653, 653A, 654, 660, N62",7,6,surrounding_many_lines
+de:08115:1003,Höfingen,Höfingen,Leonberg,Höfingen,R-Bahn; S-Bahn,"S6, S60, S61, S62, RE4, RE14",6,6,surrounding_rail
+de:08115:2329,Johannes-Kepler-Gymnasium,Leonb. Joh.-Kepler-Gymnasium,Leonberg,Leonberg,Bus; Nachtbus,"X2, 92, 631, 631A, 632, 632A, 634, 635, 640, 650, 651, 651A, 652, 653, 653A, 654, 660, N62, N63",19,17,surrounding_many_lines
+de:08115:2327,Krankenhaus,Leonberg Krankenhaus,Leonberg,Leonberg,Bus; Nachtbus,"631A, 632A, 634, 640, 652, 653, 653A, 654, 660, N62",10,9,surrounding_many_lines
+de:08115:7301,Leonberg,Leonberg,Leonberg,Leonberg,Bus; Nachtbus; R-Bahn; Ruftaxi; S-Bahn; SEV-Bus,"S6, S60, S61, S62, RE4, RE14, SVG, X2, 92, 631, 631A, 632, 632A, 634, 635, 640, 641, 642, 643, 650, 651, 651A, 652, 653, 653A, 654, 660, N62, N63, X60, S6E, S60E, RT644",33,31,surrounding_rail
+de:08115:2328,Neuköllner Platz,Eltingen Neuköllner Pl.,Leonberg,Eltingen,Bus; Ruftaxi,"92, 631, 631A, 632, 632A, 640, 641, 651, 651A, RT644",10,10,surrounding_many_lines
+de:08115:4550,Rathaus,Gebersheim Rathaus,Leonberg,Gebersheim,Bus; Nachtbus,"634, 653, 653A, 654, N62",5,4,surrounding_keyword
+de:08115:2333,Römer-/Poststraße,Leonberg Römer-/Poststr.,Leonberg,Leonberg,Bus; Nachtbus; Ruftaxi,"92, 631, 631A, 632, 632A, 634, 640, 641, 642, 643, 651, 651A, 652, 653, 653A, 654, 660, N62, N63, RT644",20,18,surrounding_many_lines
+de:08115:1302,Rutesheim,Rutesheim,Leonberg,Leonberg,Bus; R-Bahn; S-Bahn; SEV-Bus,"S6, S60, S61, S62, RE4, RE14, 654, 654A, 655, 655A, S6E, S60E",12,12,surrounding_rail
+de:08115:2355,Törlensweg,Leonberg Törlensweg,Leonberg,Leonberg,Bus; Nachtbus,"X2, 92, 635, 640, 650, 651, 651A, N63",8,7,surrounding_many_lines
+de:08118:3408,Arsenalplatz,Ludwigsburg Arsenalplatz,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 422, 422A, 424, 425, 425A, 426, 427, 427A, 430, 430A, 431, 433, 433A, 443, 444, 533, N41, N42, N43",21,18,surrounding_many_lines
+de:08118:7401,Bahnhof (Arena),Ludwigsburg Bahnhof (Arena),Ludwigsburg,Ludwigsburg,Bus; SEV-Bus,"420, 532, S4E, S5E, MEX17E",5,5,surrounding_keyword
+de:08118:7419,Bildungszentrum West,Ludwigsburg Bildungsz. West,Ludwigsburg,Ludwigsburg,Bus,"421A, 422A, 425A, 427A, 433A",5,5,surrounding_keyword
+de:08118:5497,Blühendes Barock,Ludw. Blühendes Barock,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"422, 422A, 425, 425A, 426, 431, 433, 433A, 443, N42, N43",11,9,surrounding_many_lines
+de:08118:7403,Favoritepark,Favoritepark,Ludwigsburg,Eglosheim,R-Bahn; S-Bahn,"S4, S24, MEX19, RE90, MEX90",5,5,surrounding_rail
+de:08118:7402,Ludwigsburg,Ludwigsburg,Ludwigsburg,Ludwigsburg,Bus; Nachtbus; R-Bahn; S-Bahn; SEV-Bus,"S4, S5, S24, RE1, RE8, MEX12, MEX17, MEX18, MEX19, RE90, MEX90, 413, 421, 421A, 422, 422A, 423, 424, 425, 425A, 426, 427, 427A, 429, 430, 430A, 431, 433, 433A, 443, 444, 508, 532, 533, 534, 535, X43, N41, N42, N43, N53, RE8E",42,38,surrounding_rail
+de:08118:3418,Neckarbrücke,Ludwigsburg Neckarbrücke,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 429, 430, 430A, 443, N41",7,6,surrounding_many_lines
+de:08118:5514,Neckarstraße,Ludwigsburg Neckarstr.,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"425, 425A, 426, 431, 433, 433A, N43",7,6,surrounding_many_lines
+de:08118:3419,Rathaus,Ludwigsburg Rathaus,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 422, 422A, 424, 425, 425A, 426, 427, 427A, 430, 430A, 431, 433, 433A, 443, 444, 533, N41, N42, N43",21,18,surrounding_many_lines
+de:08118:5454,Residenzschloss,Ludwigsburg Residenzschloss,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 424, 427, 427A, 430, 430A, 444, N41",9,8,surrounding_many_lines
+de:08118:5506,Schloss Favorite,Ludw. Schloss Favorite,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 427, 427A, 429, 430, 430A, 444, N41",9,8,surrounding_many_lines
+de:08118:4894,Schorndorfer Tor,Ludw. Schorndorfer Tor,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"422, 422A, 425, 425A, 426, 431, 433, 433A, 443, N42, N43",11,9,surrounding_many_lines
+de:08115:3184,Berliner Straße,Maichingen Berliner Str.,Sindelfingen,Maichingen,Bus,"702, 704, 704A, 705, 705A, 748, 748A",7,7,surrounding_many_lines
+de:08115:3215,Bürgerhaus,Maichingen Bürgerhaus,Sindelfingen,Maichingen,Bus,"702, 704, 704A, 705, 705A, 748A, 769",7,7,surrounding_many_lines
+de:08115:4624,Calwer Brücke,Sindelf. Calwer Brücke,Sindelfingen,Sindelfingen,Bus,"707, 717, 717A, 752, 763, 769",6,6,surrounding_many_lines
+de:08115:2210,Daimlersteg,Sindelfingen Daimlersteg,Sindelfingen,Sindelfingen,Bus,"84, 702, 707, 717, 717A, 752, 763, 769",8,8,surrounding_many_lines
+de:08115:4645,Essegger Straße,Sindelfingen Essegger Str.,Sindelfingen,Sindelfingen,Bus; Nachtbus,"702, 704, 704A, 745A, 748, 748A, N73",7,6,surrounding_many_lines
+de:08115:3206,Frankenstraße,Sindelfingen Frankenstraße,Sindelfingen,Sindelfingen,Bus,"705A, 709, 709A, 717A, 722A, 763, 763A",7,7,surrounding_many_lines
+de:08115:3204,Goldberg-Gymnasium,Sindelf. Goldberg-Gymnasium,Sindelfingen,Sindelfingen,Bus,"701, 701A, 704A, 705A, 708, 722A, 734, 744, 760A, 763, 763A, 769, X76",13,13,surrounding_many_lines
+de:08115:3205,Gottlieb-Daimler-Schule,Sind. Gottlieb-Daimler-Schule,Sindelfingen,Sindelfingen,Bus,"631, 701, 701A, 702, 704, 704A, 705A, 708, 717A, 734, 744, 760A, 763, 763A, 769, X76",16,16,surrounding_many_lines
+de:08115:4659,Gottscheer Straße,Sindelfingen Gottscheer Str.,Sindelfingen,Sindelfingen,Bus,"702, 704, 704A, 745A, 748, 748A",6,6,surrounding_many_lines
+de:08115:4644,Guttenbrunnstraße,Sindelfingen Guttenbrunnstr.,Sindelfingen,Sindelfingen,Bus; Nachtbus,"702, 704, 704A, 745A, 748, 748A, N73",7,6,surrounding_many_lines
+de:08115:3208,Hallenbad,Maichingen Hallenbad,Sindelfingen,Maichingen,Bus,"702, 704, 704A, 705, 705A, 745, 748A, 769",8,8,surrounding_many_lines
+de:08115:4638,Hofstraße,Darmsheim Hofstraße,Sindelfingen,Darmsheim,Bus,"707, 717, 717A, 722, 722A, 723",6,6,surrounding_many_lines
+de:08115:3207,Landhaussiedlung,Maich. Landhaussiedlung,Sindelfingen,Maichingen,Bus,"702, 704A, 705, 705A, 745, 745A",6,6,surrounding_many_lines
+de:08115:3198,Maichingen,Maichingen,Sindelfingen,Maichingen,Bus; R-Bahn; S-Bahn; SEV-Bus,"S60, S61, RE4, RE14, 704, 705A, 745, 748, 748A, 769, S60E",11,11,surrounding_rail
+de:08115:2228,Mercedes-Benz Hst. C,Sindelf. Mercedes-Benz Hst. C,Sindelfingen,Sindelfingen,Bus,"702, 703, 707, 744, 763, 769",6,6,surrounding_many_lines
+de:08115:2229,Mercedes-Benz Hst. D,Sindelf. Mercedes-Benz Hst. D,Sindelfingen,Sindelfingen,Bus,"702, 703, 707, 744, 763, 769",6,6,surrounding_many_lines
+de:08115:2230,Mercedes-Benz Hst. E,Sindelf. Mercedes-Benz Hst. E,Sindelfingen,Sindelfingen,Bus,"702, 703, 707, 744, 763, 769",6,6,surrounding_many_lines
+de:08115:2237,Mercedes-Benz Hst. K,Sindelf. Mercedes-Benz Hst. K,Sindelfingen,Sindelfingen,Bus,"702, 703, 707, 744, 763, 769",6,6,surrounding_many_lines
+de:08115:3197,Nord,Maichingen Nord,Sindelfingen,Maichingen,Bus; R-Bahn; S-Bahn; SEV-Bus,"S60, S61, RE4, RE14, 702, 704A, 705, 705A, 745, 748, S60E",11,11,surrounding_rail
+de:08115:2216,Pfarrwiesengymnasium,Sindelfingen Pfarrwiesengymn.,Sindelfingen,Sindelfingen,Bus; Nachtbus,"84, 701, 701A, 702, 704A, 708, 745A, 748, 748A, N73",10,9,surrounding_many_lines
+de:08115:4608,Robert-Bosch-Straße,Darmsheim Robert-Bosch-Str.,Sindelfingen,Darmsheim,Bus,"707, 717, 717A, 722, 722A, 723",6,6,surrounding_many_lines
+de:08115:4641,Schoßhöfe,Sindelfingen Schoßhöfe,Sindelfingen,Sindelfingen,Bus,"707, 717, 717A, 752, 763, 769",6,6,surrounding_many_lines
+de:08115:3201,Sindelfingen,Sindelfingen,Sindelfingen,Sindelfingen,Bus; R-Bahn; S-Bahn; SEV-Bus,"S60, S61, RE4, RE14, 84, 631, 701, 702, 704, 705, 707, 708, 717, 717A, 763, 769, S60E",17,17,surrounding_rail
+de:08115:3210,Solo,Maichingen Solo,Sindelfingen,Maichingen,Bus,"702, 704A, 705, 705A, 745, 748",6,6,surrounding_many_lines
+de:08115:4640,Tessiner Straße,Darmsheim Tessiner Str.,Sindelfingen,Darmsheim,Bus,"707, 717, 717A, 722, 722A, 723",6,6,surrounding_many_lines
+de:08115:4654,Textilzentrum,Sindelf. Textilzentrum,Sindelfingen,Sindelfingen,Bus,"702, 706, 711",3,3,surrounding_keyword
+de:08115:3200,ZOB,Sindelfingen ZOB,Sindelfingen,Sindelfingen,Bus; SEV-Bus,"84, 631, 701, 701A, 702, 704, 704A, 705, 705A, 707, 708, 711, 717, 717A, 734, 744, 752, 760A, 763A, 769, S60E",21,21,surrounding_many_lines
+de:08111:2535,Ährenweg,Ährenweg,Stuttgart,Stuttgart,Bus; Nachtbus; Ruftaxi,"62, 65, N7, RT7",4,3,stuttgart_many_lines
+de:08111:6570,Albschule,Albschule,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 71, 73, 74, 76, 77, N8, N9, N10",9,6,stuttgart_many_lines
+de:08111:2596,Am Schattwald,Am Schattwald,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 84, 91, 92, 747, 748, X74, N1, N63",9,7,stuttgart_many_lines
+de:08111:35,Antwerpener Straße,Antwerpener Straße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U1, U16, N6",3,2,stuttgart_rail
+de:08111:218,Arndt-/Spittastraße,Arndt-/Spittastraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U2, U9, N2",3,2,stuttgart_rail
+de:08111:2573,Asemwald,Asemwald,Stuttgart,Stuttgart,Bus; Nachtbus,"71, 74, 76, N8",4,3,stuttgart_many_lines
+de:08111:2459,Asperger Straße,Asperger Straße,Stuttgart,Stuttgart,Bus,"98, 412, 508",3,3,stuttgart_many_lines
+de:08111:2473,Auf der Steig,Auf der Steig,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U12, 52, N4",3,2,stuttgart_rail
+de:08111:33,Augsburger Platz,Augsburger Platz,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U1, U16, N6",3,2,stuttgart_rail
+de:08111:271,Auwiesen,Auwiesen,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U12, U14, 54, N5",4,3,stuttgart_rail
+de:08111:6333,Bad Cannstatt,Bad Cannstatt,Stuttgart,Stuttgart,Bus; R-Bahn; S-Bahn; SEV-Bus,"S1, S2, S3, RE1, RE5, RE6, MEX12, MEX13, MEX16, MEX18, MEX19, RE90, MEX90, 45, S1E, S2E, S2X, MEX16E, RE90E, MEX90E",20,20,stuttgart_rail
+de:08111:6332,Bad Cannstatt Wilhelmsplatz,Bad Cannstatt Wilhelmsplatz,Stuttgart,Stuttgart,Nachtbus; SEV-Bus; Stadtbahn,"U1, U2, U13, U16, U19, N4, N5, N6, S1E, S2E, XEV, MEX16E, RE90E",13,10,stuttgart_rail
+de:08111:212,Beethovenstraße,Beethovenstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U9, 91, N2",4,3,stuttgart_rail
+de:08111:77,Bergfriedhof,Bergfriedhof,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U4, U9, N6",3,2,stuttgart_rail
+de:08111:146,Bergheimer Hof,Bergheimer Hof,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U6, U16, N3",3,2,stuttgart_rail
+de:08111:55,Berliner Platz (Hohe Straße),Berliner Platz (Hohe Straße),Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U1, U2, U4, U9, 43, N2, N10",7,5,stuttgart_rail
+de:08111:6073,Berliner Platz (Liederhalle),Berliner Platz (Liederhalle),Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U1, U4, U9, U11, 41, 43, N2",7,6,stuttgart_rail
+de:08111:2037,Bernhäuser Straße,Bernhäuser Straße,Stuttgart,Stuttgart,Bus,"65, 74, 76, 816A",4,4,stuttgart_many_lines
+de:08111:36,Beskidenstraße,Beskidenstraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U1, U16, N6",3,2,stuttgart_rail
+de:08111:15,Bihlplatz,Bihlplatz,Stuttgart,Stuttgart,Stadtbahn,"U1, U14",2,2,stuttgart_rail
+de:08111:2557,Birkach Friedhof,Birkach Friedhof,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 74, 76, N8",5,4,stuttgart_many_lines
+de:08111:2559,Birkach West,Birkach West,Stuttgart,Stuttgart,Bus,"65, 70, 71",3,3,stuttgart_many_lines
+de:08111:2558,Birkheckenstraße,Birkheckenstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 74, 76, N8",5,4,stuttgart_many_lines
+de:08111:265,Blick,Blick,Stuttgart,Stuttgart,Stadtbahn,U13,1,1,stuttgart_rail
+de:08111:6160,Bopser,Bopser,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U5, U6, U7, U12, N8, N9, N10",7,4,stuttgart_rail
+de:08111:111,Borsigstraße,Borsigstraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U6, U7, U13, U15, N4",5,4,stuttgart_rail
+de:08111:6503,Botnang,Botnang,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U9, 91, N2",4,3,stuttgart_rail
+de:08111:2260,Bottroper Straße,Bottroper Straße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U12, 56, N4",3,2,stuttgart_rail
+de:08111:81,Brendle (Großmarkt),Brendle (Großmarkt),Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U4, U9, N6, N7",4,2,stuttgart_rail
+de:08111:124,Bubenbad,Bubenbad,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U15, N7",2,1,stuttgart_rail
+de:08111:299,Budapester Platz,Budapester Platz,Stuttgart,Stuttgart,Stadtbahn,U12,1,1,stuttgart_rail
+de:08111:2343,Cannstatter Wasen,Cannstatter Wasen,Stuttgart,Stuttgart,Stadtbahn,U19,1,1,stuttgart_rail
+de:08111:6075,Charlottenplatz,Charlottenplatz,Stuttgart,Stuttgart,Bus; SEV-Bus; Stadtbahn,"U1, U2, U4, U5, U6, U7, U9, U11, U12, U14, U15, 42, 43, 44, 47, S1E, S2E",17,17,stuttgart_rail
+de:08111:323,Daimlerplatz,Daimlerplatz,Stuttgart,Stuttgart,Stadtbahn,"U2, U19",2,2,stuttgart_rail
+de:08111:6165,Degerloch,Degerloch,Stuttgart,Stuttgart,Bus; Linientaxi; Nachtbus; Stadtbahn; Zahnradbahn,"U5, U6, U8, U12, 10, 70, 71, N8, N9, RT70",10,8,stuttgart_rail
+de:08111:2594,Degerloch Albstraße,Degerloch Albstraße,Stuttgart,Stuttgart,Stadtbahn,"U5, U6, U8, U12",4,4,stuttgart_rail
+de:08111:6184,Degerloch Epplestraße,Degerloch Epplestraße,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 71, 74, 76, N9, N10",6,4,stuttgart_many_lines
+de:08111:6163,Degerloch ZOB,Degerloch ZOB,Stuttgart,Stuttgart,Bus,"X4, X7, 70, 71, 73, 74, 76, 77",8,8,stuttgart_many_lines
+de:08111:159,Dobelstraße,Dobelstraße,Stuttgart,Stuttgart,Stadtbahn,"U5, U6, U7, U12",4,4,stuttgart_rail
+de:08111:6023,Dorotheenstraße,Dorotheenstraße,Stuttgart,Stuttgart,Bus,"43, 44, 47",3,3,stuttgart_many_lines
+de:08111:2576,Dürnauer Weg,Dürnauer Weg,Stuttgart,Stuttgart,Bus; Nachtbus,"71, 74, 76, N8",4,3,stuttgart_many_lines
+de:08111:1604,Ebitzweg,Ebitzweg,Stuttgart,Stuttgart,R-Bahn; Stadtbahn,"RB11, U13",2,2,stuttgart_rail
+de:08111:115,Eckartshaldenweg (Pragfriedh.),Eckartshaldenweg (Pragfriedh.),Stuttgart,Stuttgart,Stadtbahn,"U5, U6, U7, U15",4,4,stuttgart_rail
+de:08111:275,Elbestraße,Elbestraße,Stuttgart,Stuttgart,Bus; Stadtbahn,"U14, 59",2,2,stuttgart_rail
+de:08111:6210,Eltinger Straße,Eltinger Straße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U9, 91, N2",4,3,stuttgart_rail
+de:08111:2586,EnBW City,EnBW City,Stuttgart,Stuttgart,Bus; Stadtbahn,"U6, X4, X7, 77",4,4,stuttgart_rail
+de:08111:8,Engelboldstraße,Engelboldstraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U14, N10",2,1,stuttgart_rail
+de:08111:6017,Erwin-Schoettle-Platz,Erwin-Schoettle-Platz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U1, U14, U1E, 42, N10",5,4,stuttgart_rail
+de:08111:267,Eszet,Eszet,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U13, 60, N6",3,2,stuttgart_rail
+de:08111:6121,Eugensplatz,Eugensplatz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U15, 42, N7",3,2,stuttgart_rail
+de:08111:2584,Europaplatz,Europaplatz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U6, 72, N9",3,2,stuttgart_rail
+de:08111:364,Fasanenhof,Fasanenhof,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U6, 72, N9",3,2,stuttgart_rail
+de:08111:363,Fasanenhof Schelmenwasen,Fasanenhof Schelmenwasen,Stuttgart,Stuttgart,Stadtbahn,U6,1,1,stuttgart_rail
+de:08111:5,Fauststraße,Fauststraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U14, N10",2,1,stuttgart_rail
+de:08111:6157,Feuerbach,Feuerbach,Stuttgart,Stuttgart,Bus; Nachtbus; R-Bahn; S-Bahn; Stadtbahn,"S4, S5, S6, S24, S60, S61, S62, RE4, RE14, MEX19, RE90, RB47, U6, U13, U16, U6E, U13E, 53, 91, 501, 502, 503, 504, N3",24,23,stuttgart_rail
+de:08111:6423,Feuerbach Bosch,Feuerbach Bosch,Stuttgart,Stuttgart,Bus,"53, 501, 502, 503, 504",5,5,stuttgart_many_lines
+de:08111:152,Feuerbach Pfostenwäldle,Feuerbach Pfostenwäldle,Stuttgart,Stuttgart,Bus; Stadtbahn,"U6, U13, U16, U6E, U13E",5,5,stuttgart_rail
+de:08111:6221,Feuersee,Feuersee,Stuttgart,Stuttgart,Bus; Nachtbus; S-Bahn,"S1, S2, S3, S4, S5, S6, S24, S60, S61, X2, 41, 43, 44, 92, N2",15,14,stuttgart_rail
+de:08111:154,Föhrich,Föhrich,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U6, U13, U16, U6E, U13E, 91, N3",7,6,stuttgart_rail
+de:08111:2553,Fraubronnstraße,Fraubronnstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 73, 74, 76, N8",6,5,stuttgart_many_lines
+de:08111:6287,Freiberg,Freiberg,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U7, U13, 54, N5",4,3,stuttgart_rail
+de:08111:276,Freibergstraße,Freibergstraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U14, N4",2,1,stuttgart_rail
+de:08111:229,Friedrichsbau,Friedrichsbau,Stuttgart,Stuttgart,Stadtbahn,"U1, U9, U11",3,3,stuttgart_rail
+de:08111:110,Friedrichswahl,Friedrichswahl,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U6, U7, U13, U15, N4",5,4,stuttgart_rail
+de:08111:6292,Fürfelder Straße,Fürfelder Straße,Stuttgart,Stuttgart,Bus; Stadtbahn,"U7, U13, 52, 99",4,4,stuttgart_rail
+de:08111:79,Gaisburg,Gaisburg,Stuttgart,Stuttgart,Stadtbahn,"U4, U9",2,2,stuttgart_rail
+de:08111:2613,Galileistraße,Galileistraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U12, 81, N10",3,2,stuttgart_rail
+de:08111:2556,Genossenschaftsakademie,Genossenschaftsakademie,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 74, 76, N8",5,4,stuttgart_many_lines
+de:08111:126,Geroksruhe,Geroksruhe,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U15, N7, N9",3,1,stuttgart_rail
+de:08111:6135,Geschwister-Scholl-Gymnasium,Geschwister-Scholl-Gymnasium,Stuttgart,Stuttgart,Bus,"65, 66, 131",3,3,stuttgart_many_lines
+de:08111:144,Giebel,Giebel,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U6, U16, 90, N3",4,3,stuttgart_rail
+de:08111:263,Glockenstraße,Glockenstraße,Stuttgart,Stuttgart,Stadtbahn,"U13, U16",2,2,stuttgart_rail
+de:08111:321,Gnesener Straße,Gnesener Straße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U2, U19, N5",3,2,stuttgart_rail
+de:08111:165,Haigst,Haigst,Stuttgart,Stuttgart,Bus; Zahnradbahn,10,1,1,stuttgart_rail
+de:08111:6115,Hauptbahnhof (oben),Hauptbahnhof (oben),Stuttgart,Stuttgart,IC; R-Bahn; S-Bahn,"S1, S2, S4, S5, S6, RE1, RE4, RE5, RE6, RE8, MEX12, MEX13, RE14, MEX16, MEX17, MEX18, MEX19, RE90, MEX90, SVG, RB47, IC",22,22,stuttgart_rail
+de:08111:6118,Hauptbahnhof (tief),Hauptbahnhof (tief),Stuttgart,Stuttgart,S-Bahn,"S1, S2, S3, S4, S5, S6, S24, S60, S61",9,9,stuttgart_rail
+de:08111:6112,Hauptbf (Arnulf-Klett-Platz),Hauptbf (Arnulf-Klett-Platz),Stuttgart,Stuttgart,Bus; Nachtbus; SEV-Bus; Stadtbahn,"U1, U5, U6, U7, U9, U11, U12, U15, 40, 42, 44, 47, N2, N3, N4, S1E, S2E, RE8E, XEV, MEX16E, MEX17E, RE90E, MEX90E, Bus EV",24,21,stuttgart_rail
+de:08111:2492,Hauptfriedhof,Hauptfriedhof,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U19, 54, N5",4,3,stuttgart_rail
+de:08111:227,Hedelfingen,Hedelfingen,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U9, U13, 62, 65, 103, N7",6,5,stuttgart_rail
+de:08111:226,Hedelfinger Straße,Hedelfinger Straße,Stuttgart,Wangen (Stuttgart),Stadtbahn,"U9, U13",2,2,stuttgart_rail
+de:08111:2196,Hegelplatz (Linden-Museum),Hegelplatz (Linden-Museum),Stuttgart,Stuttgart,Bus; Nachtbus,"40, 42, 43, N2",4,3,stuttgart_many_lines
+de:08111:6122,Heidehofstraße,Heidehofstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U15, 42, N7",3,2,stuttgart_rail
+de:08111:216,Herderplatz,Herderplatz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U9, 40, 50, N2",5,4,stuttgart_rail
+de:08111:43,Heslach Vogelrain,Heslach Vogelrain,Stuttgart,Stuttgart,Bus; Nachtbus; Ruftaxi; Stadtbahn,"U1, U14, U1E, 92, N1, RT92",6,5,stuttgart_rail
+de:08111:2599,Heßbrühl,Heßbrühl,Stuttgart,Stuttgart,Bus; Stadtbahn,"U12, 80",2,2,stuttgart_rail
+de:08111:136,Heumaden,Heumaden,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U7, U8, U15, 130, 131, N22",6,5,stuttgart_rail
+de:08111:6133,Heumaden Bockelstraße,Heumaden Bockelstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U7, U8, U15, 65, 131, N7",6,5,stuttgart_rail
+de:08111:103,Heutingsheimer Straße,Heutingsheimer Straße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U15, N4",2,1,stuttgart_rail
+de:08111:289,Himmelsleiter,Himmelsleiter,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U7, U13, N5",3,2,stuttgart_rail
+de:08111:272,Hofen,Hofen,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U12, U14, 54, N5",4,3,stuttgart_rail
+de:08111:6571,Hohe Eiche,Hohe Eiche,Stuttgart,Stuttgart,Bus,"71, 73, 74, 76, 77",5,5,stuttgart_many_lines
+de:08111:6109,Hohensteinstraße,Hohensteinstraße,Stuttgart,Stuttgart,Bus; Stadtbahn,"U6, U7, U13, U15, 52",5,5,stuttgart_rail
+de:08111:6070,Hölderlinplatz,Hölderlinplatz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U4, 40, 43, N2",4,3,stuttgart_rail
+de:08111:82,Im Degen,Im Degen,Stuttgart,Wangen (Stuttgart),Nachtbus; Stadtbahn,"U4, U9, N6, N7",4,2,stuttgart_rail
+de:08111:83,Inselstraße,Inselstraße,Stuttgart,Wangen (Stuttgart),Nachtbus; Stadtbahn,"U4, U9, N7",3,2,stuttgart_rail
+de:08111:2580,Johannesgraben,Johannesgraben,Stuttgart,Stuttgart,Bus; Nachtbus,"82, 84, 91, 92, N1",5,4,stuttgart_many_lines
+de:08111:356,Jurastraße,Jurastraße,Stuttgart,Stuttgart,Stadtbahn,"U3, U8, U",3,3,stuttgart_rail
+de:08111:6009,Kaltental,Kaltental,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U14, N10",2,1,stuttgart_rail
+de:08111:76,Karl-Olga-Krankenhaus,Karl-Olga-Krankenhaus,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U4, U9, N6",3,2,stuttgart_rail
+de:08111:2572,Kaserne Möhringen (Karlshof),Kaserne Möhringen (Karlshof),Stuttgart,Stuttgart,Bus; Nachtbus,"71, 74, 76, N8",4,3,stuttgart_many_lines
+de:08111:6136,Kemnater Straße,Kemnater Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 66, 131, N7",4,3,stuttgart_many_lines
+de:08111:264,Kienbachstraße,Kienbachstraße,Stuttgart,Stuttgart,Stadtbahn,U13,1,1,stuttgart_rail
+de:08111:2235,Killesberg,Killesberg,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U5, 43, 44, 50, N2",5,4,stuttgart_rail
+de:08111:107,Kirchtalstraße,Kirchtalstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U15, 53, N4",3,2,stuttgart_rail
+de:08111:102,Korntaler Straße,Korntaler Straße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U15, 52, 99, 508, N4",5,4,stuttgart_rail
+de:08111:280,Kraftwerk Münster,Kraftwerk Münster,Stuttgart,Stuttgart,Stadtbahn,U14,1,1,stuttgart_rail
+de:08111:322,Kursaal,Kursaal,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U2, U19, N5",3,2,stuttgart_rail
+de:08111:151,Landauer Straße,Landauer Straße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U6, U16, U6E, N3",4,3,stuttgart_rail
+de:08111:6352,Landhaus,Landhaus,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U3, X4, X7, 77, N9",5,4,stuttgart_rail
+de:08111:2591,Lauchhau,Lauchhau,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 82, 84, 91, 92, 747, 748, X74, N1, N63",10,8,stuttgart_many_lines
+de:08111:6213,Lindpaintnerstraße,Lindpaintnerstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U9, 91, N2",4,3,stuttgart_rail
+de:08111:344,Liststraße,Liststraße,Stuttgart,Stuttgart,Bus; Zahnradbahn,10,1,1,stuttgart_rail
+de:08111:6261,Löwentor,Löwentor,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U12, U13, U16, N5",4,3,stuttgart_rail
+de:08111:6114,Löwentorbrücke,Löwentorbrücke,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U6, U7, U15, N3, N4",5,3,stuttgart_rail
+de:08111:2463,Marconistraße,Marconistraße,Stuttgart,Stuttgart,Bus; Nachtbus,"52, 99, 502, 503, N4",5,4,stuttgart_many_lines
+de:08111:6019,Marienplatz,Marienplatz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn; Zahnradbahn,"U1, U14, 10, U1E, 41, 43, N1",7,6,stuttgart_rail
+de:08111:2054,Marienstraße,Marienstraße,Stuttgart,Stuttgart,Bus; SEV-Bus,"X2, 43, 44, 92, RE14E",5,5,stuttgart_many_lines
+de:08111:6273,Max-Eyth-See,Max-Eyth-See,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U12, U14, 54, N5",4,3,stuttgart_rail
+de:08111:2589,Max-Planck-Institute,Max-Planck-Institute,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 84, 91, 92, 747, 748, X74, N1, N63",9,7,stuttgart_many_lines
+de:08111:158,Maybachstraße,Maybachstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U6, U13, U16, U6E, U13E, N3",6,5,stuttgart_rail
+de:08111:30,Mercedesstraße,Mercedesstraße,Stuttgart,Stuttgart,Stadtbahn,"U1, U2, U11, U13, U16",5,5,stuttgart_rail
+de:08111:27,Metzstraße,Metzstraße,Stuttgart,Stuttgart,Stadtbahn,"U1, U2, U11, U14",4,4,stuttgart_rail
+de:08111:297,Milchhof,Milchhof,Stuttgart,Stuttgart,Stadtbahn,U12,1,1,stuttgart_rail
+de:08111:211,Millöckerstraße,Millöckerstraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U2, U9, N2",3,2,stuttgart_rail
+de:08111:28,Mineralbäder,Mineralbäder,Stuttgart,Stuttgart,Stadtbahn,"U1, U2, U11, U14",4,4,stuttgart_rail
+de:08111:296,Mittnachtstraße,Mittnachtstraße,Stuttgart,Stuttgart,Stadtbahn,U12,1,1,stuttgart_rail
+de:08111:6169,Möhringen Bf,Möhringen Bf,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U3, U5, U6, U8, U12, 72, N9",7,6,stuttgart_rail
+de:08111:6171,Möhringen Freibad,Möhringen Freibad,Stuttgart,Stuttgart,Stadtbahn,"U5, U6, U",3,3,stuttgart_rail
+de:08111:6288,Mönchfeld,Mönchfeld,Stuttgart,Stuttgart,Stadtbahn,"U7, U13",2,2,stuttgart_rail
+de:08111:6270,Mühlhausen,Mühlhausen,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U12, U14, 53, 53E, 54, N5",6,5,stuttgart_rail
+de:08111:6271,Mühlhausen Schloss,Mühlhausen Schloss,Stuttgart,Stuttgart,Bus; Nachtbus,"53, 53E, 54, N5",4,3,stuttgart_many_lines
+de:08111:281,Mühlsteg,Mühlsteg,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U14, N4",2,1,stuttgart_rail
+de:08111:1504,Münster,Münster,Stuttgart,Stuttgart,Bus; R-Bahn,"RB11, 56",2,2,stuttgart_rail
+de:08111:277,Münster Rathaus,Münster Rathaus,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U14, 59, N4",3,2,stuttgart_rail
+de:08111:278,Münster Viadukt,Münster Viadukt,Stuttgart,Stuttgart,Stadtbahn,U14,1,1,stuttgart_rail
+de:08111:341,Nägelestraße,Nägelestraße,Stuttgart,Stuttgart,Zahnradbahn,10,1,1,stuttgart_rail
+de:08111:6080,Neckarpark (Mercedes-Benz),Neckarpark (Mercedes-Benz),Stuttgart,Stuttgart,R-Bahn; S-Bahn; SEV-Bus,"S1, MEX16, S1E",3,3,stuttgart_rail
+de:08111:6330,NeckarPark (Stadion),NeckarPark (Stadion),Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U11, U19, 45, N5",4,3,stuttgart_rail
+de:08111:25,Neckartor,Neckartor,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U1, U2, U4, U9, U11, U14, N4, N6",8,6,stuttgart_rail
+de:08111:2484,Neugereut,Neugereut,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U19, 54, N5",4,3,stuttgart_rail
+de:08111:1403,Neuwirtsh. (Porschep.),Neuwirtsh. (Porschep.),Stuttgart,Stuttgart,R-Bahn; S-Bahn,"S6, S60, S61, S62, RE4, RE14, RB47",7,7,stuttgart_rail
+de:08111:6018,Nobelstraße,Nobelstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"82, 84, 91, 92, 747, 748, X74, N63",8,7,stuttgart_many_lines
+de:08111:6295,Nordbahnhof,Nordbahnhof,Stuttgart,Stuttgart,Nachtbus; R-Bahn; S-Bahn; Stadtbahn,"S4, S5, S6, S24, S60, S61, RB47, U12, N5",9,8,stuttgart_rail
+de:08111:34,Nürnberger Straße,Nürnberger Straße,Stuttgart,Stuttgart,Nachtbus; R-Bahn; S-Bahn; SEV-Bus; Stadtbahn,"S2, S3, MEX19, RE90, MEX90, U1, U16, N6, S2E",9,8,stuttgart_rail
+de:08111:2579,Ob dem Steinbach,Ob dem Steinbach,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 84, 91, 92, N1",5,4,stuttgart_many_lines
+de:08111:6320,Obere Ziegelei,Obere Ziegelei,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U19, 54, 58, N5",5,4,stuttgart_rail
+de:08111:2543,Obertürkh. Bf (Göppinger Str.),Obertürkh. Bf (Göppinger Str.),Stuttgart,Stuttgart,Bus; Nachtbus; SEV-Bus,"61, 62, 65, N7, S1E",5,4,stuttgart_many_lines
+de:08111:6091,Obertürkheim,Obertürkheim,Stuttgart,Stuttgart,Bus; Nachtbus; R-Bahn; S-Bahn; SEV-Bus,"S1, RE6, MEX16, 61, 62, 65, 101, N7, S1E",9,8,stuttgart_rail
+de:08111:6467,Ohmstraße (Zuffenhausen Bf),Ohmstraße (Zuffenhausen Bf),Stuttgart,Stuttgart,Bus; Nachtbus,"52, 501, 502, 503, 504, N4",6,5,stuttgart_many_lines
+de:08111:6119,Olgaeck,Olgaeck,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U5, U6, U7, U12, U15, 42, 43, 44, N7",9,8,stuttgart_rail
+de:08111:6060,Ostendplatz,Ostendplatz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U4, U9, 42, 45, N9",5,4,stuttgart_rail
+de:08111:6027,Österfeld,Österfeld,Stuttgart,Stuttgart,S-Bahn,"S1, S2, S3, S24",4,4,stuttgart_rail
+de:08111:6020,Österreichischer Platz,Österreichischer Platz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U1, U14, X2, 44, 92, N1",6,5,stuttgart_rail
+de:08111:78,Ostheim Leo-Vetter-Bad,Ostheim Leo-Vetter-Bad,Stuttgart,Stuttgart,Bus; Stadtbahn,"U4, U9, 45",3,3,stuttgart_rail
+de:08111:2534,Otto-Hirsch-Brücken,Otto-Hirsch-Brücken,Stuttgart,Stuttgart,Bus; Nachtbus,"62, 65, 103, N7",4,3,stuttgart_many_lines
+de:08111:2560,Pallotti-Kirche,Pallotti-Kirche,Stuttgart,Stuttgart,Bus,"65, 70, 71",3,3,stuttgart_many_lines
+de:08111:125,Payerstraße,Payerstraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U15, N7, N9",3,1,stuttgart_rail
+de:08111:6166,Peregrinastraße,Peregrinastraße,Stuttgart,Stuttgart,Stadtbahn,"U5, U6, U8, U12",4,4,stuttgart_rail
+de:08111:343,Pfaffenweg,Pfaffenweg,Stuttgart,Stuttgart,Bus; Zahnradbahn,10,1,1,stuttgart_rail
+de:08111:3308,Pfullinger Straße,Pfullinger Straße,Stuttgart,Stuttgart,Bus,"71, 73, 74, 76, 77",5,5,stuttgart_many_lines
+de:08111:6555,Plieningen,Plieningen,Stuttgart,Stuttgart,Bus; Stadtbahn,"U3, 65",2,2,stuttgart_rail
+de:08111:6554,Plieningen Garbe,Plieningen Garbe,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 73, 74, 76, 816A, N8",7,6,stuttgart_many_lines
+de:08111:2039,Plieningen Post,Plieningen Post,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 73, 74, 76, 122, 816A, N8",8,7,stuttgart_many_lines
+de:08111:2976,Plieningen Seemühlenweg,Plieningen Seemühlenweg,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 73, 122, N8",4,3,stuttgart_many_lines
+de:08111:353,Plieninger Straße,Plieninger Straße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U3, N9",2,1,stuttgart_rail
+de:08111:6113,Pragsattel,Pragsattel,Stuttgart,Stuttgart,Bus; Stadtbahn,"U6, U7, U13, U15, U16, U6E, U13E, 43, 57",9,9,stuttgart_rail
+de:08111:222,Raitelsberg,Raitelsberg,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U9, N6",2,1,stuttgart_rail
+de:08111:148,Rastatter Straße,Rastatter Straße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U6, U16, N3",3,2,stuttgart_rail
+de:08111:6074,Rathaus,Rathaus,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U1, U2, U4, U9, U11, U14, 43, 44, 47, N1, N10",11,9,stuttgart_rail
+de:08111:2092,Ressestraße,Ressestraße,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 73, 122, N8",4,3,stuttgart_many_lines
+de:08111:6168,Riedsee,Riedsee,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U5, U6, U8, U12, N9",5,4,stuttgart_rail
+de:08111:2493,Riethmüllerhaus,Riethmüllerhaus,Stuttgart,Stuttgart,Stadtbahn,U12,1,1,stuttgart_rail
+de:08111:6001,Rohr,Rohr,Stuttgart,Stuttgart,Bus; Nachtbus; R-Bahn; S-Bahn,"S1, S2, S3, S24, RE4, 81, N10",7,6,stuttgart_rail
+de:08111:6014,Rohr Mitte,Rohr Mitte,Stuttgart,Stuttgart,Bus; Nachtbus; SEV-Bus,"81, 82, 86, N10, S2E",5,4,stuttgart_many_lines
+de:08111:183,Rohrer Weg,Rohrer Weg,Stuttgart,Stuttgart,Stadtbahn,"U5, U6, U",3,3,stuttgart_rail
+de:08111:6072,Rosenberg-/Seidenstraße,Rosenberg-/Seidenstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U4, 41, 42, 43, N2",5,4,stuttgart_rail
+de:08111:6253,Rosensteinbrücke,Rosensteinbrücke,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U13, U14, U16, 52, 56, N4",6,5,stuttgart_rail
+de:08111:262,Rosensteinpark,Rosensteinpark,Stuttgart,Stuttgart,Stadtbahn,"U13, U16",2,2,stuttgart_rail
+de:08111:2561,Rotwiesenstraße,Rotwiesenstraße,Stuttgart,Stuttgart,Bus,"65, 70, 71",3,3,stuttgart_many_lines
+de:08111:6128,Ruhbank (Fernsehturm),Ruhbank (Fernsehturm),Stuttgart,Stuttgart,Bus; Linientaxi; Nachtbus; Stadtbahn,"U7, U8, U15, 70, N7, RT70",6,5,stuttgart_rail
+de:08111:6071,Russische Kirche,Russische Kirche,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U4, 40, 43, N2",4,3,stuttgart_rail
+de:08111:145,Salamanderweg,Salamanderweg,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U6, U16, N3",3,2,stuttgart_rail
+de:08111:360,Salzäcker,Salzäcker,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U3, N9",2,1,stuttgart_rail
+de:08111:6105,Salzwiesenstraße,Salzwiesenstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U15, 508, N4",3,2,stuttgart_rail
+de:08111:2040,Scharnhäuser Brücke,Scharnhäuser Brücke,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 73, 122, N8",4,3,stuttgart_many_lines
+de:08111:6130,Schemppstraße,Schemppstraße,Stuttgart,Stuttgart,Bus; Stadtbahn,"U7, U8, U15, 65, 66",5,5,stuttgart_rail
+de:08111:6223,Schlachthof,Schlachthof,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U9, 45, N5, N6, N7",5,2,stuttgart_rail
+de:08111:6219,Schloss-/Johannesstraße,Schloss-/Johannesstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U9, 41, N10",4,3,stuttgart_rail
+de:08111:6022,Schlossplatz,Schlossplatz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U5, U6, U7, U12, U15, 42, 44, N1, N2, N3, N4, N5, N6, N7, N8, N9, N10",17,7,stuttgart_rail
+de:08111:268,Schlotterbeckstraße,Schlotterbeckstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U13, 60, N6",3,2,stuttgart_rail
+de:08111:6293,Schozacher Straße,Schozacher Straße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U7, U13, 52, N4",4,3,stuttgart_rail
+de:08111:2603,Schranne,Schranne,Stuttgart,Stuttgart,Bus; Nachtbus,"82, 84, 91, 92, 747, 748, X74, N1, N63",9,7,stuttgart_many_lines
+de:08111:6206,Schwab-/Bebelstraße,Schwab-/Bebelstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U9, 42, N2, N10",5,3,stuttgart_rail
+de:08111:6052,Schwabstraße,Schwabstraße,Stuttgart,Stuttgart,Bus; Nachtbus; S-Bahn,"S1, S2, S3, S4, S5, S6, S24, S60, S61, X2, 42, 44, N2, N10",14,12,stuttgart_rail
+de:08111:112,Sieglestraße,Sieglestraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U6, U7, U13, U15, N4",5,4,stuttgart_rail
+de:08111:354,Sigmaringer Straße,Sigmaringer Straße,Stuttgart,Stuttgart,Stadtbahn,U3,1,1,stuttgart_rail
+de:08111:129,Silberwald,Silberwald,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U7, U8, U15, N7",4,3,stuttgart_rail
+de:08111:6134,Sillenbuch,Sillenbuch,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U7, U8, U15, 66, N7",5,4,stuttgart_rail
+de:08111:1300,Sommerrain,Sommerrain,Stuttgart,Stuttgart,Bus; R-Bahn; S-Bahn; SEV-Bus,"S2, S3, MEX19, RE90, MEX90, 54, 58, S2E",8,8,stuttgart_rail
+de:08111:6167,Sonnenberg,Sonnenberg,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U5, U6, U8, U12, N9",5,4,stuttgart_rail
+de:08111:153,Sportpark Feuerbach,Sportpark Feuerbach,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U6, U13, U16, U6E, U13E, N3",6,5,stuttgart_rail
+de:08111:350,SSB-Zentrum,SSB-Zentrum,Stuttgart,Stuttgart,Stadtbahn,"U3, U8, U, U12",4,4,stuttgart_rail
+de:08111:6024,Staatsgalerie,Staatsgalerie,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U1, U2, U4, U9, U11, U14, 40, 42, 47, N4, N5, N6, N9",13,9,stuttgart_rail
+de:08111:6116,Stadtbibliothek,Stadtbibliothek,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U5, U6, U7, U15, 44, N2",6,5,stuttgart_rail
+de:08111:6056,Stadtmitte,Stadtmitte,Stuttgart,Stuttgart,Bus; Nachtbus; S-Bahn; Stadtbahn,"S1, S2, S3, S4, S5, S6, S24, S60, S61, U1, U2, U4, U9, U11, X2, 43, 92, N2, N10",19,17,stuttgart_rail
+de:08111:123,Stafflenbergstraße,Stafflenbergstraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U15, N7",2,1,stuttgart_rail
+de:08111:100,Stammheim,Stammheim,Stuttgart,Stuttgart,Bus; Stadtbahn,"U15, 98, 412, 508",4,4,stuttgart_rail
+de:08111:2490,Steinhaldenfeld,Steinhaldenfeld,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U19, 54, N5",4,3,stuttgart_rail
+de:08111:6127,Stelle,Stelle,Stuttgart,Stuttgart,Bus; Stadtbahn,"U15, 64",2,2,stuttgart_rail
+de:08111:6351,Sternhäule,Sternhäule,Stuttgart,Stuttgart,Bus,"X4, X7, 73, 77",4,4,stuttgart_many_lines
+de:08111:26,Stöckach,Stöckach,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U1, U2, U4, U9, U11, U14, N4, N6",8,6,stuttgart_rail
+de:08111:13,Südheimer Platz,Südheimer Platz,Stuttgart,Stuttgart,Bus; Nachtbus; Seilbahn; Stadtbahn,"U1, U14, 20, U1E, 20E, N1",6,5,stuttgart_rail
+de:08111:288,Suttnerstraße,Suttnerstraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U7, U13, N5",3,2,stuttgart_rail
+de:08111:6291,Tapachstraße,Tapachstraße,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U7, U13, 52, N5",4,3,stuttgart_rail
+de:08111:3309,Tränke,Tränke,Stuttgart,Stuttgart,Bus,"71, 73, 74, 76, 77",5,5,stuttgart_many_lines
+de:08111:32,Uff-Kirchhof,Uff-Kirchhof,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U1, U13, U16, N6",4,3,stuttgart_rail
+de:08111:6008,Universität,Universität,Stuttgart,Stuttgart,Bus; Nachtbus; S-Bahn,"S1, S2, S3, S24, 50, 82, 84, 91, 92, 747, 748, X74, N1, N63",14,12,stuttgart_rail
+de:08111:6021,Universität (Schleife),Universität (Schleife),Stuttgart,Stuttgart,Bus,"82, 84, X74, X60",4,4,stuttgart_many_lines
+de:08111:2555,Universität Hohenheim,Universität Hohenheim,Stuttgart,Stuttgart,Bus,"65, 70, 74, 76",4,4,stuttgart_many_lines
+de:08111:6085,Untertürkheim,Untertürkheim,Stuttgart,Stuttgart,Bus; Nachtbus; R-Bahn; Ruftaxi; S-Bahn; SEV-Bus; Stadtbahn,"S1, RE6, RB11, MEX12, MEX16, U4, U13, 60, 61, N6, N7, S1E, RT6",13,11,stuttgart_rail
+de:08111:2509,Untertürkheim Kelterplatz,Untertürkheim Kelterplatz,Stuttgart,Stuttgart,Bus; Nachtbus; Ruftaxi,"60, 61, N6, RT6",4,3,stuttgart_many_lines
+de:08111:6002,Vaihingen,Vaihingen,Stuttgart,Stuttgart,Bus; IC; R-Bahn; S-Bahn; SEV-Bus; Stadtbahn,"S1, S2, S3, S24, RE4, RE14, IC, U3, U8, U, U14, 81, 82, 84, 86, S1E, S2E, S2X",18,18,stuttgart_rail
+de:08111:6004,Vaihingen Schillerplatz,Vaihingen Schillerplatz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U14, 81, 82, N10",4,3,stuttgart_rail
+de:08111:6,Vaihingen Viadukt,Vaihingen Viadukt,Stuttgart,Stuttgart,Stadtbahn,U14,1,1,stuttgart_rail
+de:08111:170,Vaihinger Straße,Vaihinger Straße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U3, U5, U6, U8, U12, N10",6,5,stuttgart_rail
+de:08111:217,Vogelsang,Vogelsang,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U2, U9, 40, N2",4,3,stuttgart_rail
+de:08111:2202,Wagenburgstraße,Wagenburgstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"40, 42, 45, 47, N9",5,4,stuttgart_many_lines
+de:08111:274,Wagrainäcker,Wagrainäcker,Stuttgart,Stuttgart,Stadtbahn,"U12, U14",2,2,stuttgart_rail
+de:08111:130,Waldau,Waldau,Stuttgart,Stuttgart,Stadtbahn,"U7, U8",2,2,stuttgart_rail
+de:08111:2,Waldburgstraße,Waldburgstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"81, 82, 86, N10",4,3,stuttgart_many_lines
+de:08111:6010,Waldeck,Waldeck,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U14, 82, N1, N10",4,2,stuttgart_rail
+de:08111:6102,Waldfriedhof,Waldfriedhof,Stuttgart,Stuttgart,Bus; Seilbahn,"20, 20E",2,2,stuttgart_rail
+de:08111:355,Wallgraben,Wallgraben,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U3, U8, U, U12, N10",5,4,stuttgart_rail
+de:08111:225,Wangen Marktplatz,Wangen Marktplatz,Stuttgart,Wangen (Stuttgart),Stadtbahn,"U9, U13",2,2,stuttgart_rail
+de:08111:80,Wangener-/Landhausstraße,Wangener-/Landhausstraße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U4, U9, N6, N7",4,2,stuttgart_rail
+de:08111:84,Wasenstraße,Wasenstraße,Stuttgart,Wangen (Stuttgart),Stadtbahn,"U4, U9, U13",3,3,stuttgart_rail
+de:08111:2270,Weilimdorf,Weilimdorf,Stuttgart,Stuttgart,Bus; R-Bahn; S-Bahn; SEV-Bus,"S6, S60, S61, S62, RE4, RE14, 90, S6E",8,8,stuttgart_rail
+de:08111:6149,Weilimdorf Löwen-Markt,Weilimdorf Löwen-Markt,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U6, U16, U6E, 90, N3",5,4,stuttgart_rail
+de:08111:163,Weinsteige,Weinsteige,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U5, U6, U8, U12, N8, N9, N10",7,4,stuttgart_rail
+de:08111:4402,Werner und Pfleiderer,Werner und Pfleiderer,Stuttgart,Stuttgart,Bus,"53, 501, 502, 503, 504",5,5,stuttgart_many_lines
+de:08111:6249,Westbahnhof,Westbahnhof,Stuttgart,Stuttgart,Bus,"44, 50, 92",3,3,stuttgart_many_lines
+de:08111:342,Wielandshöhe,Wielandshöhe,Stuttgart,Stuttgart,Bus; Zahnradbahn,10,1,1,stuttgart_rail
+de:08111:6180,Wilhelm-Geiger-Platz,Wilhelm-Geiger-Platz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U6, U13, U16, U6E, U13E, 91, N3",7,6,stuttgart_rail
+de:08111:254,Wilhelma,Wilhelma,Stuttgart,Stuttgart,Stadtbahn,"U13, U14, U16",3,3,stuttgart_rail
+de:08111:2061,Wilhelmsbau,Wilhelmsbau,Stuttgart,Stuttgart,Bus; Nachtbus,"X2, 43, 47, 92, N10",5,4,stuttgart_many_lines
+de:08111:104,Wimpfener Straße,Wimpfener Straße,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U15, N4",2,1,stuttgart_rail
+de:08111:2554,Windhalmweg,Windhalmweg,Stuttgart,Stuttgart,Bus; Nachtbus,"65, 70, 73, 74, 76, N8",6,5,stuttgart_many_lines
+de:08111:6624,Withauweg,Neuwirtshaus Withauweg,Stuttgart,Stuttgart,Bus; Nachtbus,"501, 504, 612, N55",4,3,stuttgart_many_lines
+de:08111:147,Wolfbusch,Wolfbusch,Stuttgart,Stuttgart,Nachtbus; Stadtbahn,"U6, U16, N3",3,2,stuttgart_rail
+de:08111:94,Wollinstraße,Wollinstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"52, 99, 612, N4",4,3,stuttgart_many_lines
+de:08111:2567,Wurmlinger Straße,Wurmlinger Straße,Stuttgart,Stuttgart,Bus; Nachtbus,"70, 71, 74, 76, N9, N10",6,4,stuttgart_many_lines
+de:08111:6340,Zahnradbahnhof,Zahnradbahnhof,Stuttgart,Stuttgart,Bus; Linientaxi; Nachtbus; Zahnradbahn,"10, 70, N9, RT70",4,3,stuttgart_rail
+de:08111:1200,Zazenhausen,Zazenhausen,Stuttgart,Stuttgart,R-Bahn,RB11,1,1,stuttgart_rail
+de:08111:6269,Zazenhausen Steigle,Zazenhausen Steigle,Stuttgart,Stuttgart,Bus; Ruftaxi,"53, 53E, RT4",3,3,stuttgart_many_lines
+de:08111:6465,Zuffenhausen,Zuffenhausen,Stuttgart,Stuttgart,Bus; R-Bahn; S-Bahn; SEV-Bus,"S4, S5, S6, S24, S60, S61, S62, RE1, RE4, RE8, RE14, MEX19, RE90, MEX90, RB47, 52, 53, 99, 508, S6E",20,20,stuttgart_rail
+de:08111:6294,Zuffenhausen Kelterplatz,Zuffenhausen Kelterplatz,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U6, U7, U13, U15, 52, N4",6,5,stuttgart_rail
+de:08111:6462,Zuffenhausen Porsche,Zuffenhausen Porsche,Stuttgart,Stuttgart,Bus; Nachtbus; SEV-Bus,"52, 99, 501, 502, 503, 504, 612, N4, N55, S6E",10,8,stuttgart_many_lines
+de:08111:108,Zuffenhausen Rathaus,Zuffenhausen Rathaus,Stuttgart,Stuttgart,Bus; Nachtbus; Ruftaxi; Stadtbahn,"U15, 53, N4, RT4",4,3,stuttgart_rail
+de:08111:2494,Züricher Straße,Züricher Straße,Stuttgart,Stuttgart,Stadtbahn,U12,1,1,stuttgart_rail
+de:08119:3650,Berufsschulzentrum,Waiblingen Berufsschulzentrum,Waiblingen,Waiblingen,Bus; Nachtbus,"204, 205, 431, N24",4,3,surrounding_keyword
+de:08119:5144,Blumenstraße,Waiblingen Blumenstraße,Waiblingen,Waiblingen,Bus; Nachtbus,"201, 204, 206, 207, 209, 211, N21, N24, N31",9,6,surrounding_many_lines
+de:08119:3627,Bürgerzentrum (Hallenbad),Waibl. Bürgerz. (Hallenbad),Waiblingen,Waiblingen,Bus; Nachtbus,"201, 204, 207, 209, N21, N24, N31",7,4,surrounding_keyword
+de:08119:1602,Neustadt-Hohenacker,Neustadt-Hohenacker,Waiblingen,Neustadt,Bus; Nachtbus; R-Bahn; S-Bahn; SEV-Bus,"S3, MEX19, RE90, MEX90, 201, 201A, N24, S3E",8,7,surrounding_rail
+de:08119:5925,Obere Bahnhofstraße,Waiblingen Obere Bahnhofstr.,Waiblingen,Waiblingen,Bus; Nachtbus,"201, 204, 206, 207, 209, N21, N24, N31",8,5,surrounding_keyword
+de:08119:5391,Stadtmitte,Waiblingen Stadtmitte,Waiblingen,Waiblingen,Bus; Nachtbus,"201, 204, 206, 207, 208, 209, N21, N24, N31",9,6,surrounding_many_lines
+de:08119:7604,Waiblingen,Waiblingen,Waiblingen,Waiblingen,Bus; Nachtbus; R-Bahn; S-Bahn; SEV-Bus,"S2, S3, RE1, MEX13, MEX19, RE90, MEX90, 201, 204, 205, 206, 207, 208, 209, 211, 216, 218, 431, X43, N21, N24, N31, X20, S2E, S3E, RE90E, MEX90E",27,24,surrounding_rail

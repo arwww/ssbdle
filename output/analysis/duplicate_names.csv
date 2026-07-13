@@ -1,0 +1,31 @@
+﻿id,name,name_with_place,municipality,locality,modes,lines,line_count,has_bus,has_rail
+de:08115:4620,Calwer Straße,Böblingen Calwer Str.,Böblingen,Böblingen,Bus; Nachtbus,"707, 717, 722A, 723, 728, 743, 744, 763, 763A, 766, N75",11,True,False
+de:08115:4611,Calwer Straße,Sindelfingen Calwer Str.,Sindelfingen,Sindelfingen,Bus,"702, 704, 704A, 705, 705A",5,True,False
+de:08116:2081,Carl-Zeiss-Straße,Harthausen Carl-Zeiss-Straße,Filderstadt,Harthausen,Bus,"X7, 77, 805, 809, 809A, 816A",6,True,False
+de:08115:5824,Carl-Zeiss-Straße,Gebersheim Carl-Zeiss-Str.,Leonberg,Gebersheim,Bus; Nachtbus,"634, 653, 653A, 654, N62",5,True,False
+de:08116:3805,Charlottenplatz,Esslingen (N) Charlottenplatz,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus,"101, 106, 114, 115, 140, N16",6,True,False
+de:08111:6075,Charlottenplatz,Charlottenplatz,Stuttgart,Stuttgart,Bus; SEV-Bus; Stadtbahn,"U1, U2, U4, U5, U6, U7, U9, U11, U12, U14, U15, 42, 43, 44, 47, S1E, S2E",17,True,True
+de:08115:3206,Frankenstraße,Sindelfingen Frankenstraße,Sindelfingen,Sindelfingen,Bus,"705A, 709, 709A, 717A, 722A, 763, 763A",7,True,False
+de:08111:2467,Frankenstraße,Frankenstraße,Stuttgart,Stuttgart,Bus; Nachtbus,"52, N4",2,True,False
+de:08116:4148,Gemeindezentrum,Berkh. Gemeindezentrum,Esslingen am Neckar,Berkheim,Bus; Nachtbus,"113, 138, N13",3,True,False
+de:08119:2381,Gemeindezentrum,Oeffingen Gemeindezentrum,Fellbach,Oeffingen,Bus; Nachtbus,"60, 214, N6",3,True,False
+de:08115:4692,Hallenbad,Böblingen Hallenbad,Böblingen,Böblingen,Bus; Nachtbus,"709, 760, 760A, 761, X16, X76, N74",7,True,False
+de:08115:3208,Hallenbad,Maichingen Hallenbad,Sindelfingen,Maichingen,Bus,"702, 704, 704A, 705, 705A, 745, 748A, 769",8,True,False
+de:08115:4631,Hauptstraße,Dagersheim Hauptstraße,Böblingen,Dagersheim,Bus; Nachtbus,"707, 717, 722, 722A, 723, 723A, 743, 744, 763, 763A, 766, N75",12,True,False
+de:08116:2019,Hauptstraße,Bonlanden Hauptstraße,Filderstadt,Bonlanden,Bus,"809A, 812, 813, 815, 816A",5,True,False
+de:08115:4632,Kirche,Dagersheim Kirche,Böblingen,Dagersheim,Bus,"707, 717, 717A, 722A, 723, 723A, 763",7,True,False
+de:08116:2024,Kirche,Harthausen Kirche,Filderstadt,Harthausen,Bus; Nachtbus,"X7, 77, 805, 807, 809, 809A, 816A, N89",8,True,False
+de:08116:2108,Kirche,Musberg Kirche,Leinfelden-Echterdingen,Musberg,Bus,"82, 86, 814, 818, 818A",5,True,False
+de:08116:2021,Nord,Bonlanden Nord,Filderstadt,Bonlanden,Bus,"76, 809A, 812, 813, 815, 816A",6,True,False
+de:08115:3197,Nord,Maichingen Nord,Sindelfingen,Maichingen,Bus; R-Bahn; S-Bahn; SEV-Bus,"S60, S61, RE4, RE14, 702, 704A, 705, 705A, 745, 748, S60E",11,True,True
+de:08119:2377,Rathaus,Schmiden Rathaus,Fellbach,Schmiden,Bus; Nachtbus,"58, 60, 205, 214, N6",5,True,False
+de:08116:2028,Rathaus,Plattenhardt Rathaus,Filderstadt,Plattenhardt,Bus; Nachtbus,"X7, 76, 77, 809A, 812, 813, 816A, 818A, N89",9,True,False
+de:08115:4550,Rathaus,Gebersheim Rathaus,Leonberg,Gebersheim,Bus; Nachtbus,"634, 653, 653A, 654, N62",5,True,False
+de:08118:3419,Rathaus,Ludwigsburg Rathaus,Ludwigsburg,Ludwigsburg,Bus; Nachtbus,"421, 421A, 422, 422A, 424, 425, 425A, 426, 427, 427A, 430, 430A, 431, 433, 433A, 443, 444, 533, N41, N42, N43",21,True,False
+de:08111:6074,Rathaus,Rathaus,Stuttgart,Stuttgart,Bus; Nachtbus; Stadtbahn,"U1, U2, U4, U9, U11, U14, 43, 44, 47, N1, N10",11,True,True
+de:08111:6056,Stadtmitte,Stadtmitte,Stuttgart,Stuttgart,Bus; Nachtbus; S-Bahn; Stadtbahn,"S1, S2, S3, S4, S5, S6, S24, S60, S61, U1, U2, U4, U9, U11, X2, 43, 92, N2, N10",19,True,True
+de:08119:5391,Stadtmitte,Waiblingen Stadtmitte,Waiblingen,Waiblingen,Bus; Nachtbus,"201, 204, 206, 207, 208, 209, N21, N24, N31",9,True,False
+de:08116:7801,ZOB,Esslingen (N) ZOB,Esslingen am Neckar,Esslingen (N),Bus; Nachtbus; SEV-Bus,"101, 102, 103, 104, 105, 106, 108, 109, 110, 111, 113, 114, 115, 118, 119, 120, 122, 130, 131, 140, N12, N13, N14, N16, N19, N22, X20, S1E, MEX16E",29,True,False
+de:08115:3200,ZOB,Sindelfingen ZOB,Sindelfingen,Sindelfingen,Bus; SEV-Bus,"84, 631, 701, 701A, 702, 704, 704A, 705, 705A, 707, 708, 711, 717, 717A, 734, 744, 752, 760A, 763A, 769, S60E",21,True,False
+de:08116:4113,Zentrum,Sulzgries Zentrum,Esslingen am Neckar,Sulzgries,Bus; Nachtbus,"109, 132, N12",3,True,False
+de:08116:4169,Zentrum,Zell Zentrum,Esslingen am Neckar,Zell (Esslingen),Bus,"102, 103, 114A, 115, 138",5,True,False

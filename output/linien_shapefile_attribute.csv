@@ -1,0 +1,105 @@
+﻿gml_id,id,line,dir,distGis,text,textEfa,textDiva,lineVersio,branch,title,validFrom,validUntil,operator,operatorco
+,14275867,6117062,"H,R",154991,S1,S1,10001_,81,10,Kirchheim (T) - Plochingen - Stuttgart - Herrenberg,10.06.2026,10.06.2026,10 - DB,DB - db
+,12584219,6117062,"H,R",154991,S1,S1,10001_,1,10,Kirchheim (T) - Plochingen - Stuttgart - Herrenberg,21.12.2025,,10 - DB,DB - db
+,14540537,6116814,"H,R",118466,S2,S2,10002_,69,10,Schorndorf - Stuttgart - Flughafen/Messe - Filderstadt,10.06.2026,10.06.2026,10 - DB,DB - db
+,12583147,6116814,"H,R",118466,S2,S2,10002_,1,10,Schorndorf - Stuttgart - Flughafen/Messe - Filderstadt,21.12.2025,,10 - DB,DB - db
+,14540538,6117620,"H,R",101721,S3,S3,10003_,60,10,Backnang - Vaihingen (- Flughafen/Messe),10.06.2026,10.06.2026,10 - DB,DB - db
+,12583148,6117620,"H,R",101721,S3,S3,10003_,1,10,Backnang - Vaihingen (- Flughafen/Messe),21.12.2025,,10 - DB,DB - db
+,12583543,6117841,"H,R",83267,S4,S4,10004_,1,10,Backnang - Marbach - Stuttgart,21.12.2025,,10 - DB,DB - db
+,12583439,6117801,"H,R",57989,S5,S5,10005_,1,10,Bietigheim-Bissingen - Stuttgart,14.12.2025,,10 - DB,DB - db
+,12583132,6117945,"H,R",69073,S6,S6,10006_,1,10,Weil der Stadt - Leonberg - Stuttgart,14.12.2025,,10 - DB,DB - db
+,14438439,6117945,"H,R",58965,S6,S6,10006_,59,10,Weil der Stadt - Leonberg - Stuttgart,06.06.2026,13.06.2026,10 - DB,DB - db
+,14438440,6117445,"H,R",87494,S60,S60,10060_,39,10,Böblingen - Renningen (- Stuttgart),06.06.2026,13.06.2026,10 - DB,DB - db
+,12583422,6117445,"H,R",87494,S60,S60,10060_,1,10,Böblingen - Renningen (- Stuttgart),14.12.2025,,10 - DB,DB - db
+,13732373,6117445,"H,R",87494,S60,S60,10060_,21,10,Böblingen - Renningen (- Stuttgart),10.06.2026,10.06.2026,10 - DB,DB - db
+,12583151,6118001,"H,R",54750,S62,S62,10062_,1,10,Weil der Stadt - Leonberg - Stuttgart,14.12.2025,,10 - DB,DB - db
+,14463401,6116879,"H,R",321098,RE1,RE1,11001_,43,11,Aalen - Stuttgart - Vaihingen (E) - Karlsruhe,06.06.2026,25.06.2026,17 - Arverio,ARV - ARV
+,13304044,6117329,"H,R",283622,RE4,RE4,11004_,1,11,Stuttgart - Horb - Konstanz,14.12.2025,,10 - DB,DB - db
+,14507828,6117222,"H,R",142145,RE5,RE5,11005_,27,11,Stuttgart - Ulm - Friedrichshafen,10.06.2026,10.06.2026,10 - DB,DB - db
+,13304067,6117222,"H,R",142145,RE5,RE5,11005_,1,11,Stuttgart - Ulm - Friedrichshafen,14.12.2025,,10 - DB,DB - db
+,12583503,6117701,"H,R",112704,RE6,RE6,11006_,1,11,Tübingen - Plochingen - Stuttgart,21.12.2025,,10 - DB,DB - db
+,14413650,6117701,"H,R",112704,RE6,RE6,11006_,13,11,Tübingen - Plochingen - Stuttgart,11.05.2026,31.07.2026,10 - DB,DB - db
+,13570851,6117671,"H,R",130967,RE8,RE8,11008_,3,11,Würzburg - Heilbronn - Bietigheim-Bissingen - Stuttgart,04.04.2026,13.06.2026,17 - Arverio,ARV - ARV
+,12583482,6117601,"H,R",22965,RB11,RB11,11011_,1,11,Kornwestheim - Untertürkheim,14.12.2025,,10 - DB,DB - db
+,13550058,6117239,"H,R",438970,MEX12,MEX12,11012_,4,11,Heilbronn - Stuttgart - Tübingen,18.04.2026,13.06.2026,12 - SWEG,SWEG - SWEG
+,13333305,6117061,"H,R",103293,MEX13,MEX13,11013_,1,11,Stuttgart - Schorndorf - Aalen - Crailsheim,21.12.2025,,17 - Arverio,ARV - ARV
+,13333312,6117452,"H,R",274853,RE14,RE14,11014_,1,11,Stuttgart - Herrenberg - Horb/Freudenstadt,20.12.2025,,10 - DB,DB - db
+,13333314,6117557,"H,R",296591,MEX16,MEX16,11016_,1,11,Stuttgart - Plochingen - Göppingen - Ulm,24.12.2025,,17 - Arverio,ARV - ARV
+,13938174,6117557,"H,R",283353,MEX16,MEX16,11016_,23,11,Stuttgart - Plochingen - Göppingen - Ulm,10.06.2026,11.06.2026,17 - Arverio,ARV - ARV
+,13698130,6116874,"H,R",272951,MEX17,MEX17,11017_,1,11,"Stuttgart - Vaihingen (E) - Mühlacker -
+Pforzheim/Bruchsal",14.12.2025,,10 - DB,DB - db
+,13550082,6117094,"H,R",363880,MEX18,MEX18,11018_,4,11,Osterburken - Heilbronn - Stuttgart - Tübingen,04.04.2026,13.06.2026,10 - DB,DB - db
+,13276116,6117051,"H,R",207151,MEX19,MEX19,11019_,1,11,Stuttgart - Backnang - Crailsheim,21.12.2025,,10 - DB,DB - db
+,12583666,6117901,H,20743,RE40,RE40,11040_,1,11,Herrenberg - Freudenstadt,14.12.2025,,10 - DB,DB - db
+,12583297,6117251,R,20736,RB41,RB41,11041_,1,11,Freudenstadt - Herrenberg,14.12.2025,,10 - DB,DB - db
+,13324584,6117880,"H,R",13362,RB63,RB63,11063_,3,11,Herrenberg - Tübingen - Bad Urach,01.03.2026,13.06.2026,78 - ZÖA Ammertalbahn,ZÖA - zoea
+,13276118,6116908,"H,R",172538,RE90,RE90,11090_,1,11,(Nürnberg -) Crailsheim - Backnang - Stuttgart,21.12.2025,,17 - Arverio,ARV - ARV
+,13276117,6117197,"H,R",133924,MEX90,MEX90,11091_,1,11,Crailsheim - Backnang - Stuttgart,21.12.2025,,10 - DB,DB - db
+,13333319,6117238,"H,R",70300,RE200,RE200,11200_,1,11,Wendlingen - Merklingen - Ulm,14.12.2025,,10 - DB,DB - db
+,12583356,6117016,"H,R",139800,SVG,SVG,11SVG_,1,11,Stuttgart - Horb - Konstanz,01.05.2026,01.11.2026,37 - SVG Schienenverkehrsgesellschaft,SVG -
+,14214385,6117245,"H,R",40090,RB46,RB46,12046_,7,12,"Dettenhausen - Holzgerlingen - Böblingen
+(Schönbuchbahn)",23.02.2026,13.06.2026,71 - WEG,WEG - wegdett
+,12583261,6117079,"H,R",39883,RB47,RB47,12047_,1,12,"Heimerdingen - Hemmingen - Korntal
+(Strohgäubahn)",14.12.2025,,71 - WEG,WEG - weghemm
+,12583140,6116837,"H,R",22867,RB61,RB61,12061_,1,12,"Rudersberg - Schorndorf
+(Wieslauftalbahn)",05.01.2026,,71 - WEG,WEG - wegrud
+,12583520,6117861,"H,R",17872,RB65,RB65,12065_,1,12,Neuffen - Nürtingen (Tälesbahn),14.12.2025,,71 - WEG,WEG - wegneuff
+,12583892,6117242,"H,R",21776,RB64,RB64,13064_,1,13,Oberlenningen - Kirchheim (T),14.12.2025,,10 - DB,DB - db
+,13723268,6117922,"H,R",216644,IC,IC,15040_,1,15,Stuttgart - Böblingen - Singen,11.02.2026,,10 - DB,DB - db
+,14507914,6117922,"H,R",225236,IC,IC,15040_,27,15,Stuttgart - Böblingen - Singen,06.06.2026,12.06.2026,10 - DB,DB - db
+,12782941,6117272,"H,R",29847,U1,U1,20001_,1,20,Fellbach - Hauptbahnhof - Heslach Vogelrain,20.12.2025,,01 - SSB,SSB - ssb
+,12782942,6117216,"H,R",28318,U2,U2,20002_,1,20,Neugereut - Charlottenplatz - Botnang,20.12.2025,,01 - SSB,SSB - ssb
+,12782945,6117307,"H,R",15722,U3,U3,20003_,1,20,Plieningen - Möhringen - Vaihingen,20.12.2025,,01 - SSB,SSB - ssb
+,12782946,6117894,"H,R",19069,U4,U4,20004_,1,20,Untertürkheim - Charlottenplatz - Hölderlinplatz,20.12.2025,,01 - SSB,SSB - ssb
+,12782948,6116829,"H,R",31200,U5,U5,20005_,1,20,Killesberg - Hauptbahnhof - Leinfelden Neuer Markt,20.12.2025,,01 - SSB,SSB - ssb
+,12788713,6117219,"H,R",58749,U6,U6,20006_,1,20,Gerlingen - Hauptbahnhof - Flughafen/Messe,20.12.2025,,01 - SSB,SSB - ssb
+,12788721,6117417,"H,R",48992,U7,U7,20007_,1,20,Mönchfeld - Hauptbahnhof - Ostfildern,20.12.2025,,01 - SSB,SSB - ssb
+,12788722,6117308,"H,R",37310,U8,U8,20008_,1,20,Ostfildern - Degerloch - Vaihingen,20.12.2025,,01 - SSB,SSB - ssb
+,12878975,6117001,"H,R",26636,U9,U9,20009_,1,20,Hedelfingen - Hauptbahnhof - Vogelsang (-Botnang),20.12.2025,,01 - SSB,SSB - ssb
+,12878976,6117357,"H,R",48678,U12,U12,20012_,1,20,Remseck - Hauptbahnhof - Dürrlewang,21.12.2025,,01 - SSB,SSB - ssb
+,12878979,6117648,"H,R",28993,U13,U13,20013_,1,20,Feuerbach - Bad Cannstatt - Hedelfingen,20.12.2025,,01 - SSB,SSB - ssb
+,12878982,6117844,"H,R",37444,U14,U14,20014_,1,20,Mühlhausen - Charlottenplatz - Vaihingen,20.12.2025,,01 - SSB,SSB - ssb
+,12884906,6117317,"H,R",36245,U15,U15,20015_,1,20,Stammheim - Hauptbahnhof - Ruhbank (- Heumaden),20.12.2025,,01 - SSB,SSB - ssb
+,12884909,6117647,"H,R",33592,U16,U16,20016_,1,20,Giebel - Feuerbach - Bad Cannstatt - Fellbach,20.12.2025,,01 - SSB,SSB - ssb
+,12884915,6116820,"H,R",11761,U19,U19,20019_,1,20,Neugereut - Bad Cannstatt Wilhelmsplatz - NeckarPark (Stadion),20.12.2025,,01 - SSB,SSB - ssb
+,12583532,6117459,"H,R",4370,10,10,21010_,1,21,Marienplatz - Haigst - Degerloch (Zahnradbahn Zacke),14.12.2025,,01 - SSB,SSB - ssb
+,12583430,6117938,"H,R",1068,20,20,21020_,1,21,Südheimer Platz - Waldfriedhof (Seilbahn),14.12.2025,,01 - SSB,SSB - ssb
+,14401441,6117816,"H,R",7640,20E,20E,30020e,2,30,Südheimer Platz - Waldfriedhof,08.06.2026,24.06.2026,01 - SSB,SSB - ssb
+,12901072,6117090,"H,R",33414,X2,X2,30032_,1,30,Rotebühlplatz - Schwabstraße - Leonberg,20.12.2025,,01 - SSB,SSB - ssb
+,12583508,6117923,"H,R",5977,10,10,30033_,1,30,Marienplatz - Degerloch (Zackebus),14.12.2025,,01 - SSB,SSB - ssb
+,12895060,6117429,"H,R",17656,40,40,30040_,1,30,Wagenburgstraße - Hauptbahnhof - Vogelsang,20.12.2025,,01 - SSB,SSB - ssb
+,12895061,6117368,"H,R",7759,41,41,30041_,1,30,Berliner Platz - Feuersee - Lerchenrainschule,20.12.2025,,01 - SSB,SSB - ssb
+,12901073,6116825,"H,R",21231,42,42,30042_,1,30,Schlossplatz - Hauptbahnhof - Erwin-Schoettle-Platz,24.12.2025,,01 - SSB,SSB - ssb
+,13698048,6117145,"H,R",26347,43,43,30043_,4,30,Pragsattel - Rotebühlplatz (Stadtmitte) - Feuersee,13.01.2026,24.07.2026,01 - SSB,SSB - ssb
+,13237074,6117936,"H,R",20236,44,44,30044_,1,30,Killesberg - Hauptbahnhof - Westbahnhof,24.12.2025,,01 - SSB,SSB - ssb
+,12901075,6116847,"H,R",15722,45,45,30045_,1,30,Buchwald - Wagenburgstraße - Mercedes-Benz-Welt - Bad Cannstatt,20.12.2025,,01 - SSB,SSB - ssb
+,12583831,6117613,"H,R",7350,47,47,30047_,1,30,Wagenburgstraße - Hauptbahnhof,20.12.2025,,01 - SSB,SSB - ssb
+,12911304,6117552,"H,R",17488,50,50,30050_,1,30,Killesberg - Doggenburg - Westbahnhof,20.12.2025,,01 - SSB,SSB - ssb
+,12937049,6117842,"H,R",29469,52,52,30052_,1,30,(Korntaler Straße -) Borkumstraße - Hallschlag - Rosensteinbrücke,20.12.2025,,01 - SSB,SSB - ssb
+,12937050,6117627,"H,R",16914,53,53,30053_,1,30,Mühlhausen - Zazenhausen -  Zuffenhausen (- Feuerbach),20.12.2025,,01 - SSB,SSB - ssb
+,12937051,6117776,"H,R",19215,54,54,30054_,1,30,Freiberg - Mühlhausen- Neugereut (- Sommerrain),20.12.2025,,01 - SSB,SSB - ssb
+,12937052,6117913,"H,R",6355,56,56,30056_,1,30,Münster - Rosensteinbrücke,20.12.2025,,01 - SSB,SSB - ssb
+,12937062,6117651,"H,R",4330,57,57,30057_,1,30,R.-Bosch-Krankenhaus - Burgholzhof - Pragsattel,20.12.2025,,01 - SSB,SSB - ssb
+,12937054,6116811,"H,R",8356,58,58,30058_,1,30,Schmiden - Obere Ziegelei (- Sommerrain),20.12.2025,,01 - SSB,SSB - ssb
+,12937056,6117274,"H,R",8170,59,59,30059_,1,30,Münster Rathaus - Münster Friedhof,20.12.2025,,01 - SSB,SSB - ssb
+,13430557,6117473,"H,R",23824,60,60,30060_,1,30,Oeffingen - Fellbach - Untertürkheim,09.02.2026,,01 - SSB,SSB - ssb
+,12937059,6116883,"H,R",12109,61,61,30061_,1,30,Rotenberg - Untertürkheim - Obertürkheim,20.12.2025,,01 - SSB,SSB - ssb
+,12937061,6117917,"H,R",12533,62,62,30062_,1,30,Uhlbach - Obertürkheim - Rohracker,20.12.2025,,01 - SSB,SSB - ssb
+,12937064,6117059,"H,R",4016,64,64,30064_,1,30,Stelle - Frauenkopf,20.12.2025,,01 - SSB,SSB - ssb
+,12943157,6116902,"H,R",41042,65,65,30065_,1,30,(Uhlbach -) Obertürkheim - Plieningen - Flughafen/Messe (SAB),20.12.2025,,01 - SSB,SSB - ssb
+,12583305,6117706,"H,R",5275,66,66,30066_,1,30,Kühwasen - Geschwister- Scholl-Gymnasium,20.12.2025,,01 - SSB,SSB - ssb
+,13012612,6116945,"H,R",30723,70,70,30070_,1,30,(Hoffeld -) Ruhbank (Fernsehturm) - Plieningen,20.12.2025,,01 - SSB,SSB - ssb
+,13012615,6117691,"H,R",21484,71,71,30071_,1,30,Hoffeld - Degerloch ZOB - Schönberg,20.12.2025,,01 - SSB,SSB - ssb
+,13012616,6116858,"H,R",9400,72,72,30072_,1,30,Möhringen - Möhringen Rathaus - Fasanenhof,20.12.2025,,01 - SSB,SSB - ssb
+,13012618,6117174,"H,R",34446,73,73,30073_,1,30,Degerloch - Plieningen Garbe - Neuhausen,20.12.2025,,01 - SSB,SSB - ssb
+,14409591,6117761,"H,R",62532,74,74,30074_,5,30,Degerloch - Bernhausen - Nürtingen,09.05.2026,,01 - SSB,SSB - ssb
+,13029250,6117598,"H,R",49620,76,76,30076_,1,30,Degerloch - Bernhausen - Echterdingen,20.12.2025,,01 - SSB,SSB - ssb
+,13029251,6117019,"H,R",36676,77,77,30077_,1,30,Degerloch - Echterdingen - Harthausen,20.12.2025,,01 - SSB,SSB - ssb
+,12583127,6117556,"H,R",3200,80,80,30080_,1,30,Vaihingen Bf (Ost) - Synergiepark - Vaihingen Bf (Ost),20.12.2025,,01 - SSB,SSB - ssb
+,13029254,6116849,"H,R",16299,81,81,30081_,1,30,Büsnau - Vaihingen - Dürrlewang,20.12.2025,,01 - SSB,SSB - ssb
+,14523417,6117394,"H,R",36275,82,82,30082_,4,30,Waldeck - Vaihingen - Hans-Rehn-Stift - Rohr Mitte (- Leinfelden Bf),28.04.2026,16.07.2026,01 - SSB,SSB - ssb
+,14058260,6117394,"H,R",36009,82,82,30082_,1,30,Waldeck - Vaihingen - Hans-Rehn-Stift - Rohr Mitte (- Leinfelden Bf),28.03.2026,,01 - SSB,SSB - ssb
+,12583593,6117078,"H,R",55004,84,84,30084_,1,30,Vaihingen - Sindelfingen - Universität,28.03.2026,,01 - SSB,SSB - ssb
+,13029255,6117744,"H,R",14307,86,86,30086_,1,30,Vaihingen - Rohr Mitte - Leinfelden,20.12.2025,,01 - SSB,SSB - ssb
+,14523420,6117744,"H,R",14573,86,86,30086_,3,30,Vaihingen - Rohr Mitte - Leinfelden,28.04.2026,16.07.2026,01 - SSB,SSB - ssb
+,13029256,6117798,"H,R",25544,90,90,30090_,1,30,Korntal - Weilimdorf - Giebel,20.12.2025,,01 - SSB,SSB - ssb
