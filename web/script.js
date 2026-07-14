@@ -1,14 +1,20 @@
 "use strict";
 
 const MAX_ATTEMPTS = 6;
+const DEFAULT_GAME_MODE = "global";
+const GAME_MODE_STORAGE_KEY = "ssbdle_game_mode";
 
 let stations = [];
+let gameModes = {};
 let answerIds = [];
 let targetStation = null;
-
 let attempts = 0;
 let gameFinished = false;
 let selectedStationId = null;
+
+let currentGameMode =
+  localStorage.getItem(GAME_MODE_STORAGE_KEY) ||
+  DEFAULT_GAME_MODE;
 
 let showSearchHints =
   localStorage.getItem(
@@ -45,10 +51,14 @@ const clearSearchButton =
   document.querySelector("#clear-search");
 
 const toggleHintsButton =
-  document.querySelector("#toggle-hints-button");
+  document.querySelector(
+    "#toggle-hints-button"
+  );
 
 const toggleHintsLabel =
-  document.querySelector("#toggle-hints-label");
+  document.querySelector(
+    "#toggle-hints-label"
+  );
 
 const searchModeNote =
   document.querySelector("#search-mode-note");
@@ -98,6 +108,28 @@ const ledInputCanvas =
 const ledFallbackText =
   document.querySelector("#led-fallback-text");
 
+const gameModeButton =
+  document.querySelector("#game-mode-button");
+
+const gameModeLabel =
+  document.querySelector("#game-mode-label");
+
+const gameModeModal =
+  document.querySelector("#game-mode-modal");
+
+const gameModeBackdrop =
+  document.querySelector(
+    "#game-mode-backdrop"
+  );
+
+const closeGameModeModalButton =
+  document.querySelector(
+    "#close-game-mode-modal"
+  );
+
+const gameModeGrid =
+  document.querySelector("#game-mode-grid");
+
 
 function normalizeText(value) {
   return String(value ?? "")
@@ -116,31 +148,46 @@ function prepareLedText(value) {
 }
 
 
-function setEquals(firstValues, secondValues) {
-  const firstSet = new Set(firstValues);
-  const secondSet = new Set(secondValues);
+function setEquals(
+  firstValues,
+  secondValues
+) {
+  const firstSet =
+    new Set(firstValues);
 
-  if (firstSet.size !== secondSet.size) {
-    return false;
-  }
+  const secondSet =
+    new Set(secondValues);
 
-  return [...firstSet].every(
-    (value) => secondSet.has(value)
+  return (
+    firstSet.size ===
+      secondSet.size &&
+    [...firstSet].every(
+      (value) =>
+        secondSet.has(value)
+    )
   );
 }
 
 
-function getIntersection(firstValues, secondValues) {
-  const secondSet = new Set(secondValues);
+function getIntersection(
+  firstValues,
+  secondValues
+) {
+  const secondSet =
+    new Set(secondValues);
 
-  return [...new Set(firstValues)].filter(
-    (value) => secondSet.has(value)
+  return [
+    ...new Set(firstValues),
+  ].filter(
+    (value) =>
+      secondSet.has(value)
   );
 }
 
 
 async function loadJson(path) {
-  const response = await fetch(path);
+  const response =
+    await fetch(path);
 
   if (!response.ok) {
     throw new Error(
@@ -152,6 +199,296 @@ async function loadJson(path) {
 }
 
 
+function getGameMode(modeId) {
+  const mode =
+    gameModes?.[modeId];
+
+  if (
+    !mode ||
+    mode.enabled === false ||
+    !Array.isArray(mode.answer_ids)
+  ) {
+    return null;
+  }
+
+  return mode;
+}
+
+
+function getCurrentGameMode() {
+  return getGameMode(
+    currentGameMode
+  );
+}
+
+
+function getCurrentGameModeName() {
+  return (
+    getCurrentGameMode()?.name ||
+    "Gesamtes Netz"
+  );
+}
+
+
+function updateGameModeUi() {
+  const activeMode =
+    getCurrentGameMode();
+
+  if (gameModeLabel) {
+    gameModeLabel.textContent =
+      activeMode?.name ||
+      "Gesamtes Netz";
+  }
+
+  if (!gameModeGrid) {
+    return;
+  }
+
+  const cards =
+    gameModeGrid.querySelectorAll(
+      ".mode-card"
+    );
+
+  for (const card of cards) {
+    const modeId =
+      card.dataset.mode;
+
+    const mode =
+      getGameMode(modeId);
+
+    const unavailable =
+      card.classList.contains(
+        "coming-soon"
+      ) ||
+      card.getAttribute(
+        "aria-disabled"
+      ) === "true" ||
+      !mode;
+
+    const isActive =
+      !unavailable &&
+      modeId === currentGameMode;
+
+    card.classList.toggle(
+      "active",
+      isActive
+    );
+
+    card.setAttribute(
+      "aria-pressed",
+      String(isActive)
+    );
+
+    if (!mode) {
+      continue;
+    }
+
+    const nameElement =
+      card.querySelector(
+        ".mode-card-name"
+      );
+
+    const metaElement =
+      card.querySelector(
+        ".mode-card-meta"
+      );
+
+    const imageElement =
+      card.querySelector("img");
+
+    if (nameElement) {
+      nameElement.textContent =
+        mode.name;
+    }
+
+    if (metaElement) {
+      const count =
+        Number(
+          mode.answer_count
+        ) ||
+        mode.answer_ids.length;
+
+      metaElement.textContent =
+        `${count.toLocaleString(
+          "de-DE"
+        )} Haltestellen`;
+    }
+
+    if (
+      imageElement &&
+      mode.image
+    ) {
+      imageElement.src =
+        mode.image;
+    }
+
+    if (mode.description) {
+      card.title =
+        mode.description;
+    }
+  }
+}
+
+
+function openGameModeModal() {
+  if (!gameModeModal) {
+    return;
+  }
+
+  updateGameModeUi();
+
+  gameModeModal.classList.remove(
+    "hidden"
+  );
+
+  document.body.classList.add(
+    "mode-modal-open"
+  );
+
+  gameModeButton?.setAttribute(
+    "aria-expanded",
+    "true"
+  );
+
+  const activeCard =
+    gameModeGrid?.querySelector(
+      ".mode-card.active"
+    );
+
+  requestAnimationFrame(() => {
+    (
+      activeCard ||
+      closeGameModeModalButton
+    )?.focus();
+  });
+}
+
+
+function closeGameModeModal(
+  restoreFocus = true
+) {
+  if (!gameModeModal) {
+    return;
+  }
+
+  gameModeModal.classList.add(
+    "hidden"
+  );
+
+  document.body.classList.remove(
+    "mode-modal-open"
+  );
+
+  gameModeButton?.setAttribute(
+    "aria-expanded",
+    "false"
+  );
+
+  if (restoreFocus) {
+    gameModeButton?.focus();
+  }
+}
+
+
+function activateGameMode(modeId) {
+  const mode =
+    getGameMode(modeId);
+
+  if (!mode) {
+    return false;
+  }
+
+  const validAnswerIds =
+    mode.answer_ids
+      .map(
+        (stationId) =>
+          String(stationId)
+      )
+      .filter(
+        (stationId) =>
+          stationById.has(
+            stationId
+          )
+      );
+
+  if (
+    validAnswerIds.length === 0
+  ) {
+    console.error(
+      `Der Spielmodus "${modeId}" enthält keine gültigen Lösungen.`
+    );
+
+    return false;
+  }
+
+  if (
+    validAnswerIds.length !==
+    mode.answer_ids.length
+  ) {
+    console.warn(
+      `Im Spielmodus "${modeId}" wurden ` +
+      `${
+        mode.answer_ids.length -
+        validAnswerIds.length
+      } unbekannte Lösungs-IDs ignoriert.`
+    );
+  }
+
+  currentGameMode =
+    modeId;
+
+  answerIds =
+    validAnswerIds;
+
+  localStorage.setItem(
+    GAME_MODE_STORAGE_KEY,
+    currentGameMode
+  );
+
+  updateGameModeUi();
+
+  return true;
+}
+
+
+function selectGameMode(modeId) {
+  const mode =
+    getGameMode(modeId);
+
+  if (!mode) {
+    statusMessage.textContent =
+      "Dieser Spielmodus ist noch nicht verfügbar.";
+
+    return;
+  }
+
+  if (
+    modeId ===
+    currentGameMode
+  ) {
+    closeGameModeModal();
+    return;
+  }
+
+  if (
+    !activateGameMode(modeId)
+  ) {
+    statusMessage.textContent =
+      "Der Spielmodus konnte nicht geladen werden.";
+
+    return;
+  }
+
+  startNewRound();
+
+  statusMessage.textContent =
+    `Spielmodus „${mode.name}“ aktiviert. ` +
+    "Wähle eine Haltestelle aus.";
+
+  closeGameModeModal();
+}
+
+
 function applyTheme() {
   document.documentElement.dataset.theme =
     currentTheme;
@@ -160,7 +497,9 @@ function applyTheme() {
     currentTheme === "dark";
 
   themeIcon.textContent =
-    darkMode ? "☀" : "◐";
+    darkMode
+      ? "☀"
+      : "◐";
 
   themeLabel.textContent =
     darkMode
@@ -214,7 +553,8 @@ function renderLedInput() {
     stationInput.value.trim();
 
   const visibleText =
-    value || "Haltestelle suchen";
+    value ||
+    "Haltestelle suchen";
 
   ledFallbackText.textContent =
     visibleText;
@@ -226,11 +566,6 @@ function renderLedInput() {
   if (!ledRendererAvailable) {
     ledFallbackText.classList.remove(
       "canvas-active"
-    );
-
-    console.warn(
-      "ledfont5x7.js wurde nicht geladen. " +
-      "Fallbacktext wird verwendet."
     );
 
     return;
@@ -270,13 +605,19 @@ function renderLedInput() {
       `${height}px`;
 
     ledInputCanvas.width =
-      Math.round(width * pixelRatio);
+      Math.round(
+        width * pixelRatio
+      );
 
     ledInputCanvas.height =
-      Math.round(height * pixelRatio);
+      Math.round(
+        height * pixelRatio
+      );
 
     const context =
-      ledInputCanvas.getContext("2d");
+      ledInputCanvas.getContext(
+        "2d"
+      );
 
     context.setTransform(
       pixelRatio,
@@ -295,13 +636,14 @@ function renderLedInput() {
     );
 
     let displayText =
-      prepareLedText(visibleText);
+      prepareLedText(
+        visibleText
+      );
 
-    const horizontalPadding = 48;
     const availableWidth =
       Math.max(
         80,
-        width - horizontalPadding - 45
+        width - 93
       );
 
     const maximumPitch = 8;
@@ -314,20 +656,24 @@ function renderLedInput() {
         displayText.length * 6
       );
 
-    pitch = Math.max(
-      minimumPitch,
-      Math.min(
-        maximumPitch,
-        pitch
-      )
-    );
+    pitch =
+      Math.max(
+        minimumPitch,
+        Math.min(
+          maximumPitch,
+          pitch
+        )
+      );
 
     const maximumCharacters =
       Math.max(
         8,
         Math.floor(
           availableWidth /
-          (6 * minimumPitch)
+          (
+            6 *
+            minimumPitch
+          )
         )
       );
 
@@ -383,33 +729,121 @@ function renderLedInput() {
 async function initializeGame() {
   try {
     statusMessage.textContent =
-      "Haltestellendaten werden geladen …";
+      "Haltestellendaten und Spielmodi werden geladen …";
 
-    [stations, answerIds] =
-      await Promise.all([
-        loadJson("./data/stations.json"),
-        loadJson("./data/answer_ids.json"),
-      ]);
+    stationInput.disabled =
+      true;
+
+    guessButton.disabled =
+      true;
+
+    if (gameModeButton) {
+      gameModeButton.disabled =
+        true;
+    }
+
+    [
+      stations,
+      gameModes,
+    ] = await Promise.all([
+      loadJson(
+        "./data/stations_game_modes.json"
+      ),
+      loadJson(
+        "./data/game_modes.json"
+      ),
+    ]);
+
+    if (
+      !Array.isArray(stations)
+    ) {
+      throw new Error(
+        "stations_game_modes.json enthält keine Liste."
+      );
+    }
+
+    if (
+      !gameModes ||
+      typeof gameModes !==
+        "object" ||
+      Array.isArray(gameModes)
+    ) {
+      throw new Error(
+        "game_modes.json enthält kein gültiges Objekt."
+      );
+    }
 
     buildStationMaps();
+
+    if (
+      !getGameMode(
+        currentGameMode
+      )
+    ) {
+      currentGameMode =
+        getGameMode(
+          DEFAULT_GAME_MODE
+        )
+          ? DEFAULT_GAME_MODE
+          : Object.keys(
+              gameModes
+            ).find(
+              (modeId) =>
+                Boolean(
+                  getGameMode(
+                    modeId
+                  )
+                )
+            );
+    }
+
+    if (
+      !currentGameMode ||
+      !activateGameMode(
+        currentGameMode
+      )
+    ) {
+      throw new Error(
+        "Es konnte kein gültiger Spielmodus aktiviert werden."
+      );
+    }
+
     startNewRound();
 
-    stationInput.disabled = false;
-    guessButton.disabled = false;
+    stationInput.disabled =
+      false;
+
+    guessButton.disabled =
+      false;
+
+    if (gameModeButton) {
+      gameModeButton.disabled =
+        false;
+    }
 
     statusMessage.textContent =
-      `${stations.length} Haltestellen geladen. ` +
-      "Wähle eine Haltestelle aus.";
+      `${stations.length.toLocaleString(
+        "de-DE"
+      )} Haltestellen geladen. ` +
+      `Spielmodus: ${getCurrentGameModeName()}.`;
 
     renderLedInput();
   } catch (error) {
     console.error(error);
 
     statusMessage.textContent =
-      "Die Haltestellendaten konnten nicht geladen werden.";
+      "Die Haltestellendaten oder Spielmodi konnten nicht geladen werden.";
 
-    stationInput.disabled = true;
-    guessButton.disabled = true;
+    stationInput.disabled =
+      true;
+
+    guessButton.disabled =
+      true;
+
+    if (gameModeButton) {
+      gameModeButton.disabled =
+        true;
+    }
   }
 }
 
@@ -418,14 +852,22 @@ function buildStationMaps() {
   stationById.clear();
   stationByLabel.clear();
 
-  for (const station of stations) {
+  for (
+    const station
+    of stations
+  ) {
+    station.id =
+      String(station.id);
+
     stationById.set(
       station.id,
       station
     );
 
     stationByLabel.set(
-      normalizeText(station.label),
+      normalizeText(
+        station.label
+      ),
       station
     );
   }
@@ -450,8 +892,13 @@ function levenshteinDistance(
 
   const matrix =
     Array.from(
-      { length: rows },
-      () => Array(columns).fill(0)
+      {
+        length: rows,
+      },
+      () =>
+        Array(
+          columns
+        ).fill(0)
     );
 
   for (
@@ -459,7 +906,8 @@ function levenshteinDistance(
     row < rows;
     row += 1
   ) {
-    matrix[row][0] = row;
+    matrix[row][0] =
+      row;
   }
 
   for (
@@ -467,7 +915,8 @@ function levenshteinDistance(
     column < columns;
     column += 1
   ) {
-    matrix[0][column] = column;
+    matrix[0][column] =
+      column;
   }
 
   for (
@@ -496,12 +945,21 @@ function levenshteinDistance(
     }
   }
 
-  return matrix[rows - 1][columns - 1];
+  return matrix[
+    rows - 1
+  ][
+    columns - 1
+  ];
 }
 
 
-function getFuzzyScore(candidate, query) {
-  if (query.length < 4) {
+function getFuzzyScore(
+  candidate,
+  query
+) {
+  if (
+    query.length < 4
+  ) {
     return 0;
   }
 
@@ -513,10 +971,7 @@ function getFuzzyScore(candidate, query) {
   const candidateStart =
     candidate.slice(
       0,
-      Math.min(
-        candidate.length,
-        query.length + 2
-      )
+      query.length + 2
     );
 
   const fullDistance =
@@ -528,7 +983,8 @@ function getFuzzyScore(candidate, query) {
           candidate,
           query
         )
-      : Number.POSITIVE_INFINITY;
+      : Number
+          .POSITIVE_INFINITY;
 
   const prefixDistance =
     levenshteinDistance(
@@ -542,18 +998,20 @@ function getFuzzyScore(candidate, query) {
       prefixDistance
     );
 
-  if (
-    bestDistance >
+  return (
+    bestDistance <=
     maximumDistance
-  ) {
-    return 0;
-  }
-
-  return 600 - bestDistance * 50;
+      ? 600 -
+        bestDistance * 50
+      : 0
+  );
 }
 
 
-function getSearchScore(station, rawQuery) {
+function getSearchScore(
+  station,
+  rawQuery
+) {
   const query =
     normalizeText(rawQuery);
 
@@ -562,10 +1020,14 @@ function getSearchScore(station, rawQuery) {
   }
 
   const name =
-    normalizeText(station.name);
+    normalizeText(
+      station.name
+    );
 
   const label =
-    normalizeText(station.label);
+    normalizeText(
+      station.label
+    );
 
   const municipality =
     normalizeText(
@@ -584,11 +1046,15 @@ function getSearchScore(station, rawQuery) {
     return 1000;
   }
 
-  if (name.startsWith(query)) {
+  if (
+    name.startsWith(query)
+  ) {
     return 900;
   }
 
-  if (label.startsWith(query)) {
+  if (
+    label.startsWith(query)
+  ) {
     return 850;
   }
 
@@ -598,35 +1064,43 @@ function getSearchScore(station, rawQuery) {
   if (
     nameWords.some(
       (word) =>
-        word.startsWith(query)
+        word.startsWith(
+          query
+        )
     )
   ) {
     return 800;
   }
 
-  if (name.includes(query)) {
+  if (
+    name.includes(query)
+  ) {
     return 750;
   }
 
-  if (label.includes(query)) {
+  if (
+    label.includes(query)
+  ) {
     return 700;
   }
 
   if (
-    municipality.startsWith(query) ||
-    locality.startsWith(query)
+    municipality.startsWith(
+      query
+    ) ||
+    locality.startsWith(
+      query
+    )
   ) {
     return 500;
   }
 
-  const fuzzyCandidates = [
-    name,
-    label,
-    ...nameWords,
-  ];
-
   return Math.max(
-    ...fuzzyCandidates.map(
+    ...[
+      name,
+      label,
+      ...nameWords,
+    ].map(
       (candidate) =>
         getFuzzyScore(
           candidate,
@@ -639,13 +1113,16 @@ function getSearchScore(station, rawQuery) {
 
 function getSearchMatches(query) {
   return stations
-    .map((station) => ({
-      station,
-      score: getSearchScore(
+    .map(
+      (station) => ({
         station,
-        query
-      ),
-    }))
+        score:
+          getSearchScore(
+            station,
+            query
+          ),
+      })
+    )
     .filter(
       (entry) =>
         entry.score > 0
@@ -665,15 +1142,17 @@ function getSearchMatches(query) {
           );
         }
 
-        return firstEntry
-          .station
-          .label
-          .localeCompare(
-            secondEntry
-              .station
-              .label,
-            "de"
-          );
+        return (
+          firstEntry
+            .station
+            .label
+            .localeCompare(
+              secondEntry
+                .station
+                .label,
+              "de"
+            )
+        );
       }
     )
     .map(
@@ -695,13 +1174,17 @@ function closeSearchResults() {
 }
 
 
-function createSearchResult(station) {
+function createSearchResult(
+  station
+) {
   const button =
     document.createElement(
       "button"
     );
 
-  button.type = "button";
+  button.type =
+    "button";
+
   button.className =
     "search-result";
 
@@ -751,12 +1234,15 @@ function createSearchResult(station) {
         index,
         values
       ) =>
-        values.indexOf(value) ===
-        index
+        values.indexOf(
+          value
+        ) === index
     );
 
   location.textContent =
-    locationParts.join(" · ") ||
+    locationParts.join(
+      " · "
+    ) ||
     "Ort nicht angegeben";
 
   mainArea.append(
@@ -806,13 +1292,18 @@ function createSearchResult(station) {
 }
 
 
-function renderSearchResults(query = "") {
+function renderSearchResults(
+  query = ""
+) {
   const matches =
     getSearchMatches(query);
 
-  searchResults.innerHTML = "";
+  searchResults.innerHTML =
+    "";
 
-  if (matches.length === 0) {
+  if (
+    matches.length === 0
+  ) {
     const noResults =
       document.createElement(
         "div"
@@ -829,7 +1320,8 @@ function renderSearchResults(query = "") {
     );
   } else {
     for (
-      const station of matches
+      const station
+      of matches
     ) {
       searchResults.append(
         createSearchResult(
@@ -850,7 +1342,9 @@ function renderSearchResults(query = "") {
 }
 
 
-function selectSearchStation(station) {
+function selectSearchStation(
+  station
+) {
   selectedStationId =
     station.id;
 
@@ -867,6 +1361,14 @@ function selectSearchStation(station) {
 
 
 function chooseRandomTarget() {
+  if (
+    answerIds.length === 0
+  ) {
+    throw new Error(
+      "Der aktive Spielmodus enthält keine Lösungsstationen."
+    );
+  }
+
   const randomIndex =
     Math.floor(
       Math.random() *
@@ -881,8 +1383,7 @@ function chooseRandomTarget() {
 
   if (!station) {
     throw new Error(
-      "Lösungsstation nicht gefunden: " +
-      targetId
+      `Lösungsstation nicht gefunden: ${targetId}`
     );
   }
 
@@ -900,11 +1401,17 @@ function startNewRound() {
 
   guessedStationIds.clear();
 
-  resultsBody.innerHTML = "";
-  stationInput.value = "";
+  resultsBody.innerHTML =
+    "";
 
-  stationInput.disabled = false;
-  guessButton.disabled = false;
+  stationInput.value =
+    "";
+
+  stationInput.disabled =
+    false;
+
+  guessButton.disabled =
+    false;
 
   clearSearchButton.classList.add(
     "hidden"
@@ -928,7 +1435,7 @@ function startNewRound() {
   renderLedInput();
 
   console.info(
-    "Entwicklungsmodus – gesuchte Station:",
+    `Entwicklungsmodus (${getCurrentGameModeName()}) – gesuchte Station:`,
     targetStation.label
   );
 }
@@ -949,20 +1456,20 @@ function findStationFromInput() {
     );
   }
 
-  const normalizedInput =
-    normalizeText(
-      stationInput.value
-    );
-
   return (
     stationByLabel.get(
-      normalizedInput
+      normalizeText(
+        stationInput.value
+      )
     ) ?? null
   );
 }
 
 
-function compareModes(guess, target) {
+function compareModes(
+  guess,
+  target
+) {
   const guessModes =
     guess.modes ?? [];
 
@@ -976,9 +1483,12 @@ function compareModes(guess, target) {
     )
   ) {
     return {
-      cssClass: "correct",
+      cssClass:
+        "correct",
       text:
-        guessModes.join(", ") ||
+        guessModes.join(
+          ", "
+        ) ||
         "Keine Angabe",
     };
   }
@@ -993,7 +1503,8 @@ function compareModes(guess, target) {
     commonModes.length > 0
   ) {
     return {
-      cssClass: "partial",
+      cssClass:
+        "partial",
       text:
         `${guessModes.join(", ")} ` +
         `(${commonModes.length} gemeinsam)`,
@@ -1001,15 +1512,21 @@ function compareModes(guess, target) {
   }
 
   return {
-    cssClass: "wrong",
+    cssClass:
+      "wrong",
     text:
-      guessModes.join(", ") ||
+      guessModes.join(
+        ", "
+      ) ||
       "Keine Angabe",
   };
 }
 
 
-function compareLocality(guess, target) {
+function compareLocality(
+  guess,
+  target
+) {
   const guessLocality =
     guess.locality ||
     guess.municipality ||
@@ -1029,8 +1546,10 @@ function compareLocality(guess, target) {
     )
   ) {
     return {
-      cssClass: "correct",
-      text: guessLocality,
+      cssClass:
+        "correct",
+      text:
+        guessLocality,
     };
   }
 
@@ -1043,19 +1562,26 @@ function compareLocality(guess, target) {
     )
   ) {
     return {
-      cssClass: "partial",
-      text: guessLocality,
+      cssClass:
+        "partial",
+      text:
+        guessLocality,
     };
   }
 
   return {
-    cssClass: "wrong",
-    text: guessLocality,
+    cssClass:
+      "wrong",
+    text:
+      guessLocality,
   };
 }
 
 
-function compareLineCount(guess, target) {
+function compareLineCount(
+  guess,
+  target
+) {
   const guessCount =
     Number(
       guess.line_count
@@ -1071,29 +1597,29 @@ function compareLineCount(guess, target) {
     targetCount
   ) {
     return {
-      cssClass: "correct",
-      text: `${guessCount}`,
-    };
-  }
-
-  if (
-    guessCount <
-    targetCount
-  ) {
-    return {
-      cssClass: "partial",
-      text: `${guessCount} ↑`,
+      cssClass:
+        "correct",
+      text:
+        `${guessCount}`,
     };
   }
 
   return {
-    cssClass: "partial",
-    text: `${guessCount} ↓`,
+    cssClass:
+      "partial",
+    text:
+      guessCount <
+      targetCount
+        ? `${guessCount} ↑`
+        : `${guessCount} ↓`,
   };
 }
 
 
-function compareLines(guess, target) {
+function compareLines(
+  guess,
+  target
+) {
   const guessLines =
     guess.lines ?? [];
 
@@ -1113,9 +1639,12 @@ function compareLines(guess, target) {
     )
   ) {
     return {
-      cssClass: "correct",
+      cssClass:
+        "correct",
       text:
-        commonLines.join(", ") ||
+        commonLines.join(
+          ", "
+        ) ||
         "Keine",
     };
   }
@@ -1124,24 +1653,32 @@ function compareLines(guess, target) {
     commonLines.length > 0
   ) {
     return {
-      cssClass: "partial",
+      cssClass:
+        "partial",
       text:
-        commonLines.join(", "),
+        commonLines.join(
+          ", "
+        ),
     };
   }
 
   return {
-    cssClass: "wrong",
-    text: "Keine",
+    cssClass:
+      "wrong",
+    text:
+      "Keine",
   };
 }
 
 
 function toRadians(degrees) {
-  return degrees *
+  return (
+    degrees *
     (
-      Math.PI / 180
-    );
+      Math.PI /
+      180
+    )
+  );
 }
 
 
@@ -1215,7 +1752,9 @@ function calculateDistanceKm(
       Math.sqrt(1 - a)
     );
 
-  return earthRadiusKm * c;
+  return (
+    earthRadiusKm * c
+  );
 }
 
 
@@ -1272,17 +1811,18 @@ function calculateBearing(
         longitudeDifference
       );
 
-  const bearing =
-    Math.atan2(
-      y,
-      x
-    ) *
-    (
-      180 / Math.PI
-    );
-
   return (
-    bearing + 360
+    (
+      Math.atan2(
+        y,
+        x
+      ) *
+      (
+        180 /
+        Math.PI
+      )
+    ) +
+    360
   ) % 360;
 }
 
@@ -1290,56 +1830,76 @@ function calculateBearing(
 function getDirection(bearing) {
   const directions = [
     {
-      text: "Norden",
-      arrow: "↑",
+      text:
+        "Norden",
+      arrow:
+        "↑",
     },
     {
-      text: "Nordosten",
-      arrow: "↗",
+      text:
+        "Nordosten",
+      arrow:
+        "↗",
     },
     {
-      text: "Osten",
-      arrow: "→",
+      text:
+        "Osten",
+      arrow:
+        "→",
     },
     {
-      text: "Südosten",
-      arrow: "↘",
+      text:
+        "Südosten",
+      arrow:
+        "↘",
     },
     {
-      text: "Süden",
-      arrow: "↓",
+      text:
+        "Süden",
+      arrow:
+        "↓",
     },
     {
-      text: "Südwesten",
-      arrow: "↙",
+      text:
+        "Südwesten",
+      arrow:
+        "↙",
     },
     {
-      text: "Westen",
-      arrow: "←",
+      text:
+        "Westen",
+      arrow:
+        "←",
     },
     {
-      text: "Nordwesten",
-      arrow: "↖",
+      text:
+        "Nordwesten",
+      arrow:
+        "↖",
     },
   ];
 
-  const index =
+  return directions[
     Math.round(
       bearing / 45
-    ) % 8;
-
-  return directions[index];
+    ) % 8
+  ];
 }
 
 
-function compareDistance(guess, target) {
+function compareDistance(
+  guess,
+  target
+) {
   if (
     guess.id ===
     target.id
   ) {
     return {
-      cssClass: "correct",
-      text: "0 km",
+      cssClass:
+        "correct",
+      text:
+        "0 km",
     };
   }
 
@@ -1349,15 +1909,12 @@ function compareDistance(guess, target) {
       target
     );
 
-  const bearing =
-    calculateBearing(
-      guess,
-      target
-    );
-
   const direction =
     getDirection(
-      bearing
+      calculateBearing(
+        guess,
+        target
+      )
     );
 
   const cssClass =
@@ -1369,8 +1926,10 @@ function compareDistance(guess, target) {
     distance.toLocaleString(
       "de-DE",
       {
-        minimumFractionDigits: 1,
-        maximumFractionDigits: 1,
+        minimumFractionDigits:
+          1,
+        maximumFractionDigits:
+          1,
       }
     );
 
@@ -1384,13 +1943,17 @@ function compareDistance(guess, target) {
 }
 
 
-function createCell(text, cssClass) {
+function createCell(
+  text,
+  cssClass
+) {
   const cell =
     document.createElement(
       "td"
     );
 
-  cell.textContent = text;
+  cell.textContent =
+    text;
 
   cell.classList.add(
     cssClass
@@ -1416,25 +1979,11 @@ function displayGuess(guess) {
       ? "correct"
       : "wrong";
 
-  row.append(
-    createCell(
-      guess.label,
-      stationClass
-    )
-  );
-
   const modesResult =
     compareModes(
       guess,
       targetStation
     );
-
-  row.append(
-    createCell(
-      modesResult.text,
-      modesResult.cssClass
-    )
-  );
 
   const localityResult =
     compareLocality(
@@ -1442,38 +1991,17 @@ function displayGuess(guess) {
       targetStation
     );
 
-  row.append(
-    createCell(
-      localityResult.text,
-      localityResult.cssClass
-    )
-  );
-
   const lineCountResult =
     compareLineCount(
       guess,
       targetStation
     );
 
-  row.append(
-    createCell(
-      lineCountResult.text,
-      lineCountResult.cssClass
-    )
-  );
-
   const linesResult =
     compareLines(
       guess,
       targetStation
     );
-
-  row.append(
-    createCell(
-      linesResult.text,
-      linesResult.cssClass
-    )
-  );
 
   const distanceResult =
     compareDistance(
@@ -1482,6 +2010,26 @@ function displayGuess(guess) {
     );
 
   row.append(
+    createCell(
+      guess.label,
+      stationClass
+    ),
+    createCell(
+      modesResult.text,
+      modesResult.cssClass
+    ),
+    createCell(
+      localityResult.text,
+      localityResult.cssClass
+    ),
+    createCell(
+      lineCountResult.text,
+      lineCountResult.cssClass
+    ),
+    createCell(
+      linesResult.text,
+      linesResult.cssClass
+    ),
     createCell(
       distanceResult.text,
       distanceResult.cssClass
@@ -1493,10 +2041,14 @@ function displayGuess(guess) {
 
 
 function finishGame(won) {
-  gameFinished = true;
+  gameFinished =
+    true;
 
-  stationInput.disabled = true;
-  guessButton.disabled = true;
+  stationInput.disabled =
+    true;
+
+  guessButton.disabled =
+    true;
 
   closeSearchResults();
 
@@ -1509,11 +2061,13 @@ function finishGame(won) {
       "Richtig!";
 
     endText.textContent =
-      `Die gesuchte Station war ` +
-      `${targetStation.label}. ` +
+      `Die gesuchte Station war ${targetStation.label}. ` +
       `Du hast ${attempts} ` +
-      `Versuch${attempts === 1 ? "" : "e"} ` +
-      `gebraucht.`;
+      `Versuch${
+        attempts === 1
+          ? ""
+          : "e"
+      } gebraucht.`;
 
     return;
   }
@@ -1522,8 +2076,7 @@ function finishGame(won) {
     "Leider nicht geschafft";
 
   endText.textContent =
-    `Die gesuchte Station war ` +
-    `${targetStation.label}.`;
+    `Die gesuchte Station war ${targetStation.label}.`;
 }
 
 
@@ -1573,8 +2126,11 @@ function handleGuess(event) {
 
   updateAttemptCounter();
 
-  stationInput.value = "";
-  selectedStationId = null;
+  stationInput.value =
+    "";
+
+  selectedStationId =
+    null;
 
   clearSearchButton.classList.add(
     "hidden"
@@ -1612,20 +2168,22 @@ function handleGuess(event) {
 
   statusMessage.textContent =
     `Noch ${remainingAttempts} ` +
-    `Versuch${remainingAttempts === 1 ? "" : "e"}.`;
+    `Versuch${
+      remainingAttempts === 1
+        ? ""
+        : "e"
+    }.`;
 }
 
 
 stationInput.addEventListener(
   "focus",
   () => {
-    if (gameFinished) {
-      return;
+    if (!gameFinished) {
+      renderSearchResults(
+        stationInput.value
+      );
     }
-
-    renderSearchResults(
-      stationInput.value
-    );
   }
 );
 
@@ -1633,7 +2191,8 @@ stationInput.addEventListener(
 stationInput.addEventListener(
   "input",
   () => {
-    selectedStationId = null;
+    selectedStationId =
+      null;
 
     clearSearchButton.classList.toggle(
       "hidden",
@@ -1671,9 +2230,7 @@ searchResults.addEventListener(
 
     const station =
       stationById.get(
-        resultButton
-          .dataset
-          .stationId
+        resultButton.dataset.stationId
       );
 
     if (!station) {
@@ -1692,17 +2249,18 @@ searchResults.addEventListener(
 clearSearchButton.addEventListener(
   "click",
   () => {
-    stationInput.value = "";
-    selectedStationId = null;
+    stationInput.value =
+      "";
+
+    selectedStationId =
+      null;
 
     clearSearchButton.classList.add(
       "hidden"
     );
 
     renderLedInput();
-
     stationInput.focus();
-
     renderSearchResults("");
   }
 );
@@ -1742,6 +2300,77 @@ themeToggle.addEventListener(
 );
 
 
+gameModeButton?.addEventListener(
+  "click",
+  openGameModeModal
+);
+
+
+gameModeBackdrop?.addEventListener(
+  "click",
+  () => {
+    closeGameModeModal();
+  }
+);
+
+
+closeGameModeModalButton
+  ?.addEventListener(
+    "click",
+    () => {
+      closeGameModeModal();
+    }
+  );
+
+
+gameModeGrid?.addEventListener(
+  "click",
+  (event) => {
+    const modeCard =
+      event.target.closest(
+        ".mode-card"
+      );
+
+    if (!modeCard) {
+      return;
+    }
+
+    if (
+      modeCard.classList.contains(
+        "coming-soon"
+      ) ||
+      modeCard.getAttribute(
+        "aria-disabled"
+      ) === "true"
+    ) {
+      statusMessage.textContent =
+        "Dieser Spielmodus folgt in einer späteren Version.";
+
+      return;
+    }
+
+    selectGameMode(
+      modeCard.dataset.mode
+    );
+  }
+);
+
+
+document.addEventListener(
+  "keydown",
+  (event) => {
+    if (
+      event.key === "Escape" &&
+      !gameModeModal?.classList.contains(
+        "hidden"
+      )
+    ) {
+      closeGameModeModal();
+    }
+  }
+);
+
+
 document.addEventListener(
   "click",
   (event) => {
@@ -1777,8 +2406,10 @@ restartButton.addEventListener(
     startNewRound();
 
     searchDock.scrollIntoView({
-      behavior: "smooth",
-      block: "end",
+      behavior:
+        "smooth",
+      block:
+        "end",
     });
 
     stationInput.focus();

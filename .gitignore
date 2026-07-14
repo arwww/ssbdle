@@ -17,4 +17,5 @@ __pycache__/
 data/raw/
 
 # Optional: lokale Analyseoutputs
-output/analysis/
+output/analysis/.DS_Store
+output/game_modes_review.csv

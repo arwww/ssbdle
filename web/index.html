@@ -49,6 +49,8 @@
             </span>
           </button>
 
+          <button id="game-mode-button" class="header-button" type="button" aria-haspopup="dialog" aria-controls="game-mode-modal" aria-expanded="false" > <span aria-hidden="true">🌎</span> <span> Spielmodus: <strong id="game-mode-label"> Gesamtes Netz </strong> </span> </button>
+
           <button
             id="theme-toggle"
             class="header-button"
@@ -276,6 +278,288 @@
         <span>HEHEHA</span>
       </footer>
     </main>
+
+                                                   <div
+  id="game-mode-modal"
+  class="mode-modal hidden"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="game-mode-title"
+>
+  <button
+    id="game-mode-backdrop"
+    class="mode-modal-backdrop"
+    type="button"
+    aria-label="Spielmodus-Auswahl schließen"
+  ></button>
+
+  <div class="mode-modal-panel">
+    <div class="mode-modal-header">
+      <div>
+        <p class="section-kicker">
+          SSBdle Spielwelten
+        </p>
+
+        <h2 id="game-mode-title">
+          Spielmodus wählen
+        </h2>
+
+        <p class="mode-modal-description">
+          Wähle eine Region oder ein Verkehrsmittel
+          für deine nächste Runde.
+        </p>
+      </div>
+
+      <button
+        id="close-game-mode-modal"
+        class="mode-modal-close"
+        type="button"
+        aria-label="Spielmodus-Auswahl schließen"
+      >
+        ×
+      </button>
+    </div>
+
+    <div
+      id="game-mode-grid"
+      class="mode-grid"
+    >
+      <button
+        class="mode-card active"
+        type="button"
+        data-mode="global"
+        aria-pressed="true"
+      >
+        <img
+          src="./assets/modes/mode-global.png"
+          alt=""
+        />
+
+        <span class="mode-card-overlay">
+          <span class="mode-card-name">
+            Gesamtes Netz
+          </span>
+
+          <span class="mode-card-meta">
+            605 Haltestellen
+          </span>
+        </span>
+
+        <span class="mode-card-check" aria-hidden="true">
+          ✓
+        </span>
+      </button>
+
+      <button
+        class="mode-card"
+        type="button"
+        data-mode="stuttgart"
+        aria-pressed="false"
+      >
+        <img
+          src="./assets/modes/mode-stuttgart.png"
+          alt=""
+        />
+
+        <span class="mode-card-overlay">
+          <span class="mode-card-name">
+            Stuttgart
+          </span>
+
+          <span class="mode-card-meta">
+            576 Haltestellen
+          </span>
+        </span>
+
+        <span class="mode-card-check" aria-hidden="true">
+          ✓
+        </span>
+      </button>
+
+      <button
+        class="mode-card"
+        type="button"
+        data-mode="stadtbahn"
+        aria-pressed="false"
+      >
+        <img
+          src="./assets/modes/mode-stadtbahn.png"
+          alt=""
+        />
+
+        <span class="mode-card-overlay">
+          <span class="mode-card-name">
+            Stadtbahn
+          </span>
+
+          <span class="mode-card-meta">
+            214 Haltestellen
+          </span>
+        </span>
+
+        <span class="mode-card-check" aria-hidden="true">
+          ✓
+        </span>
+      </button>
+
+      <button
+        class="mode-card"
+        type="button"
+        data-mode="sbahn"
+        aria-pressed="false"
+      >
+        <img
+          src="./assets/modes/mode-sbahn.png"
+          alt=""
+        />
+
+        <span class="mode-card-overlay">
+          <span class="mode-card-name">
+            S-Bahn
+          </span>
+
+          <span class="mode-card-meta">
+            84 Haltestellen
+          </span>
+        </span>
+
+        <span class="mode-card-check" aria-hidden="true">
+          ✓
+        </span>
+      </button>
+
+      <button
+        class="mode-card"
+        type="button"
+        data-mode="bus"
+        aria-pressed="false"
+      >
+        <img
+          src="./assets/modes/mode-bus.png"
+          alt=""
+        />
+
+        <span class="mode-card-overlay">
+          <span class="mode-card-name">
+            Bus
+          </span>
+
+          <span class="mode-card-meta">
+            433 Haltestellen
+          </span>
+        </span>
+
+        <span class="mode-card-check" aria-hidden="true">
+          ✓
+        </span>
+      </button>
+
+      <button
+        class="mode-card"
+        type="button"
+        data-mode="esslingen"
+        aria-pressed="false"
+      >
+        <img
+          src="./assets/modes/mode-esslingen.png"
+          alt=""
+        />
+
+        <span class="mode-card-overlay">
+          <span class="mode-card-name">
+            Esslingen
+          </span>
+
+          <span class="mode-card-meta">
+            61 Haltestellen
+          </span>
+        </span>
+
+        <span class="mode-card-check" aria-hidden="true">
+          ✓
+        </span>
+      </button>
+
+      <button
+        class="mode-card"
+        type="button"
+        data-mode="boeblingen"
+        aria-pressed="false"
+      >
+        <img
+          src="./assets/modes/mode-boeblingen.png"
+          alt=""
+        />
+
+        <span class="mode-card-overlay">
+          <span class="mode-card-name">
+            Böblingen &amp; Sindelfingen
+          </span>
+
+          <span class="mode-card-meta">
+            125 Haltestellen
+          </span>
+        </span>
+
+        <span class="mode-card-check" aria-hidden="true">
+          ✓
+        </span>
+      </button>
+
+      <button
+        class="mode-card coming-soon"
+        type="button"
+        data-mode="custom"
+        aria-disabled="true"
+      >
+        <img
+          src="./assets/modes/mode-custom.png"
+          alt=""
+        />
+
+        <span class="mode-card-overlay">
+          <span class="mode-card-name">
+            Eigener Modus
+          </span>
+
+          <span class="mode-card-meta">
+            Selbst zusammenstellen
+          </span>
+        </span>
+
+        <span class="mode-card-badge">
+          Bald
+        </span>
+      </button>
+
+      <button
+        class="mode-card coming-soon"
+        type="button"
+        data-mode="daily"
+        aria-disabled="true"
+      >
+        <img
+          src="./assets/modes/mode-daily.png"
+          alt=""
+        />
+
+        <span class="mode-card-overlay">
+          <span class="mode-card-name">
+            Daily Challenge
+          </span>
+
+          <span class="mode-card-meta">
+            Jeden Tag dieselbe Station
+          </span>
+        </span>
+
+        <span class="mode-card-badge">
+          Bald
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
 
     <!--
       Wichtig: LED-Zeichensatz muss vor script.js
