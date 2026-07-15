@@ -1,0 +1,1 @@
+{"version":1,"mode":{"id":"stuttgart-rail","name":"Stuttgart S- & U-Bahn","enabled":true,"area":"Stuttgart","station_id_prefix":"de:08111:","route_types":["109","402"]},"files":{"stations":"stations.json","graph":"graph.json","moves":"moves.json"},"counts":{"stations":191,"graphNodes":191,"rideEdges":881,"transferEdges":6,"moveStations":191,"services":862,"destinations":10922}}

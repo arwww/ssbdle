@@ -19,3 +19,7 @@ data/raw/
 # Optional: lokale Analyseoutputs
 output/analysis/.DS_Store
 output/game_modes_review.csv
+data/gtfs-vvs/
+
+# Generated travel pipeline files
+output/

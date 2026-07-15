@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="SSBdle Travel Mode – finde einen möglichst guten Weg durch das VVS-Netz."
+    >
+
+    <title>SSBdle Travel Mode</title>
+
+    <link
+        rel="stylesheet"
+        href="travel.css"
+    >
+
+    <script
+    src="travel-modes.js"
+    defer
+    ></script>
+
+    <script
+    src="travel.js"
+    defer
+    ></script>
+
+    <script
+        src="travel-challenge.js"
+        defer
+    ></script>
+
+    <script
+        src="travel-progress.js"
+        defer
+    ></script>
+
+
+</head>
+
+<body>
+    <main class="travel-shell">
+        <header class="travel-header">
+            <a
+                class="back-link"
+                href="index.html"
+            >
+                ← SSBdle
+            </a>
+
+            <div class="brand-block">
+                <p class="eyebrow">
+                    SSBdle
+                </p>
+
+                <h1>
+                    Travel Mode
+                </h1>
+
+                <p class="intro-text">
+                    Reise durch das VVS-Netz und versuche,
+                    dein Ziel mit möglichst wenig Zeitverlust
+                    zu erreichen.
+                </p>
+            </div>
+        </header>
+
+        <section
+            id="loading-screen"
+            class="panel loading-panel"
+            aria-live="polite"
+        >
+            <div class="loading-indicator"></div>
+
+            <div>
+                <h2>
+                    Verkehrsdaten werden geladen
+                </h2>
+
+                <p id="loading-status">
+                    Stationen, Linien und Graph werden vorbereitet …
+                </p>
+            </div>
+        </section>
+
+        <section
+            id="error-panel"
+            class="panel error-panel hidden"
+            role="alert"
+        >
+            <h2>
+                Daten konnten nicht geladen werden
+            </h2>
+
+            <p id="error-message">
+                Beim Laden der Travel-Daten ist ein Fehler aufgetreten.
+            </p>
+        </section>
+
+        <div
+            id="travel-app"
+            class="hidden" 
+        > 
+
+        <section id="mode-panel" class="panel mode-panel" > <div class="panel-heading"> <p class="step-label"> Spielbereich </p> <h2> Wähle dein Verkehrsnetz </h2> <p>  Weitere Netze werden später ergänzt. </p> </div> <div class="active-mode-summary"> Aktiver Modus: <strong id="active-mode-label"> Stuttgart S- &amp; U-Bahn </strong> </div> <div id="travel-mode-grid" class="travel-mode-grid" ></div> </section>
+
+       
+
+                                      
+             
+            <section
+                id="setup-panel"
+                class="panel setup-panel"
+            >
+                <div class="panel-heading">
+                    <p class="step-label">
+                        Neue Reise
+                    </p>
+
+                    <h2>
+                        Start und Ziel auswählen
+                    </h2>
+
+                    <p>
+                        Tippe einen Stationsnamen ein und wähle
+                        anschließend einen Vorschlag aus.
+                    </p>
+                </div>
+
+                <div class="station-form">
+                    <div class="autocomplete-field">
+                        <label for="start-input">
+                            Startstation
+                        </label>
+
+                        <input
+                            id="start-input"
+                            type="text"
+                            autocomplete="off"
+                            spellcheck="false"
+                            placeholder="Zum Beispiel Esslingen (N)"
+                            aria-autocomplete="list"
+                            aria-controls="start-suggestions"
+                        >
+
+                        <input
+                            id="start-station-id"
+                            type="hidden"
+                        >
+
+                        <div
+                            id="start-suggestions"
+                            class="suggestion-list hidden"
+                            role="listbox"
+                        ></div>
+                    </div>
+
+                    <button
+                        id="swap-stations-button"
+                        class="swap-button"
+                        type="button"
+                        aria-label="Start und Ziel tauschen"
+                        title="Start und Ziel tauschen"
+                    >
+                        ⇅
+                    </button>
+
+                    <div class="autocomplete-field">
+                        <label for="target-input">
+                            Zielstation
+                        </label>
+
+                        <input
+                            id="target-input"
+                            type="text"
+                            autocomplete="off"
+                            spellcheck="false"
+                            placeholder="Zum Beispiel Sonnenberg"
+                            aria-autocomplete="list"
+                            aria-controls="target-suggestions"
+                        >
+
+                        <input
+                            id="target-station-id"
+                            type="hidden"
+                        >
+
+                        <div
+                            id="target-suggestions"
+                            class="suggestion-list hidden"
+                            role="listbox"
+                        ></div>
+                    </div>
+                </div>
+
+                <p
+                    id="setup-message"
+                    class="form-message"
+                    aria-live="polite"
+                ></p>
+
+                <button
+                    id="start-game-button"
+                    class="primary-button"
+                    type="button"
+                    disabled
+                >
+                    Reise starten
+                </button>
+            </section>
+
+            <section
+                id="game-panel"
+                class="hidden"
+            >
+                <div class="journey-summary panel">
+                    <div class="journey-location">
+                        <span class="summary-label">
+                            Aktuelle Station
+                        </span>
+
+                        <strong id="current-station-name">
+                            –
+                        </strong>
+                    </div>
+
+                    <div class="journey-arrow">
+                        →
+                    </div>
+
+                    <div class="journey-location">
+                        <span class="summary-label">
+                            Ziel
+                        </span>
+
+                        <strong id="target-station-name">
+                            –
+                        </strong>
+                    </div>
+
+                    <div class="journey-stat">
+                        <span class="summary-label">
+                            Spielzug
+                        </span>
+
+                        <strong id="move-counter">
+                            1 / 10
+                        </strong>
+                    </div>
+                </div>
+
+                <section
+                    id="service-step"
+                    class="panel game-step"
+                >
+                    <div class="panel-heading">
+                        <p class="step-label">
+                            Schritt 1
+                        </p>
+
+                        <h2>
+                            Linie und Richtung wählen
+                        </h2>
+
+                        <p>
+                            Es werden nur Linien angezeigt,
+                            die du von deiner aktuellen Station
+                            tatsächlich erreichen kannst.
+                        </p>
+                    </div>
+
+                    <div
+                        id="service-options"
+                        class="service-grid"
+                    ></div>
+                </section>
+
+                <section
+                    id="destination-step"
+                    class="panel game-step hidden"
+                >
+                    <div class="panel-heading">
+                        <p class="step-label">
+                            Schritt 2
+                        </p>
+
+                        <h2>
+                            Ausstiegsstation wählen
+                        </h2>
+                    </div>
+
+                    <div
+                        id="selected-service-summary"
+                        class="selected-service"
+                    ></div>
+
+                    <div class="autocomplete-field destination-field">
+                        <label for="destination-input">
+                            Wo möchtest du aussteigen?
+                        </label>
+
+                        <input
+                            id="destination-input"
+                            type="text"
+                            autocomplete="off"
+                            spellcheck="false"
+                            placeholder="Station entlang der gewählten Linie"
+                            aria-autocomplete="list"
+                            aria-controls="destination-suggestions"
+                        >
+
+                        <input
+                            id="destination-station-id"
+                            type="hidden"
+                        >
+
+                        <div
+                            id="destination-suggestions"
+                            class="suggestion-list hidden"
+                            role="listbox"
+                        ></div>
+                    </div>
+
+                    <div class="button-row">
+                        <button
+                            id="back-to-services-button"
+                            class="secondary-button"
+                            type="button"
+                        >
+                            Andere Linie wählen
+                        </button>
+
+                        <button
+                            id="confirm-move-button"
+                            class="primary-button"
+                            type="button"
+                            disabled
+                        >
+                            Spielzug bestätigen
+                        </button>
+                    </div>
+                </section>
+
+                <section
+                    id="feedback-panel"
+                    class="panel feedback-panel hidden"
+                    aria-live="polite"
+                >
+                    <div class="feedback-heading">
+                        <div
+                            id="feedback-symbol"
+                            class="feedback-symbol"
+                        >
+                            🟩
+                        </div>
+
+                        <div>
+                            <p class="step-label">
+                                Bewertung
+                            </p>
+
+                            <h2 id="feedback-title">
+                                Optimal
+                            </h2>
+                        </div>
+                    </div>
+
+                    <p
+                        id="feedback-description"
+                        class="feedback-description"
+                    ></p>
+
+                    <div class="feedback-details">
+                        <div>
+                            <span class="summary-label">
+                                Gewählte Fahrt
+                            </span>
+
+                            <strong id="feedback-move">
+                                –
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span class="summary-label">
+                                Zeit des Zugs
+                            </span>
+
+                            <strong id="feedback-move-time">
+                                –
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span class="summary-label">
+                                Abweichung
+                            </span>
+
+                            <strong id="feedback-difference">
+                                –
+                            </strong>
+                        </div>
+                    </div>
+
+                    <button
+                        id="continue-button"
+                        class="primary-button"
+                        type="button"
+                    >
+                        Weiterreisen
+                    </button>
+                </section>
+
+                <section
+                    id="finished-panel"
+                    class="panel finished-panel hidden"
+                    aria-live="polite"
+                >
+                    <div class="finish-symbol">
+                        🎉
+                    </div>
+
+                    <p class="step-label">
+                        Ziel erreicht
+                    </p>
+
+                    <h2 id="finished-title">
+                        Reise geschafft
+                    </h2>
+
+                    <p id="finished-description">
+                        Du hast dein Ziel erreicht.
+                    </p>
+
+                    <div class="finish-stats">
+                        <div>
+                            <span class="summary-label">
+                                Spielzüge
+                            </span>
+
+                            <strong id="finished-moves">
+                                –
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span class="summary-label">
+                                Eigene Reisezeit
+                            </span>
+
+                            <strong id="finished-time">
+                                –
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span class="summary-label">
+                                Abweichung
+                            </span>
+
+                            <strong id="finished-difference">
+                                –
+                            </strong>
+                        </div>
+                    </div>
+
+                    <button
+                        id="new-game-button"
+                        class="primary-button"
+                        type="button"
+                    >
+                        Neue Reise
+                    </button>
+                </section>
+
+                <div class="game-footer-actions">
+                    <button
+                        id="cancel-game-button"
+                        class="text-button"
+                        type="button"
+                    >
+                        Reise abbrechen
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

@@ -1538,3 +1538,58 @@ input:disabled {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* -------------------------------------------------------------------------- */
+/* Direkter Einstieg in die Travel Challenge                                  */
+/* -------------------------------------------------------------------------- */
+
+.travel-mode-link {
+  position: relative;
+
+  color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+
+.travel-mode-link:visited {
+  color: inherit;
+}
+
+
+.travel-mode-link strong {
+  color: inherit;
+}
+
+
+.travel-new-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 20px;
+  padding: 2px 6px;
+
+  color: #161006;
+  background: #ff9d00;
+
+  border-radius: 999px;
+
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+
+@media (max-width: 620px) {
+  .travel-mode-link {
+    gap: 6px;
+  }
+
+
+  .travel-new-badge {
+    display: none;
+  }
+}
