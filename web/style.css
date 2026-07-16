@@ -107,6 +107,7 @@ button {
    Kopfbereich
    ================================================== */
 
+
 .site-header {
   position: relative;
   overflow: hidden;
@@ -1540,56 +1541,267 @@ input:disabled {
 }
 
 /* -------------------------------------------------------------------------- */
-/* Direkter Einstieg in die Travel Challenge                                  */
+/* Travel-Challenge-Ticket neben der Versuchsanzeige                          */
 /* -------------------------------------------------------------------------- */
 
-.travel-mode-link {
-  position: relative;
-
-  color: inherit;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-
-.travel-mode-link:visited {
-  color: inherit;
-}
-
-
-.travel-mode-link strong {
-  color: inherit;
-}
-
-
-.travel-new-badge {
-  display: inline-flex;
+.hero-actions {
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  gap: 18px;
 
-  min-height: 20px;
-  padding: 2px 6px;
-
-  color: #161006;
-  background: #ff9d00;
-
-  border-radius: 999px;
-
-  font-size: 0.62rem;
-  font-weight: 900;
-  letter-spacing: 0.05em;
-  line-height: 1;
-  text-transform: uppercase;
+  flex: 0 0 auto;
 }
 
 
-@media (max-width: 620px) {
-  .travel-mode-link {
+.travel-ticket-area {
+  width: 132px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+
+  text-align: center;
+}
+
+.travel-ticket-new {
+  color: #ffb000;
+
+  font-size: 0.84rem;
+  font-weight: 950;
+  line-height: 1;
+  letter-spacing: 0.09em;
+  white-space: nowrap;
+  text-transform: uppercase;
+
+  text-shadow:
+    0 0 8px rgb(255 176 0 / 48%),
+    0 2px 4px rgb(0 0 0 / 34%);
+}
+
+
+.travel-ticket-button {
+  width: 82px;
+  aspect-ratio: 1 / 1;
+
+  display: block;
+  overflow: visible;
+
+  border: 0;
+  border-radius: 8px;
+
+  background: transparent;
+
+  text-decoration: none;
+
+  box-shadow:
+    8px 8px 0 rgb(0 0 0 / 88%),
+    0 12px 20px rgb(0 0 0 / 18%);
+
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    filter 180ms ease;
+}
+
+.travel-ticket-button img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  border-radius: 7px;
+
+  object-fit: cover;
+
+  transition:
+    filter 180ms ease,
+    transform 180ms ease;
+}
+
+.travel-ticket-button:hover {
+  transform:
+    translate(-2px, -2px)
+    scale(1.03);
+
+  filter:
+    brightness(1.06)
+    saturate(1.12);
+
+  box-shadow:
+    11px 11px 0 rgb(0 0 0 / 90%),
+    0 16px 24px rgb(0 0 0 / 22%);
+}
+
+.travel-ticket-button:hover img {
+  filter:
+    brightness(1.08)
+    saturate(1.22)
+    sepia(0.08);
+
+  transform: scale(1.025);
+}
+
+.travel-ticket-button:focus-visible {
+  outline: 4px solid rgb(255 207 0 / 70%);
+  outline-offset: 4px;
+
+  transform: translateY(-3px);
+}
+
+.travel-ticket-label {
+  color: #ffffff;
+
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  white-space: nowrap;
+
+  text-shadow:
+    0 2px 5px rgb(0 0 0 / 42%);
+}
+
+
+/* Tablet und kleinere Laptops */
+
+@media (max-width: 940px) {
+  .hero-actions {
+    gap: 15px;
+  }
+
+  .travel-ticket-area {
+    width: 138px;
+  }
+
+  .travel-ticket-button {
+    width: 91px;
+    height: 91px;
+    padding: 8px;
+  }
+
+  .travel-ticket-new {
+    font-size: 0.78rem;
+  }
+
+  .travel-ticket-label {
+    font-size: 0.94rem;
+  }
+}
+
+
+/* Smartphone */
+
+@media (max-width: 760px) {
+  .hero-actions {
+    width: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+  }
+
+  .hero-actions .attempt-display {
+    width: auto;
+
+    flex: 1;
+    align-items: flex-start;
+  }
+
+  .travel-ticket-area {
+    width: 128px;
+    flex: 0 0 128px;
+
+    gap: 7px;
+  }
+
+  .travel-ticket-button {
+    width: 84px;
+    height: 84px;
+    padding: 8px;
+
+    border-radius: 13px;
+  }
+
+  .travel-ticket-new {
+    font-size: 0.72rem;
+  }
+
+  .travel-ticket-label {
+    font-size: 0.88rem;
+  }
+}
+
+
+/* Sehr kleine Smartphones */
+
+@media (max-width: 420px) {
+  .hero-actions {
+    gap: 9px;
+  }
+
+  .hero-actions .attempt-display {
+    min-width: 0;
+    padding: 11px 13px;
+  }
+
+  .travel-ticket-area {
+    width: 112px;
+    flex-basis: 112px;
+
     gap: 6px;
   }
 
+  .travel-ticket-button {
+    width: 74px;
+    height: 74px;
+    padding: 7px;
 
-  .travel-new-badge {
-    display: none;
+    border-radius: 12px;
   }
+
+  .travel-ticket-new {
+    font-size: 0.62rem;
+    letter-spacing: 0.065em;
+  }
+
+  .travel-ticket-label {
+    font-size: 0.79rem;
+  }
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* SSB-Sitzmuster als Seitenhintergrund */
+/* -------------------------------------------------------------------------- */
+
+
+html body.ssb-seat-background {
+  min-height: 100vh;
+
+  background-color: #081754 !important;
+
+  background-image:
+    linear-gradient(
+      rgba(3, 8, 17, 0.55),
+      rgba(3, 8, 17, 0.70)
+    ),
+    url("./assets/design-elements/ssb-seat-pattern-ea992f.svg") !important;
+
+  background-repeat:
+    no-repeat,
+    repeat !important;
+
+  background-size:
+    100% 100%,
+    96px 96px !important;
+
+  background-position:
+    center,
+    left top !important;
+
+  background-attachment:
+    fixed,
+    fixed !important;
 }

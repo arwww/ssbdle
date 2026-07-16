@@ -55,7 +55,7 @@ const RATING_INFO = {
 
     orange: {
         symbol: "🟧",
-        label: "Vernünftiger Umweg",
+        label: "Kleiner Umweg",
     },
 
     red: {

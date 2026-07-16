@@ -1515,7 +1515,7 @@
     ]
   },
   "bus": {
-    "name": "Bus",
+    "name": "SSB-Bus",
     "description": "Geeignete Tagesbus-Haltestellen in Stuttgart und ausgewählten Städten im Umland.",
     "image": "./assets/modes/mode-bus.png",
     "enabled": true,

@@ -1,5 +1,10 @@
 <!DOCTYPE html>
+
+
 <html lang="de" data-theme="light">
+   
+  
+
   <head>
     <meta charset="UTF-8" />
 
@@ -16,10 +21,11 @@
     <title>SSBdle</title>
 
     
-    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="stylesheet" href="style.css?v=3">
   </head>
-
-  <body>
+  
+  <body class="ssb-seat-background">
+  
     <main class="page-shell">
       <header class="site-header">
         <div class="brand-area">
@@ -52,7 +58,7 @@
 
           <button id="game-mode-button" class="header-button" type="button" aria-haspopup="dialog" aria-controls="game-mode-modal" aria-expanded="false" > <span aria-hidden="true">🌎</span> <span> Spielmodus: <strong id="game-mode-label"> Gesamtes Netz </strong> </span> </button>
 
-          <a id="travel-mode-link" class="header-button travel-mode-link" href="./travel.html?mode=stuttgart-rail" aria-label="Travel Challenge starten" > <span aria-hidden="true"> 🚉 </span> <span> <strong> Travel Challenge </strong> </span> <span class="travel-new-badge" aria-hidden="true" > NEU NEU NEU </span> </a>
+          <!--<a id="travel-mode-link" class="header-button travel-mode-link" href="./travel.html?mode=stuttgart-rail" aria-label="Travel Challenge starten" > <span aria-hidden="true"> 🚉 </span> <span> <strong> Travel Challenge </strong> </span> <span class="travel-new-badge" aria-hidden="true" > NEU NEU NEU </span> </a>-->
 
           <button
             id="theme-toggle"
@@ -82,13 +88,10 @@
             </p>
           </div>
 
-          <div class="attempt-display">
-            <span>Versuche</span>
+          
 
-            <strong id="attempt-counter">
-              0 / 6
-            </strong>
-          </div>
+          <div class="hero-actions"> <div class="attempt-display"> <span>Versuche</span> <strong id="attempt-counter"> 0 / 6 </strong> </div> <div class="travel-ticket-area"> <span class="travel-ticket-new" aria-hidden="true"> NEU · NEU · NEU </span> <a id="travel-mode-link" class="travel-ticket-button" href="./travel.html?mode=stuttgart-rail" aria-label="Travel Challenge starten" > <img src="./assets/design-elements/travel-ticket.jpg" alt="" aria-hidden="true" /> </a> <span class="travel-ticket-label"> Travel Challenge </span> </div> </div>
+
         </div>
       </header>
 
@@ -282,7 +285,7 @@
       </footer>
     </main>
 
-                                                   <div
+  <div
   id="game-mode-modal"
   class="mode-modal hidden"
   role="dialog"
@@ -442,10 +445,15 @@
           alt=""
         />
 
+        
+
         <span class="mode-card-overlay">
-          <span class="mode-card-name">
-            SSB-Bussssssss
-          </span>
+
+          <span class="mode-card-name">SSB-Bus</span>
+
+          <script src="script.js?v=2"></script> <script> const busName = document.querySelector( '[data-mode="bus"] .mode-card-name' ); if (busName) { busName.textContent = "SSB-Bus"; } </script>
+          
+          
 
           <span class="mode-card-meta">
             433 Haltestellen
@@ -562,7 +570,7 @@
       </button>
     </div>
   </div>
-</div>
+  </div>
 
     <!--
       Wichtig: LED-Zeichensatz muss vor script.js
@@ -573,4 +581,11 @@
     
     <script src="script.js?v=2"></script>
   </body>
+
+  
+
+  
+
+
+
 </html>
