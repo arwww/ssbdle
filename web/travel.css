@@ -1951,3 +1951,67 @@ input:focus-visible {
         white-space: normal;
     }
 }
+
+/* -------------------------------------------------------------------------- */
+/* SSB-Sitzmuster als Seitenhintergrund */
+/* -------------------------------------------------------------------------- */
+/* ==================================================
+   SSB-Sitzmuster im Travel Mode
+   ================================================== */
+/* ==================================================
+   Großer Netzplan-Hintergrund im Travel Mode
+   ================================================== */
+
+html {
+    min-height: 100%;
+
+    background-color: #08111c;
+
+    background-image:
+        linear-gradient(
+            rgba(3, 8, 17, 0.58),
+            rgba(3, 8, 17, 0.76)
+        ),
+        url("./assets/design-elements/svgssbnetz_mit_linienbezeichnungen.svg");
+
+    /* Beide Ebenen nur einmal anzeigen */
+    background-repeat:
+        no-repeat,
+        no-repeat;
+
+    /* Abdunklung über die ganze Fläche,
+       Netzplan groß über den Bildschirm */
+    background-size:
+        100% 100%,
+        cover;
+
+    background-position:
+        center,
+        center;
+
+    background-attachment:
+        fixed,
+        fixed;
+}
+
+body.ssb-netz-svg {
+    min-height: 100vh;
+    margin: 0;
+    background: transparent;
+}
+
+/* Orangefarbener Balken oben */
+body.ssb-netz-svg::before {
+    content: "";
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+    height: 12px;
+    background: #ea992f;
+
+    pointer-events: none;
+}

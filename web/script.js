@@ -1112,53 +1112,30 @@ function getSearchScore(
 
 
 function getSearchMatches(query) {
-  return stations
-    .map(
-      (station) => ({
-        station,
-        score:
-          getSearchScore(
-            station,
-            query
-          ),
-      })
-    )
-    .filter(
-      (entry) =>
-        entry.score > 0
-    )
-    .sort(
-      (
-        firstEntry,
-        secondEntry
-      ) => {
-        if (
-          secondEntry.score !==
-          firstEntry.score
-        ) {
-          return (
-            secondEntry.score -
-            firstEntry.score
-          );
-        }
+  const allowedStationIds = new Set(
+    answerIds.map((stationId) => String(stationId))
+  );
 
-        return (
-          firstEntry
-            .station
-            .label
-            .localeCompare(
-              secondEntry
-                .station
-                .label,
-              "de"
-            )
-        );
-      }
+  return stations
+    .filter((station) =>
+      allowedStationIds.has(String(station.id))
     )
-    .map(
-      (entry) =>
-        entry.station
-    );
+    .map((station) => ({
+      station,
+      score: getSearchScore(station, query),
+    }))
+    .filter((entry) => entry.score > 0)
+    .sort((a, b) => {
+      if (b.score !== a.score) {
+        return b.score - a.score;
+      }
+
+      return a.station.label.localeCompare(
+        b.station.label,
+        "de"
+      );
+    })
+    .map((entry) => entry.station);
 }
 
 
