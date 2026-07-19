@@ -857,22 +857,24 @@ function bindChallengeEvents() {
         generateRandomChallenge
     );
 
+    // start new game button, fter successful game completion
     document
         .getElementById(
             "new-game-button"
         )
         .addEventListener(
             "click",
-            restoreActiveChallenge
+            generateRandomChallenge
         );
-
+    // cancel game and get new game after failed
     document
         .getElementById(
             "cancel-game-button"
         )
         .addEventListener(
             "click",
-            restoreActiveChallenge
+            generateRandomChallenge
+            
         );
 }
 
